@@ -7,31 +7,22 @@ Angelegt Samstag 02 März 2024
 
 ===== Subnetting | Berechnung =====
 
-==== 1: ====
+==== 1. Bits für den Netzanteil berechnen ====
 Damit ein Netz in kleinere Subnetze unterteilt werden kann, soll der Netzanteil um bestimmte Anzahl von bits in der Netzmaske erweitert werden.
 Im ersten Schritt wird also diese Anzahl von bits berechnet.
 Die Anzahl der notwendigen bits ist von der Anzahl der notwendigen Subnetze abhängig.
 
-Anzahl von bits :
-1
-2
-3
-4
-5
-6
-7
-8
-…
-Anzahl der Subnetze :
-2
-4
-8
-16
-32
-64
-128
-256
-…
+| Bits | Subnetze |
+|:----:|:--------:|
+|  1   |    2     |
+|  2   |    4     |
+|  3   |    8     |
+|  4   |    16    |
+|  5   |    32    |
+|  6   |    64    |
+|  7   |   128    |
+|  8   |   256    |
+
 
 
 Mit 1 bit können 2^1 = 2 Subnetze aufgebaut werden.
@@ -104,25 +95,17 @@ Dezimalzahl	Binärzahl
 11111110
 11111111
 
+==== 5. Broadcast vom 1. Subnetz berechnen ====
 
-Schritt 5:
-Broadcast vom 1. Subnetz berechnen.
 Im Broadcast werden alle Hostbits auf 1 gesetzt.
 
-192.168.168.00000000
-=>
-192.168.168.00111111
+192.168.168.00000000 => 192.168.168.00111111
 
-Schritt 6:
-Das letzte Oktett von Broadcast in Dezimalzahl umrechnen:
+==== 6. Das letzte Oktett von Broadcast in Dezimalzahl umrechnen ====
 
-192.168.168.00111111
-=>
-192.168.168.63
+192.168.168.00111111 => 192.168.168.63
 
-
-Schritt 7:
-Die Subnetzadresse und Broadcast vom 1. Subnetz in die Tabelle eintragen:
+==== 7. Die Subnetzadresse und Broadcast vom 1. Subnetz in die Tabelle eintragen: ====
 
 1 IP
 62 IPs
@@ -147,8 +130,7 @@ Broadcast
 192.168.168.1 - 192.168.168.62
 192.168.168.63 
 
-
-Schritt 8: Erhöht man die Broadcast IP um 1, bekommt man die Subnetzadresse vom nächsten Subnetz
+==== 8. Erhöht man die Broadcast IP um 1, bekommt man die Subnetzadresse vom nächsten Subnetz ====
 (sprich vom Subnetz 2):
 
 1 IP
@@ -162,7 +144,7 @@ Broadcast
 192.168.168.63 
 192.168.168.64
 
-Schritt 9:
+==== 9. - 11. Schritte ====
 Die IP Adresse von der Subnetzadresse um 63 (62 Host-Range-IPs +1 Broadcast IP) erhöhen = Broadcast:
 192.168.168.64 + 63 = 127
 
