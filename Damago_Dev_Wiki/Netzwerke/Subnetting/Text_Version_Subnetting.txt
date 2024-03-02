@@ -64,9 +64,7 @@ D.h jedem Subnetz stehen 2^6 = 64 IP Adressen zur Verfügung:
 62 – für Hosts (Host-IP-Range)
 1 – für Broadcast
 
-		  1 IP                     62 IPs                1 IP
-Subnetzadresse     Host-IP-Range    Broadcast
-
+{{.\tabelle1subnetting.jpeg}}
 
 ==== 4. Das letzte Oktett von der Subnetzadresse wieder in Dezimalzahl umrechnen. ====
  
@@ -76,7 +74,7 @@ Netzmaske: 255.255.255.11000000
 IP-Adresse: 192.168.168.0
 Netzmaske: 255.255.255.192	
 
-	Hilfsmittel
+	**Hilfsmittel**
 Dezimalzahl	Binärzahl
 128 			11000000
 192 			11100000
@@ -98,102 +96,35 @@ Im Broadcast werden alle Hostbits auf 1 gesetzt.
 192.168.168.00111111 => 192.168.168.63
 
 ==== 7. Die Subnetzadresse und Broadcast vom 1. Subnetz in die Tabelle eintragen: ====
-
-1 IP
-62 IPs
-1 IP
-Subnetzadresse
-Host-IP-Range
-Broadcast
-192.168.168.0
- 
-192.168.168.63 
-
+{{.\tabelle2subnetting.jpeg}}
 
 Die Host-IP-Range ist der IP-Adressen-Bereich zwischen Subnetzadresse und Broadcast:
 
-1 IP
-62 IPs
-1 IP
-Subnetzadresse
-Host-IP-Range
-Broadcast
-192.168.168.0
-192.168.168.1 - 192.168.168.62
-192.168.168.63 
+{{.\tabelle3subnetting.jpeg}}
 
 ==== 8. Erhöht man die Broadcast IP um 1, bekommt man die Subnetzadresse vom nächsten Subnetz ====
 (sprich vom Subnetz 2):
 
-1 IP
-62 IPs
-1 IP
-Subnetzadresse
-Host-IP-Range
-Broadcast
-192.168.168.0
-192.168.168.1 - 192.168.168.62
-192.168.168.63 
-192.168.168.64
+{{.\tabelle4subnetting.jpeg}}
 
 ==== 9. - 11. Schritte ====
 Die IP Adresse von der Subnetzadresse um 63 (62 Host-Range-IPs +1 Broadcast IP) erhöhen = Broadcast:
 192.168.168.64 + 63 = 127
 
-1 IP
-62 IPs
-1 IP
-Subnetzadresse
-Host-IP-Range
-Broadcast
-192.168.168.0
-192.168.168.1 - 192.168.168.62
-192.168.168.63 
-192.168.168.64
-192.168.168.127
+{{.\tabelle6subetting.jpeg}}
 
 Schritt 10:
 Wie beim Schritt 7  die Host-IP-Range in die Tabelle eintragen:
 
-1 IP
-62 IPs
-1 IP
-Subnetzadresse
-Host-IP-Range
-Broadcast
-192.168.168.0
-192.168.168.1 - 192.168.168.62
-192.168.168.63 
-192.168.168.64
-192.168.168.65 - 192.168.168.126
-192.168.168.127
-
- 
 Schritt 11:
 Die Schritte 8 bis 10 für die Subnetze 3 und 4 wiederholen = die Subnetzadresse, Host-IP-Range  und Broadcast in die Tabelle eintragen.
 
-1 IP
-62 IPs
-1 IP
-Subnetzadresse
-Host-IP-Range
-Broadcast
-192.168.168.0
-192.168.168.1 - 192.168.168.62
-192.168.168.63 
-192.168.168.64
-192.168.168.65 - 192.168.168.126
-192.168.168.127
-192.168.168.128
-192.168.168.129 - 192.168.168.190
-192.168.168.191
-192.168.168.192
-192.168.168.193 - 192.168.168.254
-192.168.168.255
+{{.\tabelle7subetting.jpeg}}
 
 Antwort: Die erste Abteilung bekommt das Subnetz 1:
 IP: 192.168.168.0
 Netzmaske: 255.255.255.192
+
 Die zweite Abteilung - das Subnetz 2:
 IP: 192.168.168.64
 Netzmaske: 255.255.255.192
@@ -201,6 +132,7 @@ Netzmaske: 255.255.255.192
 Die dritte Abteilung - das Subnetz 3:
 IP: 192.168.168.128
 Netzmaske: 255.255.255.192
+
 Die vierte Abteilung - das Subnetz 4:
 IP: 192.168.168.192
 Netzmaske: 255.255.255.192
