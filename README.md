@@ -1,7 +1,7 @@
 # Damago_FI21_Software_Developer_Class
  Everything from the FI21 AE Class of 2024
 
-<img src="https://raw.githubusercontent.com/AVS1508/AVS1508/master/assets/Aditya%20Vikram%20Singh%20Banner.png">
+<img src="https://github.com/Blockchainnewbie/Damago_FI21_Software_Developer_Class/blob/main/pictures/Github_Damago_Class_Logo.jfif">
 
 <h2> Hey there! We`re the "Damago Software Developer Class FI21" of the year 2k24.</h2>
 
