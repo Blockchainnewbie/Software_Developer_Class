@@ -1,0 +1,232 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-02T15:29:06+01:00
+
+====== Text Version Subnetting ======
+Angelegt Samstag 02 März 2024
+
+===== Subnetting | Berechnung =====
+
+==== 1: ====
+Damit ein Netz in kleinere Subnetze unterteilt werden kann, soll der Netzanteil um bestimmte Anzahl von bits in der Netzmaske erweitert werden.
+Im ersten Schritt wird also diese Anzahl von bits berechnet.
+Die Anzahl der notwendigen bits ist von der Anzahl der notwendigen Subnetze abhängig.
+
+Anzahl von bits :
+1
+2
+3
+4
+5
+6
+7
+8
+…
+Anzahl der Subnetze :
+2
+4
+8
+16
+32
+64
+128
+256
+…
+
+
+Mit 1 bit können 2^1 = 2 Subnetze aufgebaut werden.
+Es sind aber 4 Subnetze notwendig.
+Mit 2 bits können wir 2^2=4 Subnetze aufbauen.
+Der Netzteil muss also um 2 bits erweitert werden.
+
+Zwischenschritt: Den Hostanteil in Binärzahl umrechnen.
+Hier werden nur die Oktette in die Binärzahl umgerechnet, die in der Netzmaske nicht gleich als 255 sind.
+(In diesem Beispiel: 255.255.255.0)
+
+IP-Adresse: 192.168.168.0
+Netzmaske: 255.255.255.0
+=>
+192.168.168.00000000
+255.255.255.00000000
+
+==== 2. Den Netzanteil um 2 bits erweitern. ====
+IP-Adresse: 192.168.168.00000000
+Netzmaske: 255.255.255.00000000
+
+=>
+192.168.168.00000000
+255.255.255.11000000
+Der Netzanteil wurde um 2 bits in der Netzmaske erweitert.
+(Von links nach rechts)
+Dadurch verschiebt sich die Grenze zwischen dem Hostanteil und Netzanteil nach rechts.
+(D.h. der Netzanteil ist nun größer geworden.)
+
+==== 3. Ist nun der Netzanteil um 2 bits erweitert, haben wir automatisch die Subnetzadresse vom 1. Subnetz: ====
+
+IP-Adresse: 192.168.168.00000000
+Netzmaske: 255.255.255.11000000
+
+Der Hostanteil besteht aus 6 bits (rot markiert).
+D.h jedem Subnetz stehen 2^6 = 64 IP Adressen zur Verfügung:
+
+1 – für Subnetz
+62 – für Hosts (Host-IP-Range)
+1 – für Broadcast
+1 IP
+62 IPs
+1 IP
+Subnetzadresse
+Host-IP-Range
+Broadcast
+
+
+==== 4. Das letzte Oktett von der Subnetzadresse wieder in Dezimalzahl umrechnen. ====
+ 
+IP-Adresse: 192.168.168.00000000
+Netzmaske: 255.255.255.11000000
+=>
+IP-Adresse: 192.168.168.0
+Netzmaske: 255.255.255.192	Hilfsmittel
+Dezimalzahl	Binärzahl
+128
+192
+224
+240
+248
+252
+254
+255	10000000
+11000000
+11100000
+11110000
+11111000
+11111100
+11111110
+11111111
+
+
+Schritt 5:
+Broadcast vom 1. Subnetz berechnen.
+Im Broadcast werden alle Hostbits auf 1 gesetzt.
+
+192.168.168.00000000
+=>
+192.168.168.00111111
+
+Schritt 6:
+Das letzte Oktett von Broadcast in Dezimalzahl umrechnen:
+
+192.168.168.00111111
+=>
+192.168.168.63
+
+
+Schritt 7:
+Die Subnetzadresse und Broadcast vom 1. Subnetz in die Tabelle eintragen:
+
+1 IP
+62 IPs
+1 IP
+Subnetzadresse
+Host-IP-Range
+Broadcast
+192.168.168.0
+ 
+192.168.168.63 
+
+
+Die Host-IP-Range ist der IP-Adressen-Bereich zwischen Subnetzadresse und Broadcast:
+
+1 IP
+62 IPs
+1 IP
+Subnetzadresse
+Host-IP-Range
+Broadcast
+192.168.168.0
+192.168.168.1 - 192.168.168.62
+192.168.168.63 
+
+
+Schritt 8: Erhöht man die Broadcast IP um 1, bekommt man die Subnetzadresse vom nächsten Subnetz
+(sprich vom Subnetz 2):
+
+1 IP
+62 IPs
+1 IP
+Subnetzadresse
+Host-IP-Range
+Broadcast
+192.168.168.0
+192.168.168.1 - 192.168.168.62
+192.168.168.63 
+192.168.168.64
+
+Schritt 9:
+Die IP Adresse von der Subnetzadresse um 63 (62 Host-Range-IPs +1 Broadcast IP) erhöhen = Broadcast:
+192.168.168.64 + 63 = 127
+
+1 IP
+62 IPs
+1 IP
+Subnetzadresse
+Host-IP-Range
+Broadcast
+192.168.168.0
+192.168.168.1 - 192.168.168.62
+192.168.168.63 
+192.168.168.64
+192.168.168.127
+
+Schritt 10:
+Wie beim Schritt 7  die Host-IP-Range in die Tabelle eintragen:
+
+1 IP
+62 IPs
+1 IP
+Subnetzadresse
+Host-IP-Range
+Broadcast
+192.168.168.0
+192.168.168.1 - 192.168.168.62
+192.168.168.63 
+192.168.168.64
+192.168.168.65 - 192.168.168.126
+192.168.168.127
+
+ 
+Schritt 11:
+Die Schritte 8 bis 10 für die Subnetze 3 und 4 wiederholen = die Subnetzadresse, Host-IP-Range  und Broadcast in die Tabelle eintragen.
+
+1 IP
+62 IPs
+1 IP
+Subnetzadresse
+Host-IP-Range
+Broadcast
+192.168.168.0
+192.168.168.1 - 192.168.168.62
+192.168.168.63 
+192.168.168.64
+192.168.168.65 - 192.168.168.126
+192.168.168.127
+192.168.168.128
+192.168.168.129 - 192.168.168.190
+192.168.168.191
+192.168.168.192
+192.168.168.193 - 192.168.168.254
+192.168.168.255
+
+Antwort: Die erste Abteilung bekommt das Subnetz 1:
+IP: 192.168.168.0
+Netzmaske: 255.255.255.192
+Die zweite Abteilung - das Subnetz 2:
+IP: 192.168.168.64
+Netzmaske: 255.255.255.192
+
+Die dritte Abteilung - das Subnetz 3:
+IP: 192.168.168.128
+Netzmaske: 255.255.255.192
+Die vierte Abteilung - das Subnetz 4:
+IP: 192.168.168.192
+Netzmaske: 255.255.255.192
