@@ -5,7 +5,7 @@ Creation-Date: 2024-03-02T14:47:46+01:00
 ====== Linux ======
 Angelegt Samstag 02 März 2024
 
-### Allgemeine Befehle:
+===== Allgemeine Befehle: =====
 
 | Befehl           | Beschreibung                                        | Beispiel                                   |
 |------------------|-----------------------------------------------------|--------------------------------------------|
@@ -21,7 +21,7 @@ Angelegt Samstag 02 März 2024
 | `cat`            | Gibt den Inhalt einer Datei aus                     | `cat file.txt`                             |
 | `grep`           | Sucht nach einem Muster in Dateien                  | `grep pattern file.txt`                    |
 
-### Netzwerkanalyse:
+===== Netzwerkanalyse: =====
 
 | Befehl       | Beschreibung                                             | Beispiel                 |
 |--------------|----------------------------------------------------------|--------------------------|
@@ -32,7 +32,7 @@ Angelegt Samstag 02 März 2024
 | `lsof`       | Zeigt offene Dateien und Prozesse an                     | `lsof /path/to/file`     |
 | `whois`      | Zeigt Informationen zu Domainregistrierungen an          | `whois example.com`      |
 
-### Systeminformation:
+===== Systeminformation: =====
 
 | Befehl   | Beschreibung                                         | Beispiel   |
 |----------|------------------------------------------------------|------------|
@@ -41,7 +41,7 @@ Angelegt Samstag 02 März 2024
 | `uname`  | Zeigt Informationen zum Betriebssystemkernel an      | `uname -a` |
 | `uptime` | Zeigt die Systemlaufzeit und -auslastung an          | `uptime`   |
 
-### Dateiverwaltung:
+===== Dateiverwaltung: =====
 
 | Befehl  | Beschreibung                                               | Beispiel                                        |
 |---------|------------------------------------------------------------|-------------------------------------------------|
@@ -52,7 +52,7 @@ Angelegt Samstag 02 März 2024
 | `scp`   | Kopiert Dateien über eine sichere SSH-Verbindung           | `scp file.txt user@hostname:/remote/directory/` |
 | `rsync` | Synchronisiert Dateien und Verzeichnisse zwischen Systemen | `rsync -av source/ destination/`                |
 
-### Prozessverwaltung:
+===== Prozessverwaltung: =====
 
 | Befehl | Beschreibung                                               | Beispiel   |
 |--------|------------------------------------------------------------|------------|
@@ -64,7 +64,7 @@ Angelegt Samstag 02 März 2024
 | `fg`   | Holt einen Prozess in den Vordergrund                      | `fg`       |
 | `jobs` | Zeigt die im Hintergrund laufenden Jobs an                 | `jobs`     |
 
-### Sonstige Befehle:
+===== Sonstige Befehle: =====
 
 | Befehl       | Beschreibung                                         | Beispiel                    |
 |--------------|------------------------------------------------------|-----------------------------|
