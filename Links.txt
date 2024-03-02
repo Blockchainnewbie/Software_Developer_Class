@@ -7,16 +7,25 @@ Angelegt Samstag 02 März 2024
 
 ===== Coding Seiten und Foren =====
 
-==== Github Repository ====
+=== Github Repository ===
 https://github.com/Blockchainnewbie/Damago_FI21_Software_Developer_Class
 
-==== Stack Overflow Forum ====
+=== Stack Overflow Forum ===
 https://stackoverflow.com/
 
 ===== Coding Languages =====
 
 ==== HTML/CSS ====
-SelfHTML
+
+=== SelfHTML ===
 https://wiki.selfhtml.org/wiki/SELFHTML
+
+==== C/C++ ====
+
+==== JAVA ====
+==== = ====
+==== Python ====
+==== = ====
+==== C# ====
 
 
