@@ -83,4 +83,4 @@ Angelegt Samstag 02 März 2024
 | `journalctl` | Zeigt Systemprotokolle und Logs an                   | `journalctl`                |
 | `chmod`      | Ändert die Dateiberechtigungen                       | `chmod 755 file.txt`        |
 | `chattr`     | Ändert erweiterte Dateieigenschaften                 | `chattr +i file.txt`        |
-| `dd`                     | Kopiert und konvertiert Dateien                        | `dd if=inputfile of
+| `dd`         | Kopiert und konvertiert Dateien                      | `dd if=inputfile of         |
