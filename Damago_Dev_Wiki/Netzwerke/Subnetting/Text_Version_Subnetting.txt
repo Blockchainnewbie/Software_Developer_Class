@@ -63,12 +63,9 @@ D.h jedem Subnetz stehen 2^6 = 64 IP Adressen zur Verfügung:
 1 – für Subnetz
 62 – für Hosts (Host-IP-Range)
 1 – für Broadcast
-1 IP
-62 IPs
-1 IP
-Subnetzadresse
-Host-IP-Range
-Broadcast
+
+		  1 IP                     62 IPs                1 IP
+Subnetzadresse     Host-IP-Range    Broadcast
 
 
 ==== 4. Das letzte Oktett von der Subnetzadresse wieder in Dezimalzahl umrechnen. ====
@@ -77,23 +74,18 @@ IP-Adresse: 192.168.168.00000000
 Netzmaske: 255.255.255.11000000
 =>
 IP-Adresse: 192.168.168.0
-Netzmaske: 255.255.255.192	Hilfsmittel
+Netzmaske: 255.255.255.192	
+
+	Hilfsmittel
 Dezimalzahl	Binärzahl
-128
-192
-224
-240
-248
-252
-254
-255	10000000
-11000000
-11100000
-11110000
-11111000
-11111100
-11111110
-11111111
+128 			11000000
+192 			11100000
+224 			11110000
+240			11111000
+248 			11111100
+252 			11111110
+254 			11111111
+255 			10000000
 
 ==== 5. Broadcast vom 1. Subnetz berechnen ====
 
