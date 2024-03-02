@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-02T14:02:22+01:00
+
+====== Einführung ======
+Angelegt Samstag 02 März 2024
+

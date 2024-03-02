@@ -1,0 +1,22 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-02T14:02:53+01:00
+
+====== Links ======
+Angelegt Samstag 02 März 2024
+
+===== Coding Seiten und Foren =====
+
+==== Github Repository ====
+https://github.com/Blockchainnewbie/Damago_FI21_Software_Developer_Class
+
+==== Stack Overflow Forum ====
+https://stackoverflow.com/
+
+===== Coding Languages =====
+
+==== HTML/CSS ====
+SelfHTML
+https://wiki.selfhtml.org/wiki/SELFHTML
+
+
