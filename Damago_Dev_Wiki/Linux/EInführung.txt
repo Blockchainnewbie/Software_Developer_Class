@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-04T08:46:55+01:00
+
+====== EInführung ======
+Angelegt Montag 04 März 2024
+
+1. **Geschichte von Linux**: 
+	Linux ist ein Betriebssystem, das auf dem UNIX-Betriebssystem basiert. Es wurde von Linus Torvalds, einem finnischen Studenten, entwickelt. Torvalds begann 1991 mit der Entwicklung von Linux, als er ein freies Betriebssystem für seinen Personal Computer suchte. Er entschied sich für die Entwicklung eines eigenen Betriebssystems, das auf dem Minix-Betriebssystem basiert, einem kleinen UNIX-ähnlichen Betriebssystem, das für Bildungszwecke entwickelt wurde. Torvalds veröffentlichte den Quellcode seines Betriebssystems im Internet und bat andere Entwickler um Hilfe bei der Verbesserung des Codes. Dies war der Beginn der Open-Source-Bewegung, die die Entwicklung von Linux und vielen anderen Softwareprojekten stark beeinflusst hat.
+
+2. **Linux-Distributionen**: 
+	Eine Linux-Distribution ist eine Sammlung von Software, die auf dem Linux-Kernel basiert. Es gibt viele verschiedene Arten von Linux-Distributionen, die für verschiedene Zwecke entwickelt wurden. Einige Distributionen sind für den Einsatz auf Desktop-Computern konzipiert, andere für Server und wieder andere für spezielle Anwendungen wie eingebettete Systeme oder Supercomputer. Bei der Auswahl einer Linux-Distribution sollten Sie Ihre spezifischen Bedürfnisse und Fähigkeiten berücksichtigen. Einige Distributionen sind einfacher zu bedienen und zu installieren, während andere mehr Flexibilität und Kontrolle bieten, aber auch mehr technisches Wissen erfordern.
+
+3. **Linux-Community**: 
+	Die Linux-Community ist eine weltweite Gemeinschaft von Menschen, die an der Entwicklung, Unterstützung und Förderung von Linux und Open-Source-Software beteiligt sind. Die Community ist sehr vielfältig und umfasst Einzelpersonen, Organisationen und Unternehmen aus der ganzen Welt. Die Linux Foundation ist eine der wichtigsten Organisationen in der Linux-Community. Sie wurde gegründet, um die Entwicklung von Linux zu fördern und zu unterstützen. Die Foundation organisiert Konferenzen, bietet Schulungen an und fördert die Zusammenarbeit zwischen den verschiedenen Teilen der Linux-Community.
+
+4. **Lizenzierung von Linux**: 
+	Linux und die meisten anderen Open-Source-Softwareprojekte verwenden die GNU General Public License (GPL). Die GPL ist eine sogenannte Copyleft-Lizenz, die es jedem erlaubt, den Quellcode zu verwenden, zu ändern und zu verteilen, solange alle Änderungen unter der gleichen Lizenz veröffentlicht werden. Dies bedeutet, dass jeder, der eine Software auf Basis von Linux entwickelt, verpflichtet ist, den Quellcode seiner Software öffentlich zugänglich zu machen. Dies fördert die Zusammenarbeit und den freien Austausch von Ideen und Code in der Open-Source-Community.
