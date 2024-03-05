@@ -2,7 +2,7 @@ Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.6
 Creation-Date: 2024-03-04T08:46:55+01:00
 
-====== EInführung ======
+====== Einführung ======
 Angelegt Montag 04 März 2024
 
 1. **Geschichte von Linux**: 
