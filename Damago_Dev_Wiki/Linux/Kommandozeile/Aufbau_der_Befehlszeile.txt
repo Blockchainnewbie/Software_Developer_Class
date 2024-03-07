@@ -42,4 +42,39 @@ Angelegt Thursday 07 March 2024
 	   - Ausgabe: `man is /usr/bin/man`
 
 8. **Quoting:**
-   - Nicht direkt im Text erklärt, aber erwähnt. Es bezieht sich darauf, wie Zeichen innerhalb von Befehlen behandelt werden, insbesondere wenn sie spezielle Bedeutungen haben.
+
+1. **Quoting-Einführung:**
+   - Linux-Nutzer müssen Dateien oder Variablen erstellen und manipulieren, was einfach ist, wenn es um kurze Dateinamen und einzelne Werte geht.
+   - Komplexer wird es jedoch mit Leerzeichen, Sonderzeichen und Variablen.
+
+{{./pasted_image003.png}}
+
+2. **Arten von Anführungszeichen:**
+   - Drei Arten in Bash:
+	  - Doppelte Anführungszeichen (" ")
+	  - Einfache Anführungszeichen (' ')
+	  - Escape-Zeichen (\)
+
+3. **Beispiel mit TWOWORDS-Variable:**
+   - Unterschiedliche Auswirkungen auf Befehle durch unterschiedliches Quoting.
+   - Veranschaulichung mit `touch`-Befehlen und Ausgabe von `ls -l`.
+
+4. **Doppelte Anführungszeichen:**
+   - Interpretieren den Text zwischen den Anführungszeichen als reguläre Zeichen.
+   - $, \ und ` behalten ihre Bedeutung für Variablen, Befehlsersetzung und arithmetische Funktionen bei.
+   - Beispiel mit der Variable $USER und Leerzeichen als Argumententrenner.
+
+{{./pasted_image004.png}}
+{{./pasted_image005.png}}
+
+5. **Einfache Anführungszeichen:**
+   - Heben jede spezielle Bedeutung für jedes Zeichen auf, ohne Ausnahmen wie bei den doppelten Anführungszeichen.
+   - Beispiel mit der Variable $USER und Anzeige ohne Ersetzung.
+{{./pasted_image006.png}} {{./pasted_image007.png}}
+
+6. **Escape-Zeichen:**
+   - Entfernen spezielle Bedeutungen von Zeichen in der Bash.
+   - Beispiel mit der Variable $USER und Verwendung von \, um die besondere Bedeutung des Dollar-Zeichens aufzuheben.
+
+{{./pasted_image008.png}} {{./pasted_image009.png}}
+Die Verwendung von verschiedenen Quoting-Methoden beeinflusst die Interpretation von Zeichenketten und Variablen in der Bash.
