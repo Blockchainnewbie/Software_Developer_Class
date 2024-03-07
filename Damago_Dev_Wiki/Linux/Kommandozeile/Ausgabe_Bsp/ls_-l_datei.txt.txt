@@ -1,0 +1,43 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-07T12:50:02+01:00
+
+====== ls -l datei.txt ======
+Angelegt Thursday 07 March 2024
+
+**Befehl:** 
+ls -l datei.txt
+
+**Ausgabe:**
+-rw-rw-r-- 1 sonny sonny 384 Jul 12  2023 brief.txt
+
+1. [[../../../Dateiberechtigungen.txt|Dateiberechtigungen:]]
+   - `-rw-rw-r--`: Dies repräsentiert die Dateiberechtigungen. Hier sind drei Berechtigungsgruppen:
+	 - Die ersten drei Zeichen (`rw-`) sind die Berechtigungen für den Eigentümer der Datei (in diesem Fall "sonny").
+	 - Die nächsten drei Zeichen (`rw-`) sind die Berechtigungen für die Gruppe der Datei (ebenfalls "sonny").
+	 - Die letzten drei Zeichen (`r--`) sind die Berechtigungen für alle anderen Benutzer.
+
+   - Interpretation:
+	 - `rw-`: Der Eigentümer ("sonny") hat Lese- und Schreibrechte.
+	 - `rw-`: Die Gruppe ("sonny") hat ebenfalls Lese- und Schreibrechte.
+	 - `r--`: Alle anderen Benutzer haben nur Leserechte.
+
+2. **Anzahl der Verweise:**
+   - `1`: Dies ist die Anzahl der Verweise auf die Datei. In diesem Fall gibt es nur einen Verweis.
+
+3. **Eigentümer und Gruppe:**
+   - `sonny sonny`: Der Eigentümer der Datei ist "sonny", und die Datei gehört zur Gruppe "sonny".
+
+4. **Dateigröße:**
+   - `384`: Die Größe der Datei in Bytes.
+
+5. **Datum der letzten Änderung:**
+   - `Jul 12 2023`: Das Datum, an dem die Datei zuletzt geändert wurde.
+
+6. **Uhrzeit der letzten Änderung:**
+   - `12:48:52`: Die Uhrzeit, zu der die Datei zuletzt geändert wurde.
+
+7. **Dateiname:**
+   - `brief.txt`: Der Name der Datei.
+
+Zusammengefasst zeigt die Ausgabe, dass die Datei "brief.txt" am 12. Juli 2023 um 12:48:52 Uhr erstellt oder zuletzt bearbeitet wurde. Der Eigentümer ("sonny") und die Gruppe ("sonny") haben Lese- und Schreibrechte, während andere Benutzer nur Leserechte haben. Die Dateigröße beträgt 384 Bytes.

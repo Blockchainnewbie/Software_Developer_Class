@@ -1,0 +1,39 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-07T13:09:42+01:00
+
+====== Simbolic Mode ======
+Angelegt Thursday 07 March 2024
+
+**Symbolischer Modus für Dateiberechtigungen in Linux**
+
+1. **Einführung in den symbolischen Modus:**
+   - Symbole für Benutzer (u), Gruppe (g), andere (o) und/oder alle drei zusammen (a).
+   - Operationen: Berechtigung erteilen (+), widerrufen (-) oder auf bestimmten Wert setzen (=).
+   - Rechte: Lesen (r), Schreiben (w) und Ausführen (x).
+
+2. **Anwendungsbeispiel:**
+   - Datei: text.txt mit Berechtigung -rw-r--r-- für Benutzer carol.
+   - Gruppe soll Schreibrechte erhalten: `chmod g+w text.txt`.
+	 - Ergebnis: -rw-rw-r-- 1 carol carol 765 Dec 20 21:25 text.txt.
+
+3. **Weitere Beispiele:**
+   - Benutzer Leserechte entziehen: `chmod u-r text.txt`.
+	 - Ergebnis: --w-rw-r-- 1 carol carol 765 Dec 20 21:25 text.txt.
+   - Alle erhalten Lese- und Schreibrechte, aber nicht Ausführungsrechte: `chmod a=rw- text.txt`.
+	 - Ergebnis: -rw-rw-rw- 1 carol carol 765 Dec 20 21:25 text.txt.
+
+4. **Kombination von Berechtigungen:**
+   - Mehrere Berechtigungen gleichzeitig ändern: `chmod u+rwx,g-x text.txt`.
+	 - Ergebnis: -rwxrw-rw- 1 carol carol 765 Dec 20 21:25 text.txt.
+   - Lesen, Schreiben und Ausführen für Benutzer, aber Ausführen für Gruppe widerrufen.
+
+5. **Rekursiver Modus:**
+   - Auf Verzeichnis anwenden: `chmod -R u+rwx Another_Directory/`.
+	 - Rekursiv Benutzer Lesen, Schreiben und Ausführen gewähren.
+
+6. **Warnung:**
+   - Vorsicht bei der Verwendung von `-R`, um rekursiv Berechtigungen zu ändern.
+   - Überlegen Sie zweimal, um unerwünschte Änderungen zu vermeiden, besonders in großen Verzeichnissen.
+
+Das Verständnis des symbolischen Modus ermöglicht präzise Steuerung der Dateiberechtigungen in Linux.

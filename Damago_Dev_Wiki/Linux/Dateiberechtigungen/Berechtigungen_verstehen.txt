@@ -1,0 +1,36 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-07T13:06:27+01:00
+
+====== Berechtigungen verstehen ======
+Angelegt Thursday 07 March 2024
+
+1. **Darstellung der Dateiberechtigungen:**
+   - Die Dateiberechtigungen werden in der Ausgabe von `ls -l` direkt nach dem Dateityp als drei Gruppen von je drei Zeichen in der Reihenfolge r, w und x angezeigt.
+   - Ein Strich (-) zeigt das Fehlen einer bestimmten Berechtigung an.
+
+2. **Berechtigungen auf Dateien:**
+   - `r` steht für "read" (lesen) und hat einen Oktalwert von 4, was die Berechtigung zum Öffnen und Lesen einer Datei bedeutet.
+   - `w` steht für "write" (schreiben) und hat einen Oktalwert von 2, was die Berechtigung zur Bearbeitung oder Löschung einer Datei ermöglicht.
+   - `x` steht für "execute" (ausführen) und hat einen Oktalwert von 1, was die Ausführung einer Datei als Skript erlaubt.
+
+3. **Berechtigungen auf Verzeichnisse:**
+   - Für Verzeichnisse gelten ähnliche Berechtigungen, wobei `r` das Lesen des Verzeichnisinhalts erlaubt, `w` das Erstellen, Löschen und Ändern von Dateien ermöglicht, und `x` das Wechseln in das Verzeichnis gestattet.
+
+4. **Beispielanwendung:**
+   - Falls ein Benutzer die Schreibberechtigung für ein Verzeichnis hat, kann er die Berechtigungen jeder Datei in diesem Verzeichnis ändern, selbst wenn er keine Rechte auf die Datei selbst hat.
+   - Die Rechte werden in der Reihenfolge Eigentümer, Gruppe und andere Benutzer angegeben.
+
+{{./pasted_image.png}}
+{{./pasted_image001.png}}
+{{./pasted_image002.png}}
+{{./pasted_image003.png}}
+
+5. **Ändern von Dateiberechtigungen:**
+   - Der Befehl `chmod` wird verwendet, um die Rechte für eine Datei zu ändern.
+   - Es gibt zwei Modi: der symbolic Mode erlaubt differenzierte Steuerung, während der numeric Mode schneller ist.
+   - Beispiel: Die Befehle `chmod ug+rw-x,o-rwx text.txt` und `chmod 660 text.txt` führen zu denselben Dateiberechtigungen.
+
+{{./pasted_image004.png}}
+
+Dateiberechtigungen sind essentiell für die Sicherheit und den Zugriff auf Dateien und Verzeichnisse in Linux.

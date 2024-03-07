@@ -1,0 +1,29 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-07T12:57:10+01:00
+
+====== Dateiberechtigungen ======
+Angelegt Thursday 07 March 2024
+
+1. **Linux-Berechtigungssystem:**
+   - Linux als Mehrbenutzersystem gewährleistet Privatsphäre durch ein dreistufiges Berechtigungssystem.
+   - Jede Datei hat einen Eigentümer, eine Benutzergruppe und drei Berechtigungsgruppen: Eigentümer, Gruppe und andere.
+
+2. **Berechtigungen abfragen und manipulieren:**
+   - Verwenden Sie den Befehl `ls`, um den Inhalt von Verzeichnissen aufzulisten.
+   - Mit `ls -l` erhalten Sie detaillierte Informationen, einschließlich Dateityp, Zugriffsrechten, Eigentümer, Gruppe, Dateigröße und Zeitstempel.
+   - Die Zugriffsrechte werden in einem dreistelligen Code dargestellt: Besitzer, Gruppe, andere.
+   - Der Befehl `ls -h` zeigt Dateigrößen in einem "menschenlesbaren" Format an.
+
+{{./pasted_image.png}}
+
+3. **Beispiel-Ausgabe von `ls -l`:**
+   - Spaltenbedeutung: Dateityp und Zugriffsrechte, Anzahl der Hardlinks, Eigentümer, Gruppe, Dateigröße, Zeitstempel, Dateiname.
+
+{{./pasted_image001.png}}
+
+4. **Weitere `ls`-Optionen:**
+   - `ls -lh` zeigt Dateigrößen in einem human-readable Format an.
+   - Zum Anzeigen bestimmter Dateien: `ls -lh Datei1 Datei2`.
+{{./pasted_image002.png}}
+{{./pasted_image003.png}}

@@ -1,0 +1,54 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-07T13:03:49+01:00
+
+====== Verzeichnisse ======
+Angelegt Thursday 07 March 2024
+
+Verzeichnisse sind in einem Dateisystem essentiell, um Dateien zu organisieren. 
+
+1. **Informationen über Verzeichnisinhalt mit `ls -l` abfragen:**
+   ```bash
+   $ ls -l Another_Directory/
+   total 0
+   -rw-r--r-- 1 carol carol 0 Dec 10 17:59 another_file.txt
+   ```
+
+2. **Informationen über das Verzeichnis selbst abfragen mit dem Parameter -d:**
+   ```bash
+   $ ls -l -d Another_Directory/
+   drwxrwxr-x 2 carol carol 4096 Dec 10 17:59 Another_Directory/
+   ```
+
+3. **Versteckte Dateien sehen mit dem Parameter -a zu `ls`:**
+   ```bash
+   $ ls -l -a
+   total 544
+   drwxrwxr-x 3 carol carol 4096 Dec 10 16:01 .
+   drwxrwxr-x 4 carol carol 4096 Dec 10 15:56 ..
+   drwxrwxr-x 2 carol carol 4096 Dec 10 17:59 Another_Directory
+   -rw------- 1 carol carol 539663 Dec 10 10:43 picture.jpg
+   -rw-rw-r-- 1 carol carol 1881 Dec 10 15:57 text.txt
+   -rw-r--r-- 1 carol carol 0 Dec 10 16:01 .thisIsHidden
+   ```
+
+4. **Besondere Verzeichnisse . und ..:**
+   - `.` ist ein Zeiger auf das aktuelle Verzeichnis.
+   - `..` ist ein Zeiger auf das übergeordnete Verzeichnis.
+
+5. **Kombination von Parametern:**
+   ```bash
+   $ ls -la
+   ```
+
+6. **Dateitypen verstehen:**
+   - `-` (normale Datei): Kann Daten jeglicher Art enthalten.
+   - `d` (Verzeichnis): Enthält andere Dateien oder Verzeichnisse.
+   - `l` (Soft Link): Ein Zeiger auf eine andere Datei oder Verzeichnis.
+
+7. **Weitere Dateitypen (nicht im Fokus dieser Lektion):**
+   - `b` (Block Device): Repräsentiert Speichergeräte wie Festplatten.
+   - `c` (Character Device): Repräsentiert Geräte wie Terminals.
+   - `s` (Socket): Leitet Informationen zwischen Programmen weiter.
+
+Wichtig: Ändern Sie keine Berechtigungen für Block Devices, Character Devices oder Sockets, es sei denn, Sie wissen genau, was Sie tun, um Systemprobleme zu vermeiden.

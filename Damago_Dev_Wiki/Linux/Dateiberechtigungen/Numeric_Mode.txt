@@ -1,0 +1,66 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-07T13:12:05+01:00
+
+====== Numeric Mode ======
+Angelegt Thursday 07 March 2024
+
+1. **Numerischer Modus:**
+   - Berechtigungen werden als dreistelliger numerischer Wert in oktaler Notation angegeben.
+   - Oktal bedeutet Basis-8-Zahlensystem.
+   - Jede Berechtigung hat einen Wert: Lesen (r) = 4, Schreiben (w) = 2, Ausführen (x) = 1.
+   - Die Reihenfolge: Lesen (r), Schreiben (w), Ausführen (x).
+
+2. **Darstellung der Berechtigungen:**
+   - rwx entspricht 7 (4 + 2 + 1).
+   - r-x entspricht 5 (4 + 0 + 1).
+   - 0 bedeutet keine Berechtigung.
+
+3. **Dreistellige Repräsentation:**
+   - Erste Ziffer: Benutzer (u).
+   - Zweite Ziffer: Gruppe (g).
+   - Dritte Ziffer: Andere (o).
+
+4. **Beispiel und Anwendung:**
+   - Um Berechtigungen auf rw-rw---- zu setzen, verwende den oktalen Wert 660.
+	 ```
+	 $ chmod 660 text.txt
+	 $ ls -l text.txt
+	 -rw-rw---- 1 carol carol 765 Dec 20 21:25 text.txt
+	 ```
+
+5. **Syntax und Empfehlungen:**
+   - Syntax: `chmod <numerischer Wert> <Datei/Verzeichnis>`.
+   - Ungerade Berechtigungswerte bedeuten ausführbare Dateien.
+   - Numerischer Modus empfohlen für genaue Berechtigungsänderungen (z. B. 640).
+   - Symbolischer Modus nützlich für spezifische Änderungen, unabhängig von aktuellen Berechtigungen.
+
++----------------------+---------------------+-----------------------------------------------+
+| Dateiberechtigungen  | Numeric Mode Zahlen | Bedeutung der Buchstaben|
++----------------------+---------------------+-----------------------------------------------+
+|      ---                      				 0          		| Keine Berechtigungen                         
++----------------------+---------------------+-----------------------------------------------+
+|      --x                     				 1          		| Ausführungsrechte                           
++----------------------+---------------------+-----------------------------------------------+
+|      -w-                       				2          		| Schreibrechte                               
++----------------------+---------------------+-----------------------------------------------+
+|      -wx             	          			3          		| Schreib- und Ausführungsrechte            
++----------------------+---------------------+-----------------------------------------------+
+|      r--                       				4          		| Leseberechtigungen                          
++----------------------+---------------------+-----------------------------------------------+
+|      r-x                       				5          		| Lese- und Ausführungsrechte                
++----------------------+---------------------+-----------------------------------------------+
+|      rw-                       				6          		| Lese- und Schreibrechte                    
++----------------------+---------------------+-----------------------------------------------+
+|      rwx                      				 7          		| Vollständige Berechtigungen (Lesen, Schreiben, Ausführen) |
++----------------------+---------------------+-----------------------------------------------+
+
+
+6. **Tipp:**
+   - Beachte, dass ungerade Berechtigungswerte auf eine ausführbare Datei hinweisen.
+
+7. **Empfohlene Verwendung:**
+   - Numerischer Modus für präzise Änderungen.
+   - Symbolischer Modus, wenn nur bestimmte Werte geändert werden sollen, unabhängig von aktuellen Berechtigungen.
+
+Abschließend: Die Syntax im numerischen Modus ist ähnlich der des symbolischen Modus. Der erste Parameter repräsentiert die zu ändernden Rechte, der zweite zeigt auf die Datei oder das Verzeichnis, in dem die Änderungen vorgenommen werden sollen.
