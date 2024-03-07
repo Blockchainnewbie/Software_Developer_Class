@@ -1,0 +1,34 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-07T11:13:56+01:00
+
+====== Lizenzen ======
+Angelegt Thursday 07 March 2024
+
+1. **Grundlagen der Software-Lizenzen:**
+   - Software ist ein digitales Produkt, und der Verkauf beinhaltet die Übertragung von Nutzungsrechten.
+   - Die Software-Lizenz regelt diese Nutzungsrechte und hat entscheidende Auswirkungen auf die Nutzung und Weiterentwicklung der Software.
+
+2. **Unterschiede zwischen proprietären und freien Software-Lizenzen:**
+   - Große Anbieter wie Microsoft haben eigene, auf ihre Produkte zugeschnittene Lizenzen.
+   - Die Befürworter freier Software streben nach klaren und allgemeingültigen Lizenzen, um Verständnis und Nutzung zu erleichtern.
+
+3. **Copyleft-Prinzip und Free Software Foundation (FSF):**
+   - Die FSF hat mit der GNU General Public License (GPL) eine wichtige Lizenz für freie Software geschaffen.
+   - Das Copyleft-Prinzip zielt darauf ab, die freiheitlichen Grundsätze der Lizenz auf veränderte Software-Versionen zu übertragen.
+
+4. **Herausforderungen und Kritik am Copyleft:**
+   - Verschiedene Copyleft-Lizenzen können zu Kompatibilitätsproblemen führen.
+   - Dual Licensing ist eine Möglichkeit, Konflikte zu vermeiden, indem die Software unter verschiedenen Lizenzen angeboten wird.
+
+5. **Open Source Definition und permissive Lizenzen:**
+   - Die Open Source Initiative (OSI) überprüft und genehmigt Open-Source-Lizenzen.
+   - Permissive Lizenzen wie die BSD-Lizenzen ermöglichen weitreichende Freiheiten für die Bearbeitung und Verbreitung der Software.
+
+6. **Creative Commons (CC) für nicht-technische Bereiche:**
+   - CC ermöglicht die einfache und flexible Vergabe von Nutzungsrechten für kreative Werke und Wissen.
+   - Die sechs CC-Lizenzen reichen von sehr frei (CC BY) bis restriktiv (CC BY-NC-ND), abhängig von den gewählten Bedingungen des Urhebers.
+
+7. **Bedeutung der Lizenzwahl für Software-Projekte:**
+   - Die Auswahl einer Lizenz erfordert Bedacht, da sie die Zusammenarbeit, Kompatibilität und zukünftige Entwicklung beeinflusst.
+   - Das Copyleft-Prinzip stellt Entwickler vor besondere Herausforderungen, und die Wahl sollte den Projektzielen entsprechen.

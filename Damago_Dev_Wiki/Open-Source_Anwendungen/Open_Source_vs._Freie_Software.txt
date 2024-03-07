@@ -1,0 +1,36 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-07T11:12:14+01:00
+
+====== Open Source vs. Freie Software ======
+Angelegt Thursday 07 March 2024
+
+1. **Begriffsverwirrung und Gemeinsamkeiten:**
+   - FOSS (Free and Open Source Software) wird oft als Synonym verwendet.
+   - FLOSS (Free/Libre and Open Source Software) betont die Freiheitsidee in verschiedenen Sprachräumen.
+
+2. **Ursprung und Entwicklung:**
+   - Freie Software, mit den vier Freiheiten, wurde 1985 von Richard Stallman im GNU-Projekt begründet.
+   - GNU ("GNU is not Unix") strebte an, ein alternatives Betriebssystem zu entwickeln, offen und für die Gemeinschaft zugänglich.
+   - Die Free-Software-Bewegung ist sozial und politisch, betont Freiheiten und Gemeinschaft.
+
+3. **Wandel durch Linux und Internet:**
+   - Mit dem Erfolg von Linux und dem Internet tritt der soziale Aspekt zugunsten von technisch-pragmatischer Softwareentwicklung in den Hintergrund.
+   - Die Offenheit des Quellcodes wird zum Hauptmerkmal von Open Source Software.
+
+4. **Spannungsverhältnis und Konflikte:**
+   - Freie Software und Open Source Software arbeiten zusammen, haben jedoch unterschiedliche Ausgangspunkte.
+   - Konflikte entstehen, wenn Ergebnisse nicht den Zielen beider Bewegungen entsprechen, besonders wenn Quelloffenheit nicht mit den vier Freiheiten einhergeht.
+
+5. **Lizenzen als Schlüsselfaktor:**
+   - Die Lizenz bestimmt die Bedingungen für Nutzung, Weitergabe und Veränderung der Software.
+   - Im FOSS-Bereich gibt es zahlreiche verschiedene Lizenzen aufgrund unterschiedlicher Anforderungen und Motive.
+
+6. **Unterschiedliche Ansätze und Anerkennung:**
+   - Die Free-Software-Bewegung erkennt viele Open-Source-Lizenzen nicht als "frei" an.
+   - Open-Source-Ansatz ist pragmatischer und akzeptiert im Gegenzug häufiger verschiedene Lizenzen.
+
+7. **Komplexität der Lizenzen:**
+   - Das Lizenzgebiet im FOSS-Bereich ist sehr komplex und vielfältig.
+
+Diese Unterschiede und Entwicklungen verdeutlichen die Dynamik zwischen freier Software und Open Source Software, wobei Lizenzen einen entscheidenden Einfluss auf die Ausrichtung und Akzeptanz haben.

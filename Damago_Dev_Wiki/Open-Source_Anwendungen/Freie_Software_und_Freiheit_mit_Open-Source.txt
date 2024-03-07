@@ -1,0 +1,33 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-07T11:10:02+01:00
+
+====== Freie Software und Freiheit mit Open-Source ======
+Angelegt Thursday 07 March 2024
+
+1. **Einführung:**
+   - Freie Software und Open Source Software sind Begriffe, die weit verbreitet sind, aber es gibt immer noch Missverständnisse über ihre Bedeutung.
+   - Das Konzept der "Freiheit" in Bezug auf Software erfordert eine genauere Betrachtung.
+
+2. **Definition von freier und Open Source Software:**
+   - Frei im Kontext freier Software bedeutet nicht unbedingt kostenlos, sondern bezieht sich auf "Redefreiheit", nicht auf "Freibier".
+   - Unabhängig von Kosten gibt es vier wesentliche Freiheiten, wie von Richard Stallman definiert.
+
+3. **Kriterien für freie Software (Die vier wesentlichen Freiheiten):**
+   a. **Freiheit 0:**
+	  - Das Programm kann ohne Einschränkungen für jeden Zweck ausgeführt werden.
+
+   b. **Freiheit 1:**
+	  - Die Möglichkeit, die Funktionsweise des Programms zu untersuchen und nach eigenen Bedürfnissen anzupassen, erfordert Zugang zum Quellcode.
+
+   c. **Freiheit 2:**
+	  - Die Freiheit, das Programm zu redistribuieren und anderen zu helfen, setzt ebenfalls den Zugang zum Quellcode voraus.
+
+   d. **Freiheit 3:**
+	  - Die Freiheit, das Programm zu verbessern und die Verbesserungen der Öffentlichkeit zugänglich zu machen, erfordert ebenfalls den Zugang zum Quellcode.
+
+4. **Betonung des Freiheitsgedankens:**
+   - Die Betonung der Freiheit ist konsequent, da Freiheitsbewegungen sich gegen Unterdrückung richten.
+   - Im Gegensatz zu freier Software wird proprietäre Software als solche bezeichnet, die die Freiheiten unterdrückt und Software als Eigentum betrachtet.
+
+Diese Zusammenfassung gibt einen Überblick über die Definitionen von freier und Open Source Software sowie die vier wesentlichen Freiheiten, die sie ausmachen. Der Fokus liegt auf der Bedeutung des Begriffs "Freiheit" und wie er sich von proprietärer Software unterscheidet.

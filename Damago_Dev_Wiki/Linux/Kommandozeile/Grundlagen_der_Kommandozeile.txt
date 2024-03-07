@@ -1,0 +1,28 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-07T11:20:23+01:00
+
+====== Grundlagen der Kommandozeile ======
+Angelegt Thursday 07 March 2024
+
+1. **Shell in Linux:**
+   - Die Shell ist ein Programm, das textbasierte Kommunikation zwischen dem Betriebssystem und dem Benutzer ermöglicht.
+   - Es gibt verschiedene Shells, darunter Bash, C shell, Korn shell und Z shell, wobei Bash die meistgenutzte ist.
+
+2. **Arbeiten mit der Shell:**
+   - Der Benutzer gibt Befehle an der Eingabeaufforderung oder Prompt ein.
+   - Die Struktur des Prompts kann je nach Linux-Distribution variieren, beinhaltet jedoch üblicherweise den Benutzernamen, Hostnamen, aktuelles Verzeichnis und den Shell-Typ.
+   
+3. **Aufbau des Prompts:**
+   - Beispiel für Ubuntu/Debian:
+	 - Normaler Benutzer: `carol@mycomputer:~$`
+	 - Superuser: `root@mycomputer:~#`
+   - Beispiel für CentOS/Red Hat:
+	 - Normaler Benutzer: `[dave@mycomputer ~]$`
+	 - Superuser: `[root@mycomputer ~]#`
+
+4. **Bestandteile des Prompts:**
+   - `username`: Name des Benutzers, der die Shell ausführt.
+   - `hostname`: Name des Hosts, auf dem die Shell läuft.
+   - `aktuelles_verzeichnis`: Das Verzeichnis, in dem sich die Shell gerade befindet.
+   - `shell_typ`: $ zeigt an, dass die Shell von einem normalen Benutzer ausgeführt wird, # zeigt an, dass die Shell vom Superuser root ausgeführt wird.

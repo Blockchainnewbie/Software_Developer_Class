@@ -1,0 +1,37 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-07T11:02:43+01:00
+
+====== Open-Source Anwendungen ======
+Angelegt Thursday 07 March 2024
+
+1. **Office-Anwendungen:**
+   - Office-Anwendungen sind grundlegend für Büroaufgaben. LibreOffice und Apache OpenOffice sind Open-Source-Office-Suiten mit ähnlichen Funktionen, wobei LibreOffice aufgrund seiner LGPLv3-Lizenz und aktiveren Entwicklergemeinschaft bevorzugt wird.
+   - Das Open Document Format (ODF) wird empfohlen, da es die Interoperabilität zwischen verschiedenen Betriebssystemen und Anwendungen gewährleistet.
+
+2. **Webbrowser:**
+   - Google Chrome und Mozilla Firefox sind die Hauptwebbrowser im Linux-Umfeld. Chrome basiert auf dem Open-Source-Browser Chromium.
+   - MDN Web Docs, betreut von Mozilla, bietet hervorragende Ressourcen für Webentwicklungstutorials und Referenzmaterialien.
+
+3. **Multimedia:**
+   - Blender ist ein 3D-Renderer für Animationen und 3D-Objekte. GIMP ist ein Bildbearbeitungsprogramm vergleichbar mit Adobe Photoshop.
+   - Inkscape ist ein Vektorgrafik-Editor, Audacity ein Audio-Editor, und ImageMagick ein vielseitiges Werkzeug zur Bildkonvertierung.
+   - VLC ist der bevorzugte Videoplayer, und es gibt verschiedene Optionen für die Musikwiedergabe.
+
+4. **Server-Programme:**
+   - HTTP-Server wie Apache, Nginx und lighttpd sind essentiell für die Bereitstellung von Webseiten.
+   - Open-Source-Datenbankserver wie MariaDB (entstanden aus MySQL) und PostgreSQL bieten organisierte Speicherung und schnellen Zugriff auf große Datenmengen.
+
+5. **Data Sharing:**
+   - NFS wird zwischen Linux-Maschinen für den Dateiaustausch verwendet. Es ermöglicht das Teilen von Verzeichnissen und Dateien in einem Netzwerk.
+   - Samba erleichtert den Dateiaustausch mit anderen Betriebssystemen, insbesondere für Windows-Netzwerke.
+
+6. **Netzwerkadministration:**
+   - DHCP weist automatisch IP-Adressen zu, und DNS übersetzt Domainnamen in IP-Adressen. Diese Konfiguration erfolgt oft über Router-Webschnittstellen.
+   - Samba kann die Verbindung zu einem Domänencontroller ermöglichen, um zentrale Berechtigungen für Ressourcenzugriffe zu verwalten.
+
+7. **Programmiersprachen:**
+   - JavaScript wird für Webseiten verwendet, während C universell für viele Geräte und Betriebssysteme geeignet ist.
+   - Java ermöglicht die Portabilität von Programmen auf verschiedenen Betriebssystemen. Perl ist stark in der Textverarbeitung, und Shell-Skripte automatisieren Aufgaben in der Kommandozeile.
+   - Python ist leicht verständlich und beliebt für verschiedene Anwendungen, während PHP hauptsächlich für serverseitiges Web-Scripting verwendet wird.
+

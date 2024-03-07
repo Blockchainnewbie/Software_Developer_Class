@@ -1,0 +1,45 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-07T11:23:07+01:00
+
+====== Aufbau der Befehlszeile ======
+Angelegt Thursday 07 March 2024
+
+1. **Befehl:**
+   - Das auszuführende Programm, z.B., im Beispiel: `ls`.
+
+2. **Option(en)/Parameter:**
+   - "Schalter" zur Veränderung des Befehlsverhaltens, z.B., `-l` im Beispiel.
+   - Optionen können in Kurz- oder Langform verwendet werden, z.B., `-l` entspricht `--format=long`.
+   - Mehrere Optionen können kombiniert werden, und für die Kurzform können Buchstaben zusammengeschrieben werden, z.B.:
+	 - `$ ls -al`
+	 - `$ ls -a -l`
+	 - `$ ls --all --format=long`
+
+3. **Argument(e):**
+   - Zusätzliche Angaben, die vom Programm benötigt werden, wie Dateiname oder Pfad, z.B., `/home` im Beispiel.
+
+4. **Obligatorischer Teil:**
+   - Der Befehl selbst ist der einzige obligatorische Teil dieser Struktur.
+
+5. **Optionale Elemente:**
+   - Andere Elemente wie Optionen, Parameter oder Argumente sind im Allgemeinen optional, aber ein Programm kann bestimmte Angaben erfordern.
+
+6. **Befehlstypen:**
+   - **Interne Befehle (Builtins):**
+	 - Teil der Shell selbst, etwa 30 solcher Befehle.
+	 - Beispiel: `cd`, `set`, `export`.
+
+   - **Externe Befehle:**
+	 - Befinden sich in einzelnen Dateien, oft binäre Programme oder Skripte.
+	 - Wenn ein Befehl kein Builtin ist, sucht die Shell mit der PATH-Variablen nach einer ausführbaren Datei mit dem Namen des Befehls.
+
+7. **Befehlstyp überprüfen:**
+   - Verwende den Befehl `type`, um den Typ eines bestimmten Befehls zu zeigen, z.B.:
+	 - `$ type echo`
+	   - Ausgabe: `echo is a shell builtin`
+	 - `$ type man`
+	   - Ausgabe: `man is /usr/bin/man`
+
+8. **Quoting:**
+   - Nicht direkt im Text erklärt, aber erwähnt. Es bezieht sich darauf, wie Zeichen innerhalb von Befehlen behandelt werden, insbesondere wenn sie spezielle Bedeutungen haben.

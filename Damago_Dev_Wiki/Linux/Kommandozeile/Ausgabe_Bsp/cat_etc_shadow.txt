@@ -1,0 +1,28 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-07T11:28:22+01:00
+
+====== cat etc shadow ======
+Angelegt Thursday 07 March 2024
+
+**Befehl:**
+cat /etc/shadow
+
+**Ausgabe:** 
+root:!:0:0:root:/root:/bin/bash
+
+1. **root:** Dies ist der Benutzername. In diesem Fall handelt es sich um den Root-Benutzer, der das höchste Administrationsrecht auf einem Linux-System hat.
+
+2. **!:** Das Ausrufezeichen zeigt an, dass das Passwort für den Root-Benutzer gesperrt ist. Der Root-Benutzer kann sich also nicht direkt mit einem Passwort anmelden.
+
+3. **19525:** Dies ist das Datum, an dem das Passwort zuletzt geändert wurde, gemessen in Tagen seit dem 1. Januar 1970 (Unix-Zeitstempel).
+
+4. **0:** Die Anzahl der Tage nach dem letzten Ändern des Passworts, bevor das Passwort erneut geändert werden muss.
+
+5. **99999:** Die Anzahl der Tage, für die das Passwort gültig ist. Hier ist es auf einen sehr großen Wert eingestellt, was im Wesentlichen bedeutet, dass das Passwort nicht automatisch abläuft.
+
+6. **7:** Die Anzahl der Tage, die vor dem Ablauf des Passworts eine Warnung ausgegeben wird.
+
+7. **:::** Dies sind Platzhalter für zukünftige Erweiterungen. In diesem Fall gibt es keine zusätzlichen Erweiterungen.
+
+Die Ausgabe zeigt also an, dass das Passwort für den Root-Benutzer gesperrt ist, es wurde vor 19525 Tagen zuletzt geändert, und es gibt keine automatischen Ablaufregeln für das Passwort. Wenn du weitere Fragen dazu hast oder etwas genauer besprechen möchtest, lass es mich bitte wissen!

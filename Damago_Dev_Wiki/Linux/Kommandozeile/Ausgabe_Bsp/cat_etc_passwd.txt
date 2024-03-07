@@ -1,0 +1,37 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-07T11:29:09+01:00
+
+====== cat etc passwd ======
+Angelegt Thursday 07 March 2024
+
+**Befehl:**
+cat /etc/passwd
+
+**Erklärung:**
+sonny:x:1000:1000:sonny,,,:/home/sonny:/bin/bash
+
+Diese Ausgabe repräsentiert eine Zeile aus der Datei "/etc/passwd" auf einem Unix-basierten System. 
+
+1. **Benutzername (Username):** `sonny`
+   - Dies ist der Name des Benutzers, in diesem Fall "sonny".
+
+2. **Passwort (Password):** `x`
+   - Das Passwort selbst ist hier nicht direkt angezeigt, sondern durch "x" ersetzt. Tatsächlich wird das verschlüsselte Passwort in der Datei "/etc/shadow" gespeichert. In neueren Distros werden die Passwörter in der Shadow-Files Datei gespeichert um die Sicherheit zu erhöhen.
+
+3. **Benutzer-ID (User ID):** `1000`
+   - Dies ist die numerische ID, die dem Benutzer "sonny" zugeordnet ist. Jede Benutzer-ID ist eindeutig.
+
+4. **Gruppen-ID (Group ID):** `1000`
+   - Hier handelt es sich um die numerische ID der primären Gruppe des Benutzers "sonny". In diesem Fall ist es dieselbe Nummer wie die Benutzer-ID.
+
+5. **Gecos-Feld (Gecos):** `sonny,,,`
+   - Das Gecos-Feld enthält normalerweise zusätzliche Benutzerinformationen wie den vollen Namen, Telefonnummer, etc. Hier scheint es jedoch nicht vollständig ausgefüllt zu sein.
+
+6. **Heimatverzeichnis (Home Directory):** `/home/sonny`
+   - Das ist der Pfad zum Heimatverzeichnis des Benutzers "sonny". Hier befinden sich seine persönlichen Dateien.
+
+7. **Login-Shell:** `/bin/bash`
+   - Die Login-Shell, die für den Benutzer verwendet wird, wenn er sich anmeldet. Hier ist es die Bash-Shell.
+
+Zusammengefasst repräsentiert die Zeile also die Benutzerinformationen für den Benutzer "sonny" auf einem Unix-System.

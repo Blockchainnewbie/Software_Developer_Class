@@ -1,0 +1,38 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-07T10:59:23+01:00
+
+====== Paketverwaltung ======
+Angelegt Thursday 07 March 2024
+
+Die wichtigsten Open-Source-Anwendungen: Eine ausführliche Zusammenfassung für Linux-Anfänger
+
+**1. Einführung:**
+   - Anwendungen sind Programme, die spezielle Aufgaben auf einem Computer erledigen.
+   - In Linux-Distributionen findest du zahlreiche Anwendungen, die von Office-Tools über Webbrowser bis hin zu Multimedia-Playern reichen.
+   - Deine Auswahl hängt davon ab, welche Aufgaben du auf deinem Computer ausführen möchtest.
+
+**2. Softwarepakete:**
+   - Standardmäßig sind einige Anwendungen auf deinem System vorinstalliert.
+   - Linux-Distributionen bieten jedoch auch Paket-Repositorys mit einer großen Auswahl an weiteren Anwendungen.
+   - Unterschiedliche Distributionen verwenden unterschiedliche Systeme zur Verwaltung dieser Softwarepakete.
+
+**3. Paketverwaltung:**
+   - Paketmanager sind nützliche Werkzeuge, die dir bei der Installation, Aktualisierung und Deinstallation von Softwarepaketen helfen.
+   - "Abhängigkeiten" sind dabei wichtig; das sind zusätzliche Softwareteile, die von bestimmten Anwendungen benötigt werden.
+   - Du musst dich normalerweise nicht um diese Details kümmern, da der Paketmanager diese automatisch behandelt.
+
+**4. Paket-Installation:**
+   - Beispiel "figlet": eine Anwendung, die vergrößerten Text auf dem Terminal ausgibt.
+   - Um eine Anwendung zu installieren, verwendest du Befehle wie `sudo apt-get install` oder `sudo yum install`, je nachdem, welche Art von Linux-Distribution du verwendest.
+   - Der Paketmanager lädt die Anwendung herunter, installiert sie und kümmert sich um alle notwendigen Schritte.
+
+**5. Entfernen von Paketen:**
+   - Wenn du eine Anwendung nicht mehr benötigst, kannst du sie mit Befehlen wie `sudo apt-get remove` oder `sudo yum remove` deinstallieren.
+   - Der Paketmanager entfernt nicht nur die Anwendung, sondern auch alle zugehörigen Dateien.
+
+**6. Zusätzliche Informationen:**
+   - Konfigurationsdateien bleiben normalerweise auf dem System, selbst wenn du eine Anwendung deinstallierst.
+   - Du kannst dich darauf verlassen, dass der Paketmanager die richtigen Pakete aus den Repositories auswählt, installiert und verwaltet.
+
+Diese Lektion gibt dir einen Überblick über die Welt der Open-Source-Anwendungen auf Linux und zeigt dir, wie du sie effektiv verwalten kannst.

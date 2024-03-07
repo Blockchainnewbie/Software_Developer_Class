@@ -1,7 +1,7 @@
 Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.6
-Creation-Date: 2024-03-07T10:52:00+01:00
+Creation-Date: 2024-03-07T11:16:21+01:00
 
-====== Kommandozeile ======
+====== Ausgabe Bsp ======
 Angelegt Thursday 07 March 2024
 

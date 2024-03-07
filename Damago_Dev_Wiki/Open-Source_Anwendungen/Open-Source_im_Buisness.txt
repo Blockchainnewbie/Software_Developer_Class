@@ -1,0 +1,35 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-07T11:14:51+01:00
+
+====== Open-Source im Buisness ======
+Angelegt Thursday 07 March 2024
+
+1. **Graswurzelbewegung und Wirtschaftlichkeit von FLOSS:**
+   - Der Erfolg von Freier und Open Source Software (FLOSS) begann als Bewegung von technikbegeisterten Idealisten, die ihre Arbeit unabhängig von ökonomischen Zwängen der Allgemeinheit zur Verfügung stellten.
+   - Trotzdem haben im Laufe der Zeit milliardenschwere Unternehmen im FLOSS-Umfeld wie Red Hat erfolgreich agiert, was auf die Notwendigkeit wirtschaftlicher Stabilität hinweist.
+
+2. **Spannungsverhältnis zwischen Freiheit und Finanzierung:**
+   - FLOSS-Entwickler müssen Geld verdienen, was die Notwendigkeit nachhaltiger Business-Modelle aufzeigt.
+   - Crowdfunding, besonders in der Anfangsphase, ermöglicht Entwicklern, Geldspenden zu sammeln und Unterstützer erhalten im Erfolgsfall vorher festgelegte Gratifikationen.
+
+3. **Dual Licensing als Geschäftsmodell:**
+   - Ein Ansatz ist das Angebot einer freien Software unter einer restriktiveren oder proprietären Lizenz, wodurch zusätzliche Services für zahlende Kunden gewährleistet werden.
+   - Beispiel: ownCloud bietet eine "Business Edition" parallel zur GPL-Version.
+
+4. **Professional Services als Business-Modell:**
+   - Unternehmen, die technisches Know-how für komplexe Software fehlt, kaufen professionelle Dienstleistungen wie Beratung, Wartung oder Helpdesk direkt vom Hersteller.
+   - Haftungsfragen werden dabei auf den Hersteller übertragen.
+
+5. **Periphere Monetarisierungsmöglichkeiten:**
+   - Bei erfolgreichen Softwareprojekten bieten sich Möglichkeiten wie Merchandising, Zertifikate oder Schulungen für Trainierende an.
+
+6. **Software as a Service (SaaS):**
+   - In webbasierten Technologien ist SaaS ein verbreitetes Geschäftsmodell, bei dem ein Cloud-Anbieter die Software auf seinen Servern betreibt und Kunden gegen Bezahlung Zugriff gewährt.
+   - Dies spart Kunden Installation und Wartungskosten.
+
+7. **Kundenspezifische Erweiterungen:**
+   - Bei kleineren Projekten wird häufig das Modell verfolgt, kundenspezifische Erweiterungen gegen Auftrag zu entwickeln, wobei es dem Kunden obliegt, über die Freigabe zu entscheiden.
+
+8. **Fazit:**
+   - Trotz der Verfügbarkeit von freier Software zeigen die zahlreichen entstandenen Business-Modelle, dass Entwickler und Unternehmen kreativ agieren und die FLOSS-Bewegung erhalten bleibt.
