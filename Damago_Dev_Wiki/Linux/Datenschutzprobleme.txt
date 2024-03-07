@@ -1,0 +1,37 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-07T10:10:06+01:00
+
+====== Datenschutzprobleme ======
+Angelegt Thursday 07 March 2024
+
+**Datenschutzprobleme bei der Nutzung des Internets**
+
+1. **Cookie Tracking:**
+   - Cookies sind kleine Dateien, die auf dem Computer gespeichert werden, um Informationen für die Navigation zu speichern.
+   - Ermöglicht personalisierte Funktionen auf Websites, wie das Erinnern von Produkten im Einkaufswagen.
+   - Werbenetzwerke nutzen Cookies, um personalisierte Anzeigen auf verschiedenen Websites anzuzeigen.
+   - Tipp: Sie können Cookies von Drittanbietern in Ihrem Browser deaktivieren, aber beachten Sie mögliche Einschränkungen.
+
+2. **Do Not Track (DNT):**
+   - DNT ist eine Browsereinstellung, um Websites mitzuteilen, dass Sie nicht verfolgt werden möchten.
+   - Keine Garantie, dass Websites diese Einstellung respektieren.
+   - Technisch durch Hinzufügen eines Flags im HTTP-Header realisiert.
+   - Mehr Informationen auf https://allaboutdnt.com.
+
+3. **"Private" Fenster:**
+   - Privatmodus in Browsern (auch Inkognito oder Anonym genannt) bietet gewisse Anonymität.
+   - Erzeugt eine neue Sitzung ohne Konfiguration oder Daten aus dem Standardprofil.
+   - Löscht automatisch alle Daten dieser Sitzung beim Schließen des Fensters.
+   - Bietet begrenzten Schutz vor Cookie-Tracking, aber nicht vollständig anonym.
+
+4. **Passwortwahl:**
+   - Tipps zur Auswahl sicherer Passwörter, wie Vermeiden von gängigen Kombinationen und leicht erratbaren Informationen.
+   - Empfehlung: Verwenden Sie einen Passwortmanager wie KeePass oder Bitwarden.
+   - Passwortmanager generieren zufällige, sichere Passwörter für jeden Dienst.
+   - KeePass ist Open-Source, bietet Transparenz und steht für verschiedene Betriebssysteme zur Verfügung.
+   - Bitwarden ermöglicht Cloud-Synchronisation und bietet die Möglichkeit, den eigenen Cloud-Server zu hosten.
+
+5. **Wichtige Anmerkung:**
+   - Die Verwendung eines Passwortmanagers ist besonders wichtig, um sich vor Sicherheitsrisiken zu schützen.
+   - Erstellen Sie für jeden Dienst ein zufälliges Passwort, um maximale Sicherheit zu gewährleisten.

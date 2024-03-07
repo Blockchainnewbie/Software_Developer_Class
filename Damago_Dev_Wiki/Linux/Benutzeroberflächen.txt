@@ -1,0 +1,30 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-07T10:05:24+01:00
+
+====== Benutzeroberflächen ======
+Angelegt Thursday 07 March 2024
+
+1. **Entwicklungsgeschichte von Linux auf dem Desktop:**
+   - Linux galt früher als schwierig für den Desktop, da es an raffinierteren Desktop-Anwendungen und Konfigurationstools fehlte.
+   - Linux konzentrierte sich zunächst auf die Entwicklung von Kommandozeilenanwendungen und ließ komplexe grafische Tools für später.
+
+2. **Entwicklung von Linux-Desktop-Umgebungen:**
+   - Linux-Desktop-Umgebungen sind heute sehr ausgereift und benutzerfreundlich.
+   - Die Befehlszeile wird weiterhin als mächtiges Werkzeug angesehen.
+   - Gnome und KDE sind die beiden großen Desktop-Umgebungen mit unterschiedlichen Ansätzen.
+   - Die Wahl der Desktop-Umgebung ist modular und nicht auf eine bestimmte Distribution beschränkt.
+
+3. **Zugriff auf das Terminal und Präsentationstools:**
+   - Die Interaktion mit einem Linux-System erfolgt entweder über die Befehlszeile oder eine grafische Benutzeroberfläche.
+   - Grafische Terminalemulatoren wie Gnome Terminal oder Konsole ermöglichen den Zugang zur Kommandozeile.
+   - LibreOffice Impress ist das Hauptwerkzeug für Präsentationen unter Linux, empfohlen für das ODP-Format.
+   - Alternativ können LaTeX mit Beamer oder Reveal.js für Code-Präsentationen verwendet werden.
+   - GanttProject oder ProjectLibre sind Alternativen zu Microsoft Project für Projektmanagement.
+
+4. **Wichtige Tastenkombinationen:**
+   - Strg + Alt + F# ermöglicht den Zugang zu virtuellen TTYs, wobei F# für eine Funktionstaste von 1 bis 7 steht.
+
+5. **Abschließende Hinweise:**
+   - Die Linux-Community bietet eine Vielzahl von Werkzeugen und Optionen für unterschiedliche Anforderungen.
+   - Die Auswahl der besten Werkzeuge hängt von Ihren persönlichen Vorlieben und Bedürfnissen ab.

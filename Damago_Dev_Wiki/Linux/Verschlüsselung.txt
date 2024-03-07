@@ -1,0 +1,33 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-07T10:02:22+01:00
+
+====== Verschlüsselung ======
+Angelegt Thursday 07 March 2024
+
+1. **Notwendigkeit der Verschlüsselung:**
+   - Datenübertragung und -speicherung erfordern Schutz vor unbefugtem Zugriff.
+   - Über das Internet übertragene Daten und auf physischen Datenträgern gespeicherte Informationen sind anfällig.
+
+2. **TLS (Transport Layer Security):**
+   - TLS ist ein Sicherheitsprotokoll, das Kryptographie zur Sicherung von Netzwerkverbindungen verwendet.
+   - Der Nachfolger von SSL, TLS, bietet Vertraulichkeit und Authentizität durch symmetrische und Public-Key-Kryptographie.
+   - Überprüfung der Vertrauenswürdigkeit von Websites durch das "Sperren"-Symbol in der Browser-Adressleiste.
+
+3. **HTTPS-Protokoll und TLS:**
+   - TLS wird im HTTPS-Protokoll (HTTP über TLS) verwendet, um sicheren Datentransport über das Internet zu gewährleisten.
+   - Das HTTPS-Zertifikat spielt eine entscheidende Rolle und sollte über das "Sperren"-Symbol überprüft werden.
+
+4. **Datei- und E-Mail-Verschlüsselung mit GnuPG:**
+   - GnuPG (GNU Privacy Guard) ist ein Open-Source-Tool und implementiert den internationalen Standard OpenPGP.
+   - GnuPG ermöglicht das Signieren, Verschlüsseln und Entschlüsseln von Texten, E-Mails, Dateien und mehr.
+   - Verwendung von Public-Key-Kryptographie mit öffentlichem und privatem Schlüsselpaar.
+   - Der öffentliche Schlüssel ist für jeden zugänglich, während der private Schlüssel geheim gehalten wird.
+   - Digitale Signaturen mit dem privaten Schlüssel bieten Authentizität und Integrität.
+   - GnuPG gewährleistet durch kryptographische Hash-Funktionen, dass nach der Signatur keine Änderungen vorgenommen wurden.
+
+5. **Komplexität von GnuPG:**
+   - GnuPG ist ein leistungsstarkes, aber auch komplexes Werkzeug.
+   - Weitere Informationen zur Nutzung finden sich auf der Projekt-Website und im Archlinux-Wiki.
+
+Die Zusammenfassung bietet einen Überblick über die Bedeutung der Verschlüsselung, die Rolle von TLS im Internet, die Verwendung von GnuPG für Datei- und E-Mail-Verschlüsselung sowie Hinweise zur Überprüfung von HTTPS-Zertifikaten.

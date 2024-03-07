@@ -7,80 +7,85 @@ Angelegt Samstag 02 März 2024
 
 ===== Allgemeine Befehle: =====
 
-| Befehl           | Beschreibung                                        | Beispiel                                   |
-|------------------|-----------------------------------------------------|--------------------------------------------|
-| `ls`             | Zeigt den Inhalt des aktuellen Verzeichnisses an    | `ls -l`                                    |
-| `cd`             | Wechselt das Verzeichnis                            | `cd Documents`                             |
-| `pwd`            | Zeigt das aktuelle Arbeitsverzeichnis an            |                                            |
-| `cp`             | Kopiert Dateien oder Verzeichnisse                  | `cp file.txt destination/`                 |
-| `mv`             | Verschiebt oder benennt Dateien                     | `mv oldname.txt newname.txt`               |
-| `rm`             | Löscht Dateien oder Verzeichnisse                   | `rm file.txt`                              |
-| `mkdir`          | Erstellt ein neues Verzeichnis                      | `mkdir new_folder`                         |
-| `rmdir`          | Löscht ein leeres Verzeichnis                       | `rmdir empty_folder`                       |
-| `nano` oder `vi` | Öffnet einen Texteditor zur Bearbeitung von Dateien | `nano filename.txt` oder `vi filename.txt` |
-| `cat`            | Gibt den Inhalt einer Datei aus                     | `cat file.txt`                             |
-| `grep`           | Sucht nach einem Muster in Dateien                  | `grep pattern file.txt`                    |
+| Befehl           | Optionen | Beschreibung                                        | Beispiel                                   |
+|------------------|:---------|-----------------------------------------------------|--------------------------------------------|
+| `mkdir`          |          | Erstellt ein neues Verzeichnis                      | `mkdir new_folder`                         |
+| `cat`            |          | Gibt den Inhalt einer Datei aus                     | `cat file.txt`                             |
+| `cp`             |          | Kopiert Dateien oder Verzeichnisse                  | `cp file.txt destination/`                 |
+| `rm`             |          | Löscht Dateien oder Verzeichnisse                   | `rm file.txt`                              |
+| `rmdir`          |          | Löscht ein leeres Verzeichnis                       | `rmdir empty_folder`                       |
+| `grep`           |          | Sucht nach einem Muster in Dateien                  | `grep pattern file.txt`                    |
+| `mv`             |          | Verschiebt oder benennt Dateien                     | `mv oldname.txt newname.txt`               |
+| `cd`             |          | Wechselt das Verzeichnis                            | `cd Documents`                             |
+| `pwd`            |          | Zeigt das aktuelle Arbeitsverzeichnis an            |                                            |
+| `ls`             |          | Zeigt den Inhalt des aktuellen Verzeichnisses an    | `ls -l`                                    |
+| `nano` oder `vi` |          | Öffnet einen Texteditor zur Bearbeitung von Dateien | `nano filename.txt` oder `vi filename.txt` |
+
 
 ===== Netzwerkanalyse: =====
 
-| Befehl       | Beschreibung                                             | Beispiel                 |
-|--------------|----------------------------------------------------------|--------------------------|
-| `ifconfig`   | Zeigt Netzwerkschnittstelleninformationen an             | `ifconfig`               |
-| `ping`       | Überprüft die Erreichbarkeit eines Netzwerkziels         | `ping example.com`       |
-| `traceroute` | Verfolgt den Pfad von Netzwerkpaketen                    | `traceroute example.com` |
-| `netstat`    | Zeigt Netzwerkverbindungen, Routen und Schnittstellen an | `netstat -an`            |
-| `lsof`       | Zeigt offene Dateien und Prozesse an                     | `lsof /path/to/file`     |
-| `whois`      | Zeigt Informationen zu Domainregistrierungen an          | `whois example.com`      |
+| Befehl       | Optionen | Beschreibung                                             | Beispiel                 |
+|--------------|:---------|----------------------------------------------------------|--------------------------|
+| `traceroute` |          | Verfolgt den Pfad von Netzwerkpaketen                    | `traceroute example.com` |
+| `whois`      |          | Zeigt Informationen zu Domainregistrierungen an          | `whois example.com`      |
+| `ifconfig`   |          | Zeigt Netzwerkschnittstelleninformationen an             | `ifconfig`               |
+| `netstat`    |          | Zeigt Netzwerkverbindungen, Routen und Schnittstellen an | `netstat -an`            |
+| `lsof`       |          | Zeigt offene Dateien und Prozesse an                     | `lsof /path/to/file`     |
+| `ping`       |          | Überprüft die Erreichbarkeit eines Netzwerkziels         | `ping example.com`       |
+
 
 ===== Systeminformation: =====
 
-| Befehl   | Beschreibung                                         | Beispiel   |
-|----------|------------------------------------------------------|------------|
-| `df`     | Zeigt Informationen zu Festplattenplatz und -nutzung | `df -h`    |
-| `free`   | Zeigt den belegten und freien Arbeitsspeicher an     | `free -m`  |
-| `uname`  | Zeigt Informationen zum Betriebssystemkernel an      | `uname -a` |
-| `uptime` | Zeigt die Systemlaufzeit und -auslastung an          | `uptime`   |
+| Befehl   | Optionen | Beschreibung                                         | Beispiel   |
+|----------|:---------|------------------------------------------------------|------------|
+| `free`   |          | Zeigt den belegten und freien Arbeitsspeicher an     | `free -m`  |
+| `uptime` |          | Zeigt die Systemlaufzeit und -auslastung an          | `uptime`   |
+| `df`     |          | Zeigt Informationen zu Festplattenplatz und -nutzung | `df -h`    |
+| `uname`  |          | Zeigt Informationen zum Betriebssystemkernel an      | `uname -a` |
+
 
 ===== Dateiverwaltung: =====
 
-| Befehl  | Beschreibung                                               | Beispiel                                        |
-|---------|------------------------------------------------------------|-------------------------------------------------|
-| `tar`   | Archiviert und entpackt Dateien                            | `tar -cvf archive.tar file1 file2`              |
-| `gzip`  | Komprimiert und dekomprimiert Dateien                      | `gzip file.txt`                                 |
-| `wget`  | Lädt Dateien von der Webadresse herunter                   | `wget http://example.com/file.tar.gz`           |
-| `curl`  | Lädt und sendet Daten über die Befehlszeile                | `curl -O http://example.com/file.txt`           |
-| `scp`   | Kopiert Dateien über eine sichere SSH-Verbindung           | `scp file.txt user@hostname:/remote/directory/` |
-| `rsync` | Synchronisiert Dateien und Verzeichnisse zwischen Systemen | `rsync -av source/ destination/`                |
+| Befehl  | Optionen | Beschreibung                                               | Beispiel                                        |
+|---------|:---------|------------------------------------------------------------|-------------------------------------------------|
+| `tar`   |          | Archiviert und entpackt Dateien                            | `tar -cvf archive.tar file1 file2`              |
+| `gzip`  |          | Komprimiert und dekomprimiert Dateien                      | `gzip file.txt`                                 |
+| `scp`   |          | Kopiert Dateien über eine sichere SSH-Verbindung           | `scp file.txt user@hostname:/remote/directory/` |
+| `wget`  |          | Lädt Dateien von der Webadresse herunter                   | `wget http://example.com/file.tar.gz`           |
+| `curl`  |          | Lädt und sendet Daten über die Befehlszeile                | `curl -O http://example.com/file.txt`           |
+| `rsync` |          | Synchronisiert Dateien und Verzeichnisse zwischen Systemen | `rsync -av source/ destination/`                |
+
 
 ===== Prozessverwaltung: =====
 
-| Befehl | Beschreibung                                               | Beispiel   |
-|--------|------------------------------------------------------------|------------|
-| `ps`   | Zeigt Informationen über laufende Prozesse an              | `ps aux`   |
-| `kill` | Beendet einen laufenden Prozess                            | `kill PID` |
-| `top`  | Zeigt Echtzeitinformationen zu Prozessen und Ressourcen an | `top`      |
-| `htop` | Interaktive Version von `top`                              | `htop`     |
-| `bg`   | Setzt einen Prozess in den Hintergrund                     | `bg`       |
-| `fg`   | Holt einen Prozess in den Vordergrund                      | `fg`       |
-| `jobs` | Zeigt die im Hintergrund laufenden Jobs an                 | `jobs`     |
+| Befehl | Optionen | Beschreibung                                               | Beispiel   |
+|--------|:---------|------------------------------------------------------------|------------|
+| `kill` |          | Beendet einen laufenden Prozess                            | `kill PID` |
+| `fg`   |          | Holt einen Prozess in den Vordergrund                      | `fg`       |
+| `htop` |          | Interaktive Version von `top`                              | `htop`     |
+| `bg`   |          | Setzt einen Prozess in den Hintergrund                     | `bg`       |
+| `jobs` |          | Zeigt die im Hintergrund laufenden Jobs an                 | `jobs`     |
+| `top`  |          | Zeigt Echtzeitinformationen zu Prozessen und Ressourcen an | `top`      |
+| `ps`   |          | Zeigt Informationen über laufende Prozesse an              | `ps aux`   |
+
 
 ===== Sonstige Befehle: =====
 
-| Befehl       | Beschreibung                                         | Beispiel                    |
-|--------------|------------------------------------------------------|-----------------------------|
-| `history`    | Zeigt die Befehlshistorie an                         | `history`                   |
-| `echo`       | Gibt Text auf dem Bildschirm aus                     | `echo "Hello, World!"`      |
-| `date`       | Zeigt das aktuelle Datum und die Uhrzeit an          | `date`                      |
-| `cal`        | Zeigt den Kalender an                                | `cal`                       |
-| `whoami`     | Zeigt den aktuellen Benutzernamen an                 | `whoami`                    |
-| `passwd`     | Ändert das Benutzerpasswort                          | `passwd`                    |
-| `sudo`       | Führt einen Befehl mit Superuser-Rechten aus         | `sudo command`              |
-| `su`         | Wechselt den Benutzerkontext                         | `su username`               |
-| `uname`      | Zeigt Informationen zum Betriebssystemkernel an      | `uname -a`                  |
-| `df`         | Zeigt Informationen zu Festplattenplatz und -nutzung | `df -h`                     |
-| `ln`         | Erstellt Verknüpfungen zu Dateien                    | `ln -s sourcefile linkfile` |
-| `watch`      | Führt einen Befehl in regelmäßigen Intervallen aus   | `watch -n 1 command`        |
-| `journalctl` | Zeigt Systemprotokolle und Logs an                   | `journalctl`                |
-| `chmod`      | Ändert die Dateiberechtigungen                       | `chmod 755 file.txt`        |
-| `chattr`     | Ändert erweiterte Dateieigenschaften                 | `chattr +i file.txt`        |
-| `dd`         | Kopiert und konvertiert Dateien                      | `dd if=inputfile of         |
+| Befehl       | Optionen | Beschreibung                                         | Beispiel                    |
+|--------------|:---------|------------------------------------------------------|-----------------------------|
+| `ln`         |          | Erstellt Verknüpfungen zu Dateien                    | `ln -s sourcefile linkfile` |
+| `watch`      |          | Führt einen Befehl in regelmäßigen Intervallen aus   | `watch -n 1 command`        |
+| `sudo`       |          | Führt einen Befehl mit Superuser-Rechten aus         | `sudo command`              |
+| `echo`       |          | Gibt Text auf dem Bildschirm aus                     | `echo "Hello, World!"`      |
+| `dd`         |          | Kopiert und konvertiert Dateien                      | `dd if=inputfile of         |
+| `su`         |          | Wechselt den Benutzerkontext                         | `su username`               |
+| `date`       |          | Zeigt das aktuelle Datum und die Uhrzeit an          | `date`                      |
+| `whoami`     |          | Zeigt den aktuellen Benutzernamen an                 | `whoami`                    |
+| `cal`        |          | Zeigt den Kalender an                                | `cal`                       |
+| `history`    |          | Zeigt die Befehlshistorie an                         | `history`                   |
+| `df`         |          | Zeigt Informationen zu Festplattenplatz und -nutzung | `df -h`                     |
+| `uname`      |          | Zeigt Informationen zum Betriebssystemkernel an      | `uname -a`                  |
+| `journalctl` |          | Zeigt Systemprotokolle und Logs an                   | `journalctl`                |
+| `passwd`     |          | Ändert das Benutzerpasswort                          | `passwd`                    |
+| `chmod`      |          | Ändert die Dateiberechtigungen                       | `chmod 755 file.txt`        |
+| `chattr`     |          | Ändert erweiterte Dateieigenschaften                 | `chattr +i file.txt`        |

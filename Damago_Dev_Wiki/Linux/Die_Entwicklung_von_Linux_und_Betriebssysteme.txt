@@ -1,0 +1,41 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-07T10:12:03+01:00
+
+====== Die Entwicklung von Linux und Betriebssysteme ======
+Angelegt Thursday 07 March 2024
+
+
+
+1. **Ursprung und Entwicklung von Linux:**
+   - Linux wurde 1991 von Linus Torvalds als Unix-ähnliches Betriebssystem entwickelt.
+   - Inspiriert von Unix, das in den 1970er Jahren von AT&T Laboratories entwickelt wurde.
+   - Linux folgt den Grundideen von Unix, ist jedoch ein unabhängiges, von einer internationalen Gemeinschaft getragenes Projekt.
+
+2. **Linux-Distributionen:**
+   - Linux-Distributionen sind Sammlungen von Linux-Kern und Anwendungen, gepflegt von Unternehmen oder Benutzergemeinschaften.
+   - Ziel ist die Optimierung für bestimmte Anwendungsfall oder Benutzergruppe.
+   - Klassifizierung nach Distributionsfamilien, z.B. Debian-Familie (dpkg-Paketmanager), Red Hat-basierte Distributionen (rpm-Paketformat).
+
+3. **Beispiele für Linux-Distributionen:**
+   - Debian GNU/Linux: Gegründet von Ian Murdock, strebt nach Zuverlässigkeit und Freiheiten des Benutzers.
+   - Ubuntu: Gegründet von Mark Shuttleworth, fokussiert auf einfach zu bedienende Linux-Desktop-Umgebung.
+   - Red Hat Enterprise Linux (RHEL): Zuverlässige Enterprise-Lösung, CentOS als frei verfügbare Variante.
+   - Fedora: Fortschrittlich, oft als Testumgebung für neue Technologien für RHEL.
+   - SUSE Linux: Bietet kommerzielle und kostenlose Varianten, mit openSUSE als Testplattform.
+
+4. **Embedded Systeme und Linux:**
+   - Embedded Systeme kombinieren Hardware und Software für spezifische Aufgaben.
+   - Viele Smart Devices nutzen Linux-basierte Betriebssysteme.
+   - Android als mobiles Betriebssystem basiert auf dem Linux-Kernel, ebenso wie Raspbian für den Raspberry Pi.
+
+5. **Android und Raspbian:**
+   - Android von Google, entwickelt für Touchscreen-Geräte, basiert auf modifiziertem Linux-Kernel.
+   - Raspbian ist eine Debian-basierte Linux-Distribution für den Raspberry Pi, der als preiswerter, scheckkartengroßer Computer dient.
+
+6. **Linux in der Cloud:**
+   - Cloud Computing nutzt standardisierte Methoden zur Rechenleistungsnutzung.
+   - Über 90% der Public-Cloud-Arbeitslasten wurden 2017 von Linux-Systemen verarbeitet.
+   - Cloud-Anbieter wie AWS, GCP und Azure bieten Linux-basierte virtuelle Maschinen an.
+
+Diese Zusammenfassung gibt einen Überblick über die Entwicklung von Linux, verschiedene Distributionen, Embedded Systeme und die Rolle von Linux in der Cloud.

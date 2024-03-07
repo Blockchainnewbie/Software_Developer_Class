@@ -1,0 +1,33 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-07T10:05:49+01:00
+
+====== Linux in der Industrie ======
+Angelegt Thursday 07 March 2024
+
+1. **Linux in der Software- und Internetbranche:**
+   - Circa 68% der Webserver laufen unter Unix, hauptsächlich unter Linux.
+   - Die Akzeptanz beruht auf der Freiheit von Linux, sowohl in Bezug auf Kosten   		als auch Meinungsfreiheit.
+   - Linux ist bekannt für seine Stabilität, Flexibilität und Leistung.
+
+2. **Cloud Computing und Linux:**
+   - Ein großer Teil der Linux-Systeme läuft in der Cloud (IaaS, PaaS, SaaS).
+   - IaaS ermöglicht die Ressourcenverteilung über virtuelle Maschinen.
+   - Hypervisor (Virtualisierung) trennt und verwaltet Ressourcen auf der Hostmaschine.
+   - Bekannte Linux-Hypervisoren: Xen, KVM und VirtualBox.
+
+3. **Hypervisor im Detail:**
+   - Xen ist wahrscheinlich der älteste, KVM hat Xen als prominentesten Linux-Hypervisor überholt.
+   - RedHat unterstützt KVM, auch in Cloud-Diensten.
+   - VirtualBox (Oracle) wird von Endbenutzern aufgrund der einfachen Bedienung bevorzugt.
+
+4. **PaaS und SaaS:**
+   - PaaS ermöglicht den Zugriff auf eine Plattform statt einer virtuellen Maschine, um Anwendungen zu deployen.
+   - Heroku ist ein Beispiel für PaaS.
+   - SaaS ermöglicht die Nutzung von Software über Abonnement ohne Wartungsaufwand.
+   - Beispiele für SaaS: Dropbox, Salesforce, meist über einen Webbrowser zugänglich.
+
+5. **OpenStack als Beispiel für IaaS:**
+   - OpenStack ist eine Sammlung von Open-Source-Software für eine komplette IaaS-Cloud-Umgebung.
+   - Nutzt verschiedene Hypervisoren und Tools, um die Leistung von Computer-Clustern zu nutzen.
+   - Der Aufbau einer solchen Infrastruktur ist nicht trivial.
