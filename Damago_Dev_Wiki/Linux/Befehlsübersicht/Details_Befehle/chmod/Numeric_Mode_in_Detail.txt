@@ -1,0 +1,36 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-07T13:49:18+01:00
+
+====== Numeric Mode in Detail ======
+Angelegt Thursday 07 March 2024
+
+1. **Numerischer Modus in oktaler Notation:**
+   - Die Berechtigungen werden als dreistelliger numerischer Wert in oktaler Notation dargestellt.
+
+2. **Berechtigungswerte in der Reihenfolge:**
+   - Jede Berechtigung (Lesen, Schreiben, Ausführen) hat einen entsprechenden Wert.
+   - Lesen (r) entspricht 4, Schreiben (w) entspricht 2, und Ausführen (x) entspricht 1.
+
+3. **Reihenfolge der Werte:**
+   - Die Reihenfolge der Werte ist r (Lesen) - w (Schreiben) - x (Ausführen).
+
+4. **Zuweisung der Werte:**
+   - Der numerische Wert für jede Berechtigung setzt sich aus der Summe der entsprechenden Werte zusammen.
+
+5. **Beispiele:**
+   - Die Berechtigung rwx entspricht 7 (4+2+1).
+   - Die Berechtigung r-x entspricht 5 (4+0+1).
+
+6. **Aufteilung der dreistelligen Werte:**
+   - Die erste Ziffer repräsentiert die Rechte für den Benutzer (u).
+   - Die zweite Ziffer repräsentiert die Rechte für die Gruppe (g).
+   - Die dritte Ziffer repräsentiert die Rechte für andere (o).
+
+7. **Beispiel für Berechtigung 660:**
+   - Um die Rechte für eine Datei auf rw-rw---- zu setzen:
+	 - Benutzer (u): 6 (4+2, Lesen und Schreiben)
+	 - Gruppe (g): 6 (4+2, Lesen und Schreiben)
+	 - Andere (o): 0 (Keine Berechtigung)
+
+Zusammengefasst bedeutet der numerische Modus 660, dass der Benutzer und die Gruppe Lese- und Schreibrechte haben, während andere keine Berechtigungen haben.

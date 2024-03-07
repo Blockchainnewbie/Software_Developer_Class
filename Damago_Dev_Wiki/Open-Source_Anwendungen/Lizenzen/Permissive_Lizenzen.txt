@@ -1,0 +1,27 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-07T13:57:15+01:00
+
+====== Permissive Lizenzen ======
+Angelegt Thursday 07 March 2024
+
+1. **Definition:**
+   - Eine permissive Lizenz, auch bekannt als Freizügigkeitslizenz, ist eine Art von Softwarelizenz, die den Nutzern weitreichende Freiheiten und Rechte einräumt.
+
+2. **Eigenschaften:**
+   - **Große Freiheiten:** Permissive Lizenzen erlauben es, die Software zu verwenden, zu modifizieren, zu verbreiten und sogar proprietäre abgeleitete Werke zu erstellen.
+   - **Wenige Einschränkungen:** Im Vergleich zu restriktiveren Lizenzen wie der GNU General Public License (GPL) legen permissive Lizenzen nur minimale Einschränkungen hinsichtlich der Verwendung und Verteilung fest.
+
+3. **Beispiele für Permissive Lizenzen:**
+   - **MIT-Lizenz:** Eine sehr verbreitete permissive Lizenz, die nur die Beibehaltung des Urheberrechts und der Lizenz in abgeleiteten Arbeiten erfordert.
+   - **BSD-Lizenz:** Eine Familie von Lizenzen, die ebenfalls als permissiv gelten, mit unterschiedlichen Varianten wie der 2-Klausel- oder 3-Klausel-BSD-Lizenz.
+
+4. **Vorteile:**
+   - **Flexibilität für Entwickler:** Entwickler können die Software nach Belieben nutzen und anpassen, ohne ihre eigenen abgeleiteten Arbeiten zu verpflichten, unter derselben offenen Lizenz veröffentlicht zu werden.
+   - **Integration in proprietäre Projekte:** Unternehmen können Software mit permissiven Lizenzen in proprietäre Projekte integrieren, ohne die Gesamtverfügbarkeit des Quellcodes zu beeinträchtigen.
+
+5. **Herausforderungen:**
+   - **Möglicher Missbrauch:** Die Freiheiten, die permissive Lizenzen gewähren, könnten dazu führen, dass Änderungen vorgenommen werden, ohne sie wieder der Community zugänglich zu machen.
+
+6. **Anwendungsbeispiel in der Praxis:**
+   - Wenn du beispielsweise ein Open-Source-Projekt mit einer permissiven Lizenz startest, könnten andere Entwickler die Software nutzen, verbessern und in ihre eigenen Projekte integrieren, ohne ihre gesamten Codebasen offenlegen zu müssen.

@@ -1,0 +1,43 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-07T13:33:06+01:00
+
+====== chmod ======
+Angelegt Thursday 07 March 2024
+
+1. **Grundlegende Nutzung von chmod:**
+   - `chmod [optionen] änderungen dateien`
+   - Ändert die neun Zugriffsbits von Dateien.
+   - Speichert Berechtigungen für Besitzer (user), Gruppenmitglieder (group) und andere Benutzer (others).
+
+2. **Änderung der Zugriffsbits:**
+   - Durch die Zeichenkombination Gruppe (+/-) Zugriffstyp (z.B., `g+w` für Schreibrechte).
+   - Gruppen: u (user), g (group), o (others) oder a (all).
+   - Zugriffstyp: r (read), w (write) oder x (execute).
+
+3. **Setuid-, setgid- und sticky-Bits:**
+   - `setuid` (suid): Programme werden im Kontext des Besitzers (root) ausgeführt.
+   - `setgid`: Programme werden im Kontext der Gruppenzugehörigkeit ausgeführt.
+   - `sticky`: Verhindert das Löschen fremder Dateien in einem Verzeichnis.
+
+4. **Spezialbits setzen:**
+   - `setuid`: `u+s`
+   - `setgid`: `g+s`
+   - `sticky`: `+t`
+   - Zusätzlich müssen x-Bits für Besitzer (`u+x`) und Gruppe (`g+x`) gesetzt sein.
+
+5. **Oktale Schreibweise:**
+   - Statt Buchstaben können Zugriffsrechte mit Oktalzahlen angegeben werden.
+   - Jede Ziffer entspricht u, g oder o und besteht aus den Werten 4, 2 und 1 für r, w und x.
+   - Beispiel: 660 für `rw-rw----`, 777 für `rwxrwxrwx`.
+   - Spezialbits: setuid (4000), setgid (2000), sticky (1000).
+
+6. **Optionen von chmod:**
+   - `-f` bzw. `--silent` bzw. `--quiet`: Unterdrückt Fehlermeldungen.
+   - `-R` bzw. `--recursive`: Verändert Zugriffsrechte rekursiv in Unterverzeichnissen.
+
+7. **Beispiele:**
+   - Datei "sichere" wird für alle ausführbar gemacht: `chmod a+rx sichere`.
+   - Entzug von Lese- und Schreibrechten für alle außerhalb der Gruppe für *.odt-Dateien: `chmod o-rw *.odt`.
+
+Hast du weitere Fragen oder benötigst zusätzliche Erklärungen zu einem bestimmten Punkt?

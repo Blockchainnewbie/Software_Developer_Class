@@ -5,36 +5,3 @@ Creation-Date: 2024-03-05T11:25:48+01:00
 ====== Details Befehle ======
 Angelegt Dienstag 05 März 2024
 
-===== APT-GET =====
-1. **`apt-get update`:**
-   - Aktualisiert die Paketinformationen von den Software-Quellen. Dies sollte vor der Installation neuer Pakete durchgeführt werden.
-
-2. **`apt-get upgrade`:**
-   - Aktualisiert alle installierten Pakete auf die neuesten verfügbaren Versionen.
-
-3. **`apt-get dist-upgrade`:**
-   - Führt eine Distribution-Aktualisierung durch, bei der auch Pakete mit neuen Abhängigkeiten installiert oder entfernt werden können.
-
-4. **`apt-get install [Paketname]`:**
-   - Installiert ein neues Paket auf dem System.
-
-5. **`apt-get remove [Paketname]`:**
-   - Deinstalliert ein installiertes Paket, behält jedoch die Konfigurationsdateien bei.
-
-6. **`apt-get purge [Paketname]`:**
-   - Deinstalliert ein Paket und entfernt auch alle zugehörigen Konfigurationsdateien.
-
-7. **`apt-get autoremove`:**
-   - Entfernt automatisch nicht mehr benötigte Pakete, die als Abhängigkeiten von zuvor deinstallierten Paketen übriggeblieben sind.
-
-8. **`apt-get clean`:**
-   - Löscht den Inhalt des Download-Cache-Verzeichnisses (/var/cache/apt/archives), was Platz auf der Festplatte freigibt.
-
-9. **`apt-get autoclean`:**
-   - Entfernt veraltete Pakete aus dem Download-Cache-Verzeichnis.
-
-10. **`apt-get check`:**
-	- Überprüft die Integrität der Paket-Indexdateien und sucht nach beschädigten Paketen.
-
-11. **`apt-get moo`:**
-	- Zeigt ein unterhaltsames Easter Egg, eine humorvolle Botschaft oder ein Bild.
