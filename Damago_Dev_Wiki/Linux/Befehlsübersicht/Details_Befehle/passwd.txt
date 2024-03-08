@@ -1,0 +1,47 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-07T15:04:48+01:00
+
+====== passwd ======
+Angelegt Thursday 07 March 2024
+
+Der Befehl `passwd` in Linux wird verwendet, um das Passwort eines Benutzers zu ändern.
+
+1. **Grundlegende Verwendung:**
+   - Wenn du einfach nur `passwd` ohne Argumente eingibst und die Eingabetaste drückst, wird das System nach dem aktuellen Passwort für den angemeldeten Benutzer gefragt, gefolgt von der Aufforderung, ein neues Passwort einzugeben.
+
+	 ```bash
+	 passwd
+	 ```
+
+2. **Passwort für anderen Benutzer ändern:**
+   - Wenn du die Berechtigungen dazu hast (normalerweise als Administrator oder mit sudo-Rechten), kannst du auch das Passwort für einen anderen Benutzer ändern, indem du den Benutzernamen als Argument angibst.
+
+	 ```bash
+	 sudo passwd username
+	 ```
+
+3. **Optionen:**
+   - Es gibt verschiedene Optionen, die du mit dem `passwd`-Befehl verwenden kannst, um bestimmte Aktionen durchzuführen:
+	 - `-l`: Sperrt das Passwort eines Benutzers, wodurch er sich nicht mehr anmelden kann.
+	 - `-u`: Entsichert ein gesperrtes Passwort und ermöglicht dem Benutzer die Anmeldung.
+	 - `-d`: Löscht das Passwort eines Benutzers, wodurch dieser sich nur noch mit einem leeren Passwort anmelden kann.
+	 - `-e`: Erzwingt einen Passwortwechsel beim nächsten Anmelden.
+
+	 Zum Beispiel:
+	 ```bash
+	 sudo passwd -l username  # Sperrt das Passwort für den Benutzer
+	 sudo passwd -u username  # Entsichert das gesperrte Passwort
+	 ```
+
+4. **Sicherheitsüberlegungen:**
+   - Bei der Passwortänderung ist es wichtig, starke und sichere Passwörter zu verwenden, um die Sicherheit des Benutzerkontos zu gewährleisten.
+
+5. **Verwendung mit `chage` (Passwortalter ändern):**
+   - Der `passwd`-Befehl ist oft in Kombination mit `chage` zu sehen, um das Passwortalter und andere Passwortrichtlinien zu verwalten.
+
+	 ```bash
+	 sudo chage -d 0 username  # Erzwingt den Passwortwechsel beim nächsten Anmelden
+	 ```
+
+Das sind die grundlegenden Aspekte des `passwd`-Befehls in Linux.

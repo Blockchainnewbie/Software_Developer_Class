@@ -1,0 +1,38 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-07T15:02:37+01:00
+
+====== Links Soft und Hard ======
+Angelegt Thursday 07 March 2024
+
+**Symbolische (Soft) Links:**
+1. **Definition:**
+   - Ein symbolischer Link ist eine Art Verknüpfung auf Dateiebene. Es handelt sich um eine spezielle Datei, die auf eine andere Datei oder ein Verzeichnis verweist.
+
+2. **Eigenschaften:**
+   - Symbolische Links können auf Dateien oder Verzeichnisse in verschiedenen Dateisystemen zeigen.
+   - Sie können auf nicht existierende Ziele zeigen, was zu "kaputten" oder "toten" Links führt.
+   - Die Verwendung von relativen Pfaden ist möglich, was Flexibilität bietet.
+
+3. **Erstellung:**
+   - Du kannst einen symbolischen Link mit dem Befehl `ln -s` erstellen. Zum Beispiel: `ln -s /ursprünglicher/pfad meinSymbolischerLink`
+
+4. **Beispiel:**
+   - Angenommen, du hast eine Datei namens `original.txt`, kannst du einen symbolischen Link erstellen: `ln -s original.txt meinLink.txt`. Jetzt kannst du `meinLink.txt` verwenden, um auf `original.txt` zuzugreifen.
+
+**Hard Links:**
+1. **Definition:**
+   - Ein Hard Link ist eine alternative Referenz zu einer bereits existierenden Datei im Dateisystem. Im Gegensatz zu symbolischen Links ist ein Hard Link keine separate Datei, sondern ein zusätzlicher Verweis auf die bereits vorhandene Datei.
+
+2. **Eigenschaften:**
+   - Hard Links können nur auf Dateien im selben Dateisystem zeigen.
+   - Alle Hard Links zu einer Datei sind gleichberechtigte Zugriffspunkte; es gibt kein "Original" und "Kopien".
+   - Das Löschen einer Datei führt nicht zur sofortigen Entfernung der Daten, solange noch Hard Links darauf zeigen.
+
+3. **Erstellung:**
+   - Hard Links werden mit dem einfachen Befehl `ln` erstellt, ohne den `-s` Schalter. Zum Beispiel: `ln /ursprünglicher/pfad/meineDatei meinHardLink`
+
+4. **Beispiel:**
+   - Angenommen, du hast eine Datei namens `original.txt`, kannst du einen Hard Link erstellen: `ln original.txt meinHardLink.txt`. Beide Dateien verweisen jetzt auf dieselben Daten auf der Festplatte.
+
+Zusammengefasst: Symbolische Links bieten mehr Flexibilität, da sie auf unterschiedliche Dateisysteme zeigen können und auch auf nicht existierende Ziele verweisen können. Hard Links hingegen sind einfach zusätzliche Verweise auf bestehende Daten im selben Dateisystem. Beide haben ihre Verwendungszwecke, und die Wahl zwischen ihnen hängt von den Anforderungen deiner spezifischen Situation ab. Hast du weitere Fragen dazu oder möchtest du mehr über bestimmte Anwendungen wissen?
