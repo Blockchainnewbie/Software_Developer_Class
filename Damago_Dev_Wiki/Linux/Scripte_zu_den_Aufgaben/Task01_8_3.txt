@@ -1,0 +1,50 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-08T11:30:10+01:00
+
+====== Task01 8 3 ======
+Angelegt Friday 08 March 2024
+
+## Debian-Skript mit Kommentaren
+## Dieses Skript aktualisiert das System, installiert die Befehle "figlet" und "cowsay",
+## erstellt Gruppen und fügt Benutzer hinzu.
+
+#!/bin/bash
+
+# Aktualisiert die Paketlisten und das System
+sudo apt update && sudo apt upgrade -y
+
+# Installation der Kommandos "figlet" und "cowsay"
+sudo apt install figlet cowsay -y
+
+# Erstellung von Gruppen mit vorgegebenen Namen
+sudo groupadd IT
+sudo groupadd Personal
+sudo groupadd Finanzen
+sudo groupadd Praktikanten
+
+# Funktion zum Hinzufügen von Benutzern
+function add_users {
+
+  # Gruppenname als Parameter in der Variable $1 gespeichert
+  local group="$1"
+
+  # Schleife zum Erstellen von zwei Benutzern pro Gruppe, der Wert i nimmt dabei entweder 1 oder 2 an
+  for i in {1..2}; do
+
+	# Erstellen eines Benutzers mit Home-Verzeichnis und Zuweisung zur Gruppe
+	useradd -m -G "$group" "user${i}_$group"
+
+	# Passwort-Eingabe für den Benutzer - Achtung nicht mehr sicher!
+	passwd "user${i}_$group"
+  done
+}
+
+# Hinzufügen von Benutzern zu den Gruppen
+add_users IT
+add_users Personal
+add_users Finanzen
+add_users Praktikanten
+
+# Ausgabe einer Nachricht zum Abschluss
+echo "Skript abgeschlossen mit $!!
