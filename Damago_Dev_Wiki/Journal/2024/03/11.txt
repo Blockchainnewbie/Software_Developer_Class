@@ -1,0 +1,22 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-11T08:09:45+01:00
+
+====== Montag 11 Mär 2024 ======
+**Linux Essentials** **Kapitel 2.1**
+
+**Kapitel 2.1**
+
+Grundlagen der Befehlszeile
+Shell-Grundlagen
+Befehlszeilen-Syntax
+Variablen
+Quoting
+
+Befehle:
+Bahs
+Echo
+History
+Umgebungsvariablen PATH
+Export
+type

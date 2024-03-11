@@ -1,0 +1,43 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-11T13:11:54+01:00
+
+====== cat ======
+Angelegt Montag 11 März 2024
+
+1. **Befehlssyntax:**
+   ```bash
+   cat [OPTION]... [FILE]...
+   ```
+
+2. **Beschreibung:**
+   Der `cat`-Befehl steht für "concatenate" und wird hauptsächlich zum Anzeigen, Kombinieren oder Zusammenführen von Inhalten von Dateien verwendet.
+
+3. **Optionen:**
+   - `-A, --show-all`: Zeige alle nicht-druckbaren Zeichen an.
+   - `-b, --number-nonblank`: Nummeriere nur nicht-leere Zeilen.
+   - `-n, --number`: Nummeriere alle Zeilen.
+   - `-s, --squeeze-blank`: Mehrfache aufeinanderfolgende Leerzeilen zu einer einzigen zusammenfassen.
+   - `-E, --show-ends`: Zeige das Ende jeder Zeile an.
+   - `-T, --show-tabs`: Zeige Tabulatoren als `^I` an.
+   - `-v, --show-nonprinting`: Zeige nicht druckbare Zeichen an.
+
+4. **Beispiele:**
+   - **Dateien anzeigen:**
+	 ```bash
+	 cat file.txt
+	 ```
+   - **Dateien kombinieren und ausgeben:**
+	 ```bash
+	 cat file1.txt file2.txt > combined.txt
+	 ```
+
+5. **Verwendung mit Piping:**
+   `cat` kann auch mit Piping verwendet werden, um den Inhalt einer Datei an einen anderen Befehl weiterzuleiten.
+   ```bash
+   cat file.txt | grep "Suchbegriff"
+   ```
+
+6. **Anmerkungen:**
+   - Es ist wichtig zu beachten, dass `cat` dazu neigt, große Dateien auf dem Bildschirm auszugeben. In solchen Fällen ist es sinnvoller, Tools wie `less` zu verwenden.
+

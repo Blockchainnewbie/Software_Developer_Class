@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-11T13:13:45+01:00
+
+====== whereis ======
+Angelegt Montag 11 März 2024
+

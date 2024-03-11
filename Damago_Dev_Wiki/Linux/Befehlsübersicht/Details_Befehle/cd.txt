@@ -1,0 +1,66 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-11T13:12:09+01:00
+
+====== cd ======
+Angelegt Montag 11 März 2024
+
+1. **Befehlsstruktur:**
+   ```bash
+   cd [Option] [Verzeichnis]
+   ```
+
+2. **Beschreibung:**
+   Der `cd`-Befehl steht für "change directory" und wird verwendet, um das aktuelle Arbeitsverzeichnis in der Bash zu ändern.
+
+3. **Optionen:**
+   - `-P`: Setzt den physischen Pfad und löst alle symbolischen Verknüpfungen auf.
+   - `-L`: Setzt den logischen Pfad und folgt symbolischen Verknüpfungen.
+
+4. **Verwendung:**
+   - Ohne Argumente: Wechselt zum Home-Verzeichnis des Benutzers.
+	 ```bash
+	 cd
+	 ```
+
+   - Mit absolutem Pfad: Wechselt direkt zu einem bestimmten Verzeichnis.
+	 ```bash
+	 cd /pfad/zum/verzeichnis
+	 ```
+
+   - Mit relativem Pfad: Wechselt zu einem Verzeichnis relativ zum aktuellen Arbeitsverzeichnis.
+	 ```bash
+	 cd unterverzeichnis
+	 ```
+
+   - Mit Optionen: Ändert das Verhalten des `cd`-Befehls.
+	 ```bash
+	 cd -P /absoluter/pfad
+	 ```
+
+5. **Beispiele:**
+   - Wechsel zum Home-Verzeichnis:
+	 ```bash
+	 cd
+	 ```
+
+   - Wechsel zu einem bestimmten Verzeichnis:
+	 ```bash
+	 cd /pfad/zum/verzeichnis
+	 ```
+
+   - Wechsel zum übergeordneten Verzeichnis:
+	 ```bash
+	 cd ..
+	 ```
+
+   - Wechsel zum vorherigen Verzeichnis (zurück):
+	 ```bash
+	 cd -
+	 ```
+
+6. **Tipps:**
+   - Verwende Tabulatortaste für die automatische Vervollständigung von Verzeichnisnamen.
+   - Nutze `cd ~benutzername` für den direkten Wechsel zum Home-Verzeichnis eines anderen Benutzers.
+
+Falls du weitere Fragen hast oder spezifischere Informationen benötigst, lass es mich einfach wissen!

@@ -1,0 +1,44 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-11T13:14:03+01:00
+
+====== tail ======
+Angelegt Montag 11 März 2024
+
+Der Befehl "tail" in der Bash wird verwendet, um die letzten Zeilen eines Textdokuments oder einer Datei anzuzeigen. Hier ist eine detaillierte Erklärung:
+
+1. **Befehlssyntax:**
+   ```bash
+   tail [Optionen] [Dateiname]
+   ```
+
+2. **Optionen:**
+   - **-n, --lines [Anzahl]:**
+	 Diese Option ermöglicht es, eine bestimmte Anzahl von Zeilen anzuzeigen. Zum Beispiel: `tail -n 10 datei.txt` zeigt die letzten 10 Zeilen der Datei an.
+
+   - **-f, --follow[={nachname|neuigkeiten|anfang=Zeilenzahl}]:**
+	 Mit dieser Option kann "tail" Live-Updates anzeigen, indem es die Ausgabe überwacht. Dies ist besonders nützlich, wenn du eine Logdatei in Echtzeit verfolgen möchtest.
+
+   - **-c, --bytes [Anzahl]:**
+	 Diese Option ermöglicht es, eine bestimmte Anzahl von Bytes anzuzeigen. Beispiel: `tail -c 100 datei.txt` zeigt die letzten 100 Bytes der Datei an.
+
+3. **Beispiele:**
+   - Um die letzten 10 Zeilen einer Datei namens "protokoll.txt" anzuzeigen, würdest du den Befehl verwenden:
+	 ```bash
+	 tail -n 10 protokoll.txt
+	 ```
+
+   - Um Live-Updates für eine Logdatei namens "app.log" anzuzeigen, würdest du Folgendes verwenden:
+	 ```bash
+	 tail -f app.log
+	 ```
+
+   - Wenn du die letzten 200 Bytes einer Datei namens "daten.bin" sehen möchtest, verwende:
+	 ```bash
+	 tail -c 200 daten.bin
+	 ```
+
+4. **Zusätzliche Informationen:**
+   - Beachte, dass "tail" standardmäßig die letzten 10 Zeilen einer Datei anzeigt, wenn keine Anzahl angegeben ist.
+
+   - Du kannst auch mehrere Dateinamen an "tail" übergeben, um die letzten Zeilen mehrerer Dateien anzuzeigen.

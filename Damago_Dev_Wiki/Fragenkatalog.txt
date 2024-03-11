@@ -1,0 +1,129 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-11T13:55:47+01:00
+
+====== Fragenkatalog ======
+Angelegt Montag 11 März 2024
+
+**FRAGE 1**
+**Was sind die Unterschiede zwischen Festplattenlaufwerken und Solid State Disks? (Wählen Sie zwei.)**
+
+A. __Festplatten haben einen Motor und bewegliche Teile, Solid State Disks nicht.__
+B. Festplatten können infolge physischer Schäden ausfallen, Solid State Disks hingegen nicht.
+C. Solid-State-Disks können ein Vielfaches der Datenmenge von Festplattenlaufwerken speichern.
+D. /dev/sda ist ein Festplattengerät, während /dev/ssda eine Solid State Disk ist.
+E. __Solid-State-Disks bieten einen schnelleren Zugriff auf gespeicherte Daten als Festplatten.__
+
+--------------------
+
+**FRAGE 2**
+**Reverse DNS ordnet Hostnamen IP-Adressen zu. Wie wird der Name der IP-Adresse 198.51.100.165 auf einem DNS-Server gespeichert?**
+
+A. Im A-Eintrag für 165.100.51.198.ipv4.arpa.
+B. __Im PTR-Eintrag für 165.100.51.198.in-addr.arpa.__
+C. Im RNAME-Eintrag für 198-51-100-165.rev.arpa.
+D. Im ARPA-Eintrag für 165.100.51.198.rev.
+E. Im REV-Eintrag für arpa.in-addr.198.51.100.165.
+
+--------------------
+
+**FRAGE 3**
+**Welcher der folgenden Bustypen kann Festplattenlaufwerke mit dem Motherboard verbinden?**
+
+A. Der RAM-Bus
+B. Der NUMA-Bus
+C. Der CPU-Bus
+D. __Der SATA-Bus__
+E. Der Auto-Bus
+
+--------------------
+
+**FRAGE 4**
+**Die Mitglieder eines Teams haben bereits Erfahrung mit Red Hat Enterprise Linux. Für ein kleines Hobbyprojekt möchte das**
+**möchte das Team einen Linux-Server einrichten, ohne für ein Abonnement zu bezahlen. Welche der folgenden Linux-Distributionen**
+**ermöglicht es den Teammitgliedern, so viel von ihrem Red Hat Enterprise Linux-Wissen wie möglich einzusetzen?**
+
+A. Ubuntu Linux LTS
+B. Raspbian
+C. Debian GNU/Linux
+D. __CentOS__
+E. openSUSE
+
+--------------------
+
+**FRAGE 5**
+**Welche Informationen können von oben angezeigt werden?**
+
+A. Vorhandene Dateien, geordnet nach ihrer Größe.
+B. __Laufende Prozesse, geordnet nach CPU- oder RAM-Verbrauch.__
+C. Benutzerkonten, geordnet nach der Anzahl der Anmeldungen.
+D. Benutzergruppen, geordnet nach der Anzahl der Mitglieder.
+E. Benutzerkonten, geordnet nach der Anzahl der Dateien.
+
+--------------------
+
+**FRAGE 6**
+**Welcher der folgenden Befehle kann verwendet werden, um einen DNS-Namen in eine IP-Adresse aufzulösen?**
+
+A. dnsname
+B. dns
+C. query
+D. __host__
+E. iplookup
+
+--------------------
+
+**FRAGE 7**
+**Welche der folgenden Ausgaben kommen von dem Befehl free?**
+
+{{./pasted_image.png}}
+
+**Antwort E**
+--------------------
+
+**FRAGE 8**
+**Was trifft auf den Befehl dmesg zu? (Wählen Sie zwei.)**
+
+A. Er verfolgt die Ausführung eines Befehls und zeigt jeden Schritt, den das Programm ausführt.
+B. Er sendet Nachrichten an die Befehlszeilen aller aktuellen Benutzersitzungen.
+C. __Er zeigt den Inhalt des Ringpuffers des Linux-Kernels an.__
+D. Er gibt sofort alle neuen Nachrichten aus, die in das Systemjournal geschrieben wurden.
+E. __Möglicherweise werden ältere Informationen nicht angezeigt, weil sie von neueren Informationen überschrieben wurden.__
+
+--------------------
+
+**FRAGE 9**
+**Welche der folgenden Ausgaben könnte von Befehl //last// stammen?**
+
+A. 1 ls
+	2 cat text.txt
+	   3 abmelden
+B. Passwort für Benutzer zuletzt geändert am Sat Mar 31 16:38:57 EST 2018
+C. Letzte Anmeldung: Fri Mar 23 10:56:39 2018 von server.example.com
+D. EXT4-fs (dm-7): eingehängtes Dateisystem mit geordnetem Datenmodus. Opts: (null)
+E. __root tty2 Wed May 17 21:11 - 21:11 (00:00)__
+
+--------------------
+
+**FRAGE 10**
+**Wie lautet die UID des Benutzers root?**
+
+A. 1
+B. -1
+C. 255
+D. 65536
+E. __0__
+
+--------------------
+
+**FRAGE 11**
+**Welche Berechtigungen werden auf eine reguläre Datei angewendet, nachdem die Berechtigungen mit dem Befehl //chmod 654 file.txt// modifiziert wurden?**
+A. drw-r-xr--
+B. d--wxr-x--
+C. wxr-x--x
+D. rwxrw---x
+E. __-rw-r-xr--__
+
+--------------------
+
+

@@ -1,0 +1,39 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-11T12:59:07+01:00
+
+====== Variablen ======
+Angelegt Montag 11 März 2024
+
+1. **Definition von Variablen:**
+   - In der Bash Shell werden Variablen durch Zuweisung erstellt. Zum Beispiel: `name="Max"`
+
+2. **Variablennamen:**
+   - Variablennamen sollten mit einem Buchstaben oder Unterstrich (_) beginnen, gefolgt von Buchstaben, Zahlen oder Unterstrichen.
+   - Beispiel: `age=25`
+
+3. **Variablenwert abrufen:**
+   - Verwende den `$`-Präfix, um auf den Wert einer Variable zuzugreifen. Zum Beispiel: `echo $name`
+
+4. **Variablen anzeigen:**
+   - Nutze `echo` oder `printf`, um den Wert einer Variable auszugeben. Beispiel: `echo "Mein Name ist $name"`
+
+5. **Lesen von Benutzereingaben in eine Variable:**
+   - Verwende `read`, um Benutzereingaben in einer Variable zu speichern. Beispiel: `read -p "Gib deinen Namen ein: " user_name`
+
+6. **Umgebungsvariablen:**
+   - Umgebungsvariablen sind global und können von allen Prozessen genutzt werden. Beispiel: `echo $HOME`
+
+7. **Lokale Variablen:**
+   - Lokale Variablen sind auf eine bestimmte Funktion oder ein Skript begrenzt. Beispiel: `local_var="Nur in dieser Funktion"`
+
+8. **Variablen exportieren:**
+   - Mit dem `export`-Befehl kannst du eine Variable für Kindprozesse verfügbar machen. Beispiel: `export MY_VARIABLE="Wert"`
+
+9. **Leeren von Variablen:**
+   - Verwende `unset`, um den Wert einer Variable zu löschen. Beispiel: `unset my_var`
+
+10. **Verschachtelte Variablen:**
+	- Du kannst Variablen kombinieren, um komplexere Datenstrukturen zu erstellen. Beispiel: `full_name="$first_name $last_name"`
+
+Das sind die Grundlagen zu Variablen in der Bash Shell. 

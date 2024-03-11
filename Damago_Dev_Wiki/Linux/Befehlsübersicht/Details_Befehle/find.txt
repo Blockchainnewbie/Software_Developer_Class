@@ -1,0 +1,62 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-11T13:08:09+01:00
+
+====== find ======
+Angelegt Montag 11 März 2024
+
+Der Befehl `find` in der Bash wird verwendet, um Dateien und Verzeichnisse in einem Verzeichnisbaum zu suchen und entsprechend bestimmten Kriterien zu filtern. Hier ist eine detaillierte Erklärung:
+
+1. **Grundlegende Syntax:**
+   ```bash
+   find [STARTVERZEICHNIS] [OPTIONEN] [FILTER]
+   ```
+
+2. **Beispiel:**
+   ```bash
+   find /pfad/zum/verzeichnis -name "*.txt" -print
+   ```
+
+   Hier wird nach allen Dateien mit der Endung ".txt" im angegebenen Verzeichnis gesucht, und die Ergebnisse werden auf dem Bildschirm ausgegeben.
+
+3. **Optionen:**
+   - `-name PATTERN`: Filtert nach Dateinamen, die dem angegebenen Muster entsprechen.
+   - `-type TYPE`: Filtert nach Dateityp (z. B. `f` für reguläre Dateien, `d` für Verzeichnisse).
+   - `-exec COMMAND {} \;`: Führt eine Aktion für jedes gefundene Element aus.
+
+4. **Kombination von Bedingungen:**
+   ```bash
+   find /pfad -name "*.txt" -o -name "*.pdf"
+   ```
+
+   Sucht nach Dateien mit der Endung ".txt" oder ".pdf".
+
+5. **Nach Zeitstempel suchen:**
+   ```bash
+   find /pfad -mtime -7
+   ```
+
+   Findet Dateien, die in den letzten 7 Tagen geändert wurden.
+
+6. **Nach Größe suchen:**
+   ```bash
+   find /pfad -size +10M
+   ```
+
+   Findet Dateien, die größer als 10 Megabyte sind.
+
+7. **In Unterverzeichnissen suchen:**
+   ```bash
+   find /pfad -type d -name "unterverzeichnis"
+   ```
+
+   Sucht nach einem Verzeichnis mit einem bestimmten Namen.
+
+8. **Verknüpfung von Bedingungen:**
+   ```bash
+   find /pfad -name "*.txt" -exec grep -i "suchbegriff" {} \;
+   ```
+
+   Sucht nach Dateien mit der Endung ".txt" und führt dann einen `grep` auf jeden Treffer aus.
+
+Ich hoffe, das hilft dir bei der Nutzung des `find`-Befehls in der Bash. Wenn du weitere Fragen hast oder spezifischere Informationen benötigst, lass es mich einfach wissen!

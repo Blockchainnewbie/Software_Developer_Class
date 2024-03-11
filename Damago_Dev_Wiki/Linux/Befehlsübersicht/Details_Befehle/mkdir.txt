@@ -1,0 +1,28 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-11T13:12:42+01:00
+
+====== mkdir ======
+Angelegt Montag 11 März 2024
+
+Der Befehl "mkdir" in der Bash wird verwendet, um Verzeichnisse (auch als Ordner bezeichnet) zu erstellen. Hier ist eine detaillierte Erklärung:
+
+1. **Befehl:** `mkdir`
+   - Dieser Befehl steht für "make directory" (Verzeichnis erstellen).
+
+2. **Syntax:**
+   - `mkdir [Optionen] Verzeichnisname`
+
+3. **Optionen:**
+   - `-p`: Erlaubt das Erstellen von verschachtelten Verzeichnissen. Falls das übergeordnete Verzeichnis nicht existiert, wird es automatisch erstellt.
+
+4. **Beispiel:**
+   - `mkdir NeuesVerzeichnis`
+	 - Dieser Befehl erstellt ein Verzeichnis mit dem Namen "NeuesVerzeichnis" im aktuellen Arbeitsverzeichnis.
+
+   - `mkdir -p Eltern/Kind1/Kind2`
+	 - Hier wird ein verschachteltes Verzeichnis erstellt. Falls "Eltern" nicht existiert, wird es zusammen mit "Kind1" und "Kind2" erstellt.
+
+5. **Hinweise:**
+   - Stelle sicher, dass du die erforderlichen Berechtigungen hast, um Verzeichnisse im gewählten Zielort zu erstellen.
+   - Vermeide Sonderzeichen und Leerzeichen im Verzeichnisnamen, oder verwende Anführungszeichen, um sie zu umschließen.

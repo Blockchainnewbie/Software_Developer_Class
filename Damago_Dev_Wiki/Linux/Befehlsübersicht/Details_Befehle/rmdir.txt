@@ -1,0 +1,28 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-11T13:13:22+01:00
+
+====== rmdir ======
+Angelegt Montag 11 März 2024
+
+1. **Befehl:** `rmdir`
+   
+2. **Verwendung:**
+   ```bash
+   rmdir [Optionen] Verzeichnis
+   ```
+
+3. **Optionen:**
+   - `-p` oder `--parents`: Löscht auch übergeordnete Verzeichnisse, wenn sie leer sind.
+   - `--ignore-fail-on-non-empty`: Ignoriert den Fehler, falls das Verzeichnis nicht leer ist und löscht es trotzdem.
+
+4. **Beispiel:**
+   ```bash
+   rmdir -p /pfad/zum/leeres_verzeichnis
+   ```
+
+5. **Beschreibung:**
+   Der Befehl "rmdir" löscht leere Verzeichnisse. Wenn das Verzeichnis nicht leer ist, schlägt der Befehl fehl, es sei denn, die Option `-p` wird verwendet, um auch übergeordnete Verzeichnisse zu löschen. Beachte, dass "rmdir" keine Dateien löscht, nur leere Verzeichnisse.
+
+6. **Tipp:**
+   Stelle sicher, dass du vorsichtig bist, wenn du "rmdir" verwendest, da es Verzeichnisse ohne Rückfrage löscht. Wenn du sicherstellen möchtest, dass auch nicht leere Verzeichnisse gelöscht werden, verwende den Befehl `rm -r` mit Vorsicht.

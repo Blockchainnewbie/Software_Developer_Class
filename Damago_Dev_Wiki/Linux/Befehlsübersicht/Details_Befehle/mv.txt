@@ -1,0 +1,42 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-11T13:12:33+01:00
+
+====== mv ======
+Angelegt Montag 11 März 2024
+
+Der Befehl "mv" in der Bash steht für "move" und wird verwendet, um Dateien oder Verzeichnisse von einem Ort zu einem anderen zu verschieben. Hier ist eine detaillierte Erklärung:
+
+1. **Syntax:**
+   ```bash
+   mv [Optionen] Quelle Ziel
+   ```
+
+2. **Optionen:**
+   - `-i`: Fragt vor dem Überschreiben nach Bestätigung.
+   - `-u`: Verschiebt nur, wenn die Quelldatei neuer ist oder das Ziel nicht existiert.
+   - `-b`: Erstellt eine Sicherungskopie der Zieldatei, wenn diese bereits existiert und überschrieben wird.
+
+3. **Beispiel 1: Datei verschieben:**
+   ```bash
+   mv datei.txt /pfad/zum/zielverzeichnis/
+   ```
+   Dies verschiebt die Datei "datei.txt" in das angegebene Zielverzeichnis.
+
+4. **Beispiel 2: Datei umbenennen:**
+   ```bash
+   mv alte_datei.txt neue_datei.txt
+   ```
+   Hier wird die Datei "alte_datei.txt" in "neue_datei.txt" umbenannt.
+
+5. **Beispiel 3: Verzeichnis verschieben:**
+   ```bash
+   mv -i verzeichnis1 /pfad/zum/zielverzeichnis/
+   ```
+   Der `-i`-Schalter fragt vor dem Überschreiben von Dateien im Zielverzeichnis nach Bestätigung.
+
+6. **Beispiel 4: Wildcard-Verwendung:**
+   ```bash
+   mv *.txt /pfad/zum/zielverzeichnis/
+   ```
+   Hier werden alle Textdateien im aktuellen Verzeichnis in das Zielverzeichnis verschoben.

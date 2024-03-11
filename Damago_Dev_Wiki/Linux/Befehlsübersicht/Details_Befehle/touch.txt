@@ -1,0 +1,38 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-11T13:12:48+01:00
+
+====== touch ======
+Angelegt Montag 11 März 2024
+
+Der Befehl "touch" in der Bash wird verwendet, um die Zeitstempel von Dateien zu ändern oder neue, leere Dateien zu erstellen. Hier ist eine detaillierte Erklärung:
+
+1. **Dateien erstellen:**
+   ```bash
+   touch Datei.txt
+   ```
+   Dieser Befehl erstellt eine leere Datei namens "Datei.txt" im aktuellen Verzeichnis. Falls die Datei bereits existiert, wird der Zeitstempel aktualisiert.
+
+2. **Mehrere Dateien erstellen:**
+   ```bash
+   touch Datei1.txt Datei2.txt Datei3.txt
+   ```
+   Du kannst auch mehrere Dateien auf einmal erstellen, indem du ihre Namen durch Leerzeichen getrennt angibst.
+
+3. **Zeitstempel aktualisieren:**
+   ```bash
+   touch -c Datei.txt
+   ```
+   Der Schalter "-c" wird verwendet, um die Zeitstempel nur dann zu aktualisieren, wenn die Datei bereits existiert. Falls die Datei nicht existiert, wird keine neue Datei erstellt.
+
+4. **Benutzerdefinierte Zeitstempel setzen:**
+   ```bash
+   touch -t 202203112345.55 Datei.txt
+   ```
+   Hier kannst du einen benutzerdefinierten Zeitstempel im Format "YYYYMMDDhhmm.ss" setzen. In diesem Beispiel wird der Zeitstempel auf den 11. März 2022 um 12:45 Uhr und 55 Sekunden gesetzt.
+
+5. **Rekursives Erstellen:**
+   ```bash
+   touch -r Vorlage.txt Kopie.txt
+   ```
+   Verwende den Schalter "-r", um die Zeitstempel von einer Vorlagendatei auf eine andere Datei zu kopieren.

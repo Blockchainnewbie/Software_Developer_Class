@@ -1,0 +1,39 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-11T12:43:30+01:00
+
+====== wc = wordcopy ======
+Angelegt Montag 11 März 2024
+
+1. **Beschreibung:**
+   - `wc` steht für "word count" und wird verwendet, um Informationen über eine Datei zu geben, einschließlich der Anzahl der Zeilen, Wörter und Bytes.
+
+2. **Syntax:**
+   ```bash
+   wc [Optionen] [Dateiname]
+   ```
+
+3. **Optionen:**
+   - `-l`: Zeigt nur die Anzahl der Zeilen an.
+   - `-w`: Gibt nur die Anzahl der Wörter aus.
+   - `-c`: Zeigt nur die Anzahl der Bytes an.
+   - Weitere Optionen findest du in der manuellen Seite mit dem Befehl `man wc`.
+
+4. **Beispiel:**
+   - Angenommen, du möchtest die Anzahl der Zeilen, Wörter und Bytes in einer Datei namens `beispiel.txt` sehen, dann lautet der Befehl:
+	 ```bash
+	 wc beispiel.txt
+	 ```
+
+5. **Ergebnisinterpretation:**
+   - Das Ergebnis sieht etwa so aus: `12  45  360 beispiel.txt`.
+	 - Die erste Zahl ist die Anzahl der Zeilen.
+	 - Die zweite Zahl ist die Anzahl der Wörter.
+	 - Die dritte Zahl ist die Anzahl der Bytes.
+
+6. **Pipeline-Anwendung:**
+   - Du kannst `wc` auch in Kombination mit anderen Befehlen verwenden, indem du die Ausgabe eines Befehls als Eingabe für `wc` verwendest, z. B.:
+	 ```bash
+	 ls -l | wc -l
+	 ```
+	 - Das zählt die Anzahl der Dateien im aktuellen Verzeichnis.

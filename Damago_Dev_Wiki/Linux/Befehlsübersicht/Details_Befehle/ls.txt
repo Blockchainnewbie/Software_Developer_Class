@@ -1,0 +1,45 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-11T13:11:45+01:00
+
+====== ls ======
+Angelegt Montag 11 März 2024
+
+1. **Befehlsstruktur:**
+   ```bash
+   ls [Optionen] [Dateien oder Verzeichnisse]
+   ```
+
+2. **Beschreibung:**
+   Der Befehl "ls" steht für "list" und wird verwendet, um den Inhalt von Verzeichnissen anzuzeigen.
+
+3. **Häufig verwendete Optionen:**
+   - `-l`: Zeigt detaillierte Informationen in Listenform an, einschließlich Berechtigungen, Anzahl der Links, Eigentümer, Gruppe, Dateigröße, Änderungsdatum und Dateiname.
+   - `-a`: Zeigt alle Dateien und Verzeichnisse an, einschließlich versteckter (die mit einem Punkt beginnen).
+   - `-h`: Gibt die Dateigrößen in einer für Menschen lesbaren Form, z.B. KB, MB oder GB, an.
+   - `-t`: Sortiert die Ausgabe nach Änderungszeit.
+   - `-r`: Kehrt die Reihenfolge um und zeigt die Ergebnisse in umgekehrter Reihenfolge an.
+
+4. **Beispiel Verwendung:**
+   - Um den Inhalt des aktuellen Verzeichnisses anzuzeigen:
+	 ```bash
+	 ls
+	 ```
+   - Um alle Dateien und Verzeichnisse mit Details anzuzeigen:
+	 ```bash
+	 ls -l
+	 ```
+   - Um versteckte Dateien einzuschließen:
+	 ```bash
+	 ls -a
+	 ```
+
+5. **Anwendungsbeispiel mit Optionen:**
+   Angenommen, du möchtest alle Dateien im Verzeichnis "Dokumente" nach der Änderungszeit sortiert und in umgekehrter Reihenfolge anzeigen:
+   ```bash
+   ls -lt Documents
+   ```
+
+6. **Zusätzliche Informationen:**
+   - Der "ls"-Befehl ist äußerst vielseitig und kann durch Kombination verschiedener Optionen den gewünschten Output liefern.
+   - Die genannten Optionen können auch kombiniert werden, zum Beispiel `ls -lta`, um alle Dateien und Verzeichnisse mit Details, sortiert nach Änderungszeit, anzuzeigen.

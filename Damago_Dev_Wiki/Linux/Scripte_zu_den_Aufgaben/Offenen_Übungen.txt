@@ -1,0 +1,36 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-11T09:18:36+01:00
+
+====== Offenen Übungen ======
+Angelegt Montag 11 März 2024
+
+**Kaptiel 2.1**
+**Aufgabe 1:**
+ls -l /etc		Befehl = ls
+				Option = -l
+				Argument = /etc
+
+
+ls -l -a 		Befehl = ls 
+				Option = -l -a
+				
+cd /home/user	Befehl = cd
+					Argument = /home/user
+
+**Aufagbe 2:**
+Befehl:
+pwd 		Shell-Builtin
+mv 			Extern
+cd			Shell-Builtin
+cat			Extern
+exit			Shell-Builtin
+
+Aufgabe 3:
+touch "$USER" 	Datei mit dem Usernamen angelegt
+touch 'touch'		Datei //**touch**// erstellt
+
+
+
+
+

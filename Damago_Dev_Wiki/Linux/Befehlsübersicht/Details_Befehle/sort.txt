@@ -1,0 +1,37 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-11T13:14:08+01:00
+
+====== sort ======
+Angelegt Montag 11 März 2024
+
+1. **Befehlssyntax:**
+   ```bash
+   sort [OPTION]... [DATEI]...
+   ```
+
+2. **Beschreibung:**
+   Der `sort`-Befehl wird verwendet, um Zeilen aus einer oder mehreren Dateien zu sortieren und das Ergebnis auf die Standardausgabe auszugeben. Wenn keine Dateien angegeben sind oder der Befehl aus der Standardeingabe liest, wird die sortierte Ausgabe auf die Standardausgabe geschrieben.
+
+3. **Optionen:**
+   - `-r, --reverse`: Kehrt die Sortierreihenfolge um und gibt die Ergebnisse in absteigender Reihenfolge aus.
+   - `-n, --numeric-sort`: Führt eine numerische Sortierung durch, wenn die Zeilen Zahlen enthalten.
+   - `-k, --key=POS1[,POS2]`: Definiert einen Schlüssel für die Sortierung basierend auf den Feldpositionen (POS1, POS2 usw.).
+   - `-t, --field-separator=ZEICHEN`: Legt das Trennzeichen für Felder fest, falls die Standardeinstellung nicht den Anforderungen entspricht.
+   - `-u, --unique`: Filtert wiederholte Zeilen heraus, so dass jede Zeile nur einmal in der Ausgabe erscheint.
+
+4. **Beispielverwendung:**
+   ```bash
+   # Sortiert die Zeilen in der Datei "beispiel.txt" und gibt das Ergebnis aus
+   sort beispiel.txt
+
+   # Sortiert die Zeilen numerisch und in umgekehrter Reihenfolge
+   sort -n -r zahlen.txt
+
+   # Verwendet ein anderes Trennzeichen (Tabulator) und sortiert nach dem zweiten Feld
+   sort -t$'\t' -k2 daten.tsv
+   ```
+
+5. **Praxistipp:**
+   - Achte darauf, dass die Optionen in der richtigen Reihenfolge stehen, um das gewünschte Sortierverhalten zu erreichen.
+   - Experimentiere mit verschiedenen Optionen, um die Ausgabe gemäß deinen Anforderungen anzupassen.

@@ -1,0 +1,46 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-11T13:13:15+01:00
+
+====== rm ======
+Angelegt Montag 11 März 2024
+
+Hier ist eine detaillierte Erklärung des `rm`-Befehls in der Bash:
+
+1. **Beschreibung:**
+   - Der `rm`-Befehl steht für "remove" und wird in der Bash verwendet, um Dateien oder Verzeichnisse zu löschen.
+
+2. **Syntax:**
+   ```bash
+   rm [Optionen] Datei/Verzeichnis
+   ```
+
+3. **Häufig verwendete Optionen:**
+   - `-r` oder `-R`: Rekursives Löschen, wenn es sich um ein Verzeichnis handelt.
+   - `-f`: Erzwingt das Löschen ohne Nachfrage.
+   - `-i`: Fragt vor dem Löschen jeder Datei nach Bestätigung.
+
+4. **Beispiel 1 - Datei löschen:**
+   ```bash
+   rm meineDatei.txt
+   ```
+   Dies löscht die Datei "meineDatei.txt" im aktuellen Verzeichnis.
+
+5. **Beispiel 2 - Verzeichnis löschen (rekursiv):**
+   ```bash
+   rm -r meinVerzeichnis
+   ```
+   Löscht das Verzeichnis "meinVerzeichnis" und alle seine Inhalte.
+
+6. **Beispiel 3 - Erzwingen ohne Nachfrage:**
+   ```bash
+   rm -rf geheimesVerzeichnis
+   ```
+   Löscht das Verzeichnis "geheimesVerzeichnis" und alle Inhalte ohne Nachfrage.
+
+7. **Sicherheitswarnung:**
+   - Sei vorsichtig bei der Verwendung von `rm`, besonders mit `-r` und `-f`, um versehentliche Datenverluste zu vermeiden.
+
+8. **Zusätzliche Hinweise:**
+   - Du kannst mehrere Dateien/Verzeichnisse im selben Befehl angeben.
+   - Das Löschen von Dateien ist irreversibel, also sei sicher, dass du das wirklich möchtest.

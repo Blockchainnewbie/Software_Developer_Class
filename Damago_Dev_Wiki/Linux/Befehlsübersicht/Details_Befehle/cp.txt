@@ -1,0 +1,57 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-11T13:12:20+01:00
+
+====== cp ======
+Angelegt Montag 11 März 2024
+
+1. **Syntax:**
+   ```bash
+   cp [Optionen] Quelldatei/Zielverzeichnis
+   ```
+
+2. **Beispiel ohne Optionen:**
+   ```bash
+   cp datei.txt /pfad/zum/zielverzeichnis/
+   ```
+   Hier wird die Datei "datei.txt" in das Zielverzeichnis kopiert.
+
+3. **Optionen:**
+   - **-r oder -R (rekursiv):**
+	 ```bash
+	 cp -r verzeichnis/ /zielverzeichnis/
+	 ```
+	 Verwendet, wenn du ein Verzeichnis und dessen Inhalte kopieren möchtest.
+
+   - **-i (interaktiv):**
+	 ```bash
+	 cp -i quelle.txt /zielverzeichnis/
+	 ```
+	 Fragt vor dem Kopieren, ob bereits vorhandene Dateien überschrieben werden sollen.
+
+   - **-u (update):**
+	 ```bash
+	 cp -u quelle.txt /zielverzeichnis/
+	 ```
+	 Kopiert nur, wenn die Quelldatei neuer ist oder das Zielverzeichnis nicht vorhanden ist.
+
+   - **-v (verbose):**
+	 ```bash
+	 cp -v datei.txt /zielverzeichnis/
+	 ```
+	 Gibt ausführliche Informationen darüber aus, welche Dateien kopiert werden.
+
+4. **Pfadangaben:**
+   - **Absolute Pfade:**
+	 ```bash
+	 cp /pfad/zur/quelle/datei.txt /zielverzeichnis/
+	 ```
+	 Verwendet den kompletten Pfad zur Quelldatei.
+
+   - **Relative Pfade:**
+	 ```bash
+	 cp ../quelle.txt /zielverzeichnis/
+	 ```
+	 Nutzt relative Pfade, basierend auf dem aktuellen Arbeitsverzeichnis.
+
+Das war eine ausführliche Erklärung des "cp"-Befehls in der Bash. Wenn du weitere Fragen oder spezifische Szenarien hast, lass es mich bitte wissen!

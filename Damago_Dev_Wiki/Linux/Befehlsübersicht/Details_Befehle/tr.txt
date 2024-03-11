@@ -1,0 +1,50 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-11T13:14:19+01:00
+
+====== tr ======
+Angelegt Montag 11 März 2024
+
+Der Befehl "tr" in der Bash steht für "translate" oder "ersetzen". Hier ist eine detaillierte Erklärung:
+
+1. **Syntax:**
+   ```bash
+   tr [Optionen] Set1 [Set2]
+   ```
+
+2. **Optionen:**
+   - `-c`: Komplement von Set1.
+   - `-d`: Löscht Zeichen aus Set1.
+   - `-s`: Ersetzt wiederholte Vorkommen von Zeichen in Set1 durch ein einziges Vorkommen.
+
+3. **Set1 und Set2:**
+   - Diese repräsentieren Mengen von Zeichen oder Zeichenklassen, die übersetzt oder gelöscht werden sollen.
+   - Zeichenklassen können verwendet werden, z. B. [:digit:], [:lower:], [:upper:] usw.
+
+4. **Beispiel 1 - Ersetzen von Zeichen:**
+   ```bash
+   echo "Hello World" | tr 'o' 'x'
+   ```
+   Ergebnis: Hxllx Wxrld
+
+5. **Beispiel 2 - Löschen von Zeichen:**
+   ```bash
+   echo "Hello 123" | tr -d '[:digit:]'
+   ```
+   Ergebnis: Hello
+
+6. **Beispiel 3 - Übersetzen mit Komplement:**
+   ```bash
+   echo "abc123" | tr -c '[:digit:]' '*'
+   ```
+   Ergebnis: ***123
+
+7. **Beispiel 4 - Ersetzen wiederholter Zeichen:**
+   ```bash
+   echo "aaabbbccc" | tr -s 'a'
+   ```
+   Ergebnis: abbbccc
+
+8. **Zusätzliche Informationen:**
+   - Der Befehl "tr" wird oft in Kombination mit anderen Befehlen und in Skripten verwendet, um Text zu manipulieren.
+   - Es ist nützlich für einfache Textoperationen wie Ersetzen, Löschen oder Übersetzen von Zeichen.

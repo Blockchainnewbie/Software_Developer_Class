@@ -1,0 +1,40 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-11T13:12:01+01:00
+
+====== cut ======
+Angelegt Montag 11 März 2024
+
+Der Befehl `cut` in der Bash wird verwendet, um bestimmte Teile von Textzeilen oder Spalten aus einer Datei oder einem Textstrom zu extrahieren. Hier ist eine detaillierte Erklärung:
+
+1. **Syntax:**
+   ```bash
+   cut OPTIONEN DATEI
+   ```
+
+2. **Häufig verwendete Optionen:**
+   - `-c, --characters=LIST`: Extrahiert bestimmte Zeichen nach Angabe in der LISTE.
+   - `-f, --fields=LIST`: Extrahiert bestimmte Felder (Spalten) nach Angabe in der LISTE.
+   - `-d, --delimiter=ZEICHEN`: Legt das Trennzeichen für Felder fest (Standard ist TAB).
+
+3. **Beispiele:**
+   - Extrahiere die ersten zehn Zeichen aus einer Datei:
+	 ```bash
+	 cut -c 1-10 dateiname.txt
+	 ```
+
+   - Extrahiere das dritte Feld (Spalte) aus einer durch Tabulatoren getrennten Datei:
+	 ```bash
+	 cut -f 3 -d $'\t' dateiname.tsv
+	 ```
+
+   - Extrahiere Zeichen 5 bis 15 aus einer Ausgabe von einem Befehl:
+	 ```bash
+	 befehl | cut -c 5-15
+	 ```
+
+4. **Praktischer Tipp:**
+   - Wenn du ein spezifisches Trennzeichen verwendest, gib es mit der Option `-d` an. Zum Beispiel für ein Komma als Trennzeichen:
+	 ```bash
+	 cut -f 2 -d ',' dateiname.csv
+	 ```

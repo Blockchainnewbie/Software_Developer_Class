@@ -1,0 +1,41 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-11T13:13:28+01:00
+
+====== more ======
+Angelegt Montag 11 März 2024
+
+1. **Befehlssyntax:**
+   ```bash
+   more [Optionen] [Dateiname]
+   ```
+
+2. **Funktion:**
+   Der `more`-Befehl wird verwendet, um den Inhalt von Dateien im Terminal anzuzeigen. Es ermöglicht das schrittweise Anzeigen von Text, wodurch du die Ausgabe besser kontrollieren kannst.
+
+3. **Grundlegende Verwendung:**
+   - Um den Inhalt einer Datei anzuzeigen, gib einfach den Befehl `more` gefolgt von dem Dateinamen ein. Zum Beispiel:
+	 ```bash
+	 more dateiname.txt
+	 ```
+
+4. **Navigation:**
+   - Du kannst durch die Anzeige blättern, indem du die Leertaste drückst, um eine Seite vorwärts zu gehen, und die Taste `B` (Großbuchstabe) für eine Seite rückwärts.
+   - Um die Anzeige Zeile für Zeile zu durchlaufen, verwende die Enter-Taste.
+
+5. **Beenden:**
+   - Um den `more`-Befehl zu beenden, drücke die Taste `Q`.
+
+6. **Optionen:**
+   - Du kannst verschiedene Optionen verwenden, um das Verhalten von `more` anzupassen. Hier sind einige nützliche Optionen:
+	 - `-N`: Zeigt die Zeilennummer an.
+	 - `+n`: Startet die Anzeige ab der n-ten Zeile.
+
+7. **Beispiel mit Optionen:**
+   - Um eine Datei mit Zeilennummern anzuzeigen, kannst du den Befehl folgendermaßen verwenden:
+	 ```bash
+	 more -N dateiname.txt
+	 ```
+
+8. **Zusätzlicher Tipp:**
+   - Wenn du große Dateien betrachten möchtest, kann `more` manchmal limitiert sein. In solchen Fällen ist `less` eine erweiterte Alternative mit mehr Funktionen.

@@ -1,0 +1,41 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-11T13:13:36+01:00
+
+====== less ======
+Angelegt Montag 11 März 2024
+
+Der Befehl "less" in der Bash ist ein nützliches Werkzeug zum Anzeigen von Textdateien im Terminal. Hier ist eine detaillierte Erklärung:
+
+1. **Befehlssyntax:**
+   ```bash
+   less [Optionen] Dateiname
+   ```
+
+2. **Funktionalität:**
+   - Der "less"-Befehl ermöglicht das Betrachten von Textdateien im Terminal, wobei du durch den Inhalt blättern kannst.
+  
+3. **Grundlegende Navigation:**
+   - Hoch- und Runterpfeile: Zum Durchblättern des Textinhalts.
+   - Leertaste: Blättert eine Seite vorwärts.
+   - "b": Blättert eine Seite rückwärts.
+   - "q": Beendet den "less"-Viewer und kehrt zur Bash zurück.
+
+4. **Erweiterte Navigation:**
+   - "/Suchbegriff": Sucht nach einem bestimmten Wort oder Ausdruck im Text.
+   - "n": Springt zur nächsten Übereinstimmung der Suche.
+   - "N": Springt zur vorherigen Übereinstimmung der Suche.
+
+5. **Andere nützliche Optionen:**
+   - "-N": Zeigt Zeilennummern an.
+   - "-i": Deaktiviert die Groß-/Kleinschreibung bei Suchanfragen.
+   - "-F": Schaltet zur Normalansicht, wenn die Datei nicht länger als eine Seite ist.
+
+6. **Beispiel:**
+   ```bash
+   less -N meineDatei.txt
+   ```
+   - In diesem Beispiel wird die Datei "meineDatei.txt" im "less"-Viewer mit Zeilennummern angezeigt.
+
+7. **Anmerkung:**
+   - Der "less"-Befehl bietet eine effiziente Möglichkeit, große Textdateien zu durchsuchen, ohne den gesamten Inhalt im Terminal zu laden.

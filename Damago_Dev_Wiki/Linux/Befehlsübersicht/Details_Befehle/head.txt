@@ -1,0 +1,31 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-11T13:13:56+01:00
+
+====== head ======
+Angelegt Montag 11 März 2024
+
+1. **Beschreibung:**
+   Der "head"-Befehl wird verwendet, um die ersten Zeilen eines Textdatei oder Datenstroms auf der Standardausgabe anzuzeigen.
+
+2. **Syntax:**
+   ```bash
+   head [OPTION]... [FILE]...
+   ```
+
+3. **Optionen:**
+   - `-n, --lines=[-]K`: Gibt die ersten K Zeilen der Datei aus. Wenn K positiv ist, zeigt es die ersten K Zeilen an; wenn K negativ ist, zeigt es alle Zeilen außer den letzten K Zeilen an.
+   - `-c, --bytes=[-]K`: Gibt die ersten K Bytes der Datei aus. Auch hier kann K positiv oder negativ sein.
+
+4. **Beispiel:**
+   ```bash
+   head -n 10 example.txt
+   ```
+   Dieser Befehl würde die ersten 10 Zeilen der Datei "example.txt" anzeigen.
+
+5. **Anwendung:**
+   - Nützlich, wenn Sie nur einen schnellen Blick auf die Anfangsdaten einer Datei werfen möchten.
+   - Kombiniert mit anderen Befehlen oder in Skripten, um spezifische Aufgaben zu automatisieren.
+
+6. **Zusätzlicher Tipp:**
+   Wenn keine Datei angegeben ist, liest "head" von der Standardeingabe. Dies ermöglicht eine Rohrleitung (pipe) von anderen Befehlen, um die gewünschten Daten zu extrahieren.
