@@ -126,4 +126,557 @@ E. __-rw-r-xr--__
 
 --------------------
 
+**FRAGE 12**
+**Was trifft auf den Eigentümer einer Datei zu?**
+
+A. __Jede Datei ist im Besitz von genau einem Benutzer und einer Gruppe.__
+B. Der Eigentümer einer Datei hat immer volle Rechte beim Zugriff auf die Datei.
+C. Der Benutzer, der Eigentümer einer Datei ist, muss Mitglied der Gruppe sein, der die Datei gehört.
+D. Wenn ein Benutzer gelöscht wird, verschwinden alle Dateien, deren Eigentümer der Benutzer ist.
+E. Der Eigentümer einer Datei kann nicht mehr geändert werden, sobald sie einem Eigentümer zugewiesen ist.
+
+--------------------
+
+**FRAGE 13**
+**Welche der folgenden Berechtigungen sind für das Verzeichnis /tmp/ festgelegt?**
+
+A. __rwxrwxrwt__
+B -------rwX
+B. rwSrw-rw-
+C. rwxrwS---
+D. r-xr-X--t
+
+--------------------
+
+**FRAGE 14**
+**Welcher Befehl fügt den neuen Benutzer tux hinzu und erstellt das Home-Verzeichnis des Benutzers mit Standardkonfigurationsdateien?**
+
+A. defaultuser tux
+B. __useradd m tux__
+C. usercreate tux
+D. useradd o standard tux
+E. passwd a tux
+
+--------------------
+
+**FRAGE 15**
+**Welche Informationen werden in /etc/passwd gespeichert? (Wählen Sie drei.)**
+
+A. Das Speicherplatzlimit des Benutzers
+B. Die numerische Benutzer-ID
+C. __Den Benutzernamen__
+D. __Das verschlüsselte Passwort__
+E. __Die Standard-Shell des Benutzers__
+
+--------------------
+
+**FRAGE 16**
+**Welche der folgenden tar-Optionen behandelt die Komprimierung? (Wählen Sie zwei.)**
+
+A. -bz
+B. __-z__
+C. -g
+D. __-j__
+E. -z2
+
+--------------------
+
+**FRAGE 17**
+**Welches Schlüsselwort wird in einem Shell-Skript verwendet, um eine Schleife zu beginnen? (Geben Sie nur ein Schlüsselwort an, ohne weitere**
+**Informationen.)**
+
+A. __for__
+
+--------------------
+
+**FRAGE 18**
+**Welcher der folgenden Befehle erstellt eine Archivdatei work.tar aus dem Inhalt des Verzeichnisses **./work/?
+
+A. tar --new work.tar ./work/
+B. __tar cf work.tar ./work/__
+C. tar create work.tgz Inhalt ./work/
+D. tar work.tar < ./work/
+E. tar work > work.tar
+--------------------
+
+**FRAGE 19**
+**Welche der folgenden Tasten kann gedrückt werden, um //less// zu beenden?**
+A. l
+B. x
+C. e
+D. __q__
+E. !
+
+--------------------
+
+**FRAGE 20**
+**Das aktuelle Verzeichnis enthält die folgende Datei:**
+**-rwxr-xr-x 1 root root 859688 Feb 7 08:15 test.sh**
+**Wenn die Datei ein gültiges Shell-Skript ist, wie kann dieses Skript ausgeführt werden? (Wählen Sie zwei.)**
+
+A. test.sh ausführen
+B. ${test.sh}
+C. cmd ./test.sh
+D. __./test.sh__
+E. __bash test.sh__
+
+--------------------
+
+**FRAGE 21**
+**Welcher der folgenden Befehle sortiert die Ausgabe des Befehls export-logs?**
+
+A. export-logs < sort
+B. export-logs > sortieren
+C. export-logs & sort
+D. __export-logs | sort__
+E. export-logs <> sortieren
+
+--------------------
+
+**FRAGE 22**
+**Ein Verzeichnis enthält die folgenden Dateien:**
+{{./pasted_image001.png}}
+
+**Was wäre die Ausgabe des folgenden Shell-Skripts?**
+**for datei in *.txt**
+
+{{./pasted_image002.png}}
+
+A. *.txt
+B. a b
+C. c.cav
+D. a.txt
+E. __a.txt b.txt__
+
+--------------------
+
+**FRAGE 23**
+**Welcher der folgenden Befehle sucht nach der Datei foo.txt im Verzeichnis [[/home?]]**
+
+A. search /home Datei foo.txt
+B. search /home foo.txt
+C. suche /home Datei foo.txt
+D. __suche /home Name foo.txt__
+E. suche /home foo.txt
+
+--------------------
+
+**FRAGE 24**
+**Das aktuelle Verzeichnis enthält die folgende Datei:**
+**-rw-r--r1 root exec 24551 Apr 2 12:36 test.sh**
+
+**Die Datei enthält ein gültiges Shell-Skript, aber die Ausführung dieser Datei mit ./test.sh führt zu diesem Fehler:**
+**bash: ./test.sh: Berechtigung verweigert**
+
+**Was sollte getan werden, um das Skript erfolgreich auszuführen?**
+
+A. Die Dateierweiterung sollte von .sh in .bin geändert werden.
+B. __Das Ausführungsbit sollte in den Dateiberechtigungen gesetzt werden.__
+C. Der Benutzer, der das Skript ausführt, sollte zur exec-Gruppe hinzugefügt werden.
+D. Das SetUID-Bit sollte in den Dateiberechtigungen gesetzt werden.
+E. Das Skript sollte mit #!./test. sh anstelle von ./test.sh ausgeführt werden.
+
+--------------------
+
+**FRAGE 25**
+**Was ist eine Linux-Distribution?**
+
+A. Das Linux-Dateisystem, wie es vom Root-Konto aus gesehen wird, nachdem alle Dateisysteme gemountet wurden.
+B. __Eine Bündelung des Linux-Kernels, der Systemdienstprogramme und anderer Software.__
+C. Der Satz von Regeln, der die Verteilung des Linux-Kernel-Quellcodes regelt.
+D. Ein Betriebssystem, das auf Linux basiert, aber nicht mit dem regulären Linux-Kernel kompatibel ist.
+E. Eine Reihe von Änderungen an Linux, die es Linux ermöglichen, auf einer anderen Prozessorarchitektur zu laufen.
+
+--------------------
+
+**FRAGE 26**
+**Welches Paketverwaltungstool wird in Red Hat-basierten Linux-Systemen verwendet?**
+
+A. portage
+B. __rpm__
+C. apt-get
+D. dpkg
+E. packagectl
+
+--------------------
+
+**FRAGE 27**
+**Welches der folgenden Programme ist ein grafischer Editor für Vektorgrafiken?**
+
+A. Python
+B. NGINX
+C. Samba
+D. __Inkscape__
+E. MySQL
+
+--------------------
+
+**FRAGE 28**
+**Wo ist das Betriebssystem eines Raspberry Pi gespeichert?**
+
+A. Auf dem Master-Gerät, das an den IDE-Bus des Raspberry Pi angeschlossen ist.
+B. Auf einer schreibgeschützten Partition auf der Firmware des Raspberry Pi, neben dem BIOS.
+C. __Auf einer herausnehmbaren SD-Karte, die in den Raspberry Pi gesteckt wird.__
+D. Auf einem Linux-Erweiterungsmodul, das mit den GPIO-Pins des Raspberry Pi verbunden ist.
+E. Auf einem wiederbeschreibbaren Flash-Speicher, der in den Raspberry Pi eingebaut ist.
+
+--------------------
+
+**FRAGE 29**
+**Was wird durch eine Freie-Software-Lizenz definiert?**
+
+A. Einzelheiten der technischen Dokumentation, die jeder Mitwirkende zur Verfügung stellen muss.
+B. Die Programmiersprachen, die zur Erweiterung des lizenzierten Programms verwendet werden dürfen.
+C. Eine vollständige Liste der Bibliotheken, die zum Kompilieren der lizenzierten Software erforderlich sind.
+D. Beschränkungen für die Zwecke, für die die lizenzierte Software verwendet werden darf.
+E. __Bedingungen für das Ändern und Verteilen der lizenzierten Software.__
+
+--------------------
+
+**FRAGE 30**
+**Warum werden Webbrowser-Cookies als gefährlich angesehen?**
+
+A. __Cookies unterstützen die Identifizierung und Verfolgung von Benutzern.__
+B. Cookies sind immer öffentlich und für jeden im Internet zugänglich.
+C. Cookies verbrauchen beträchtliche Mengen an Speicherplatz und können den Festplattenplatz erschöpfen.
+D. Cookies speichern wichtige Daten, die verloren gehen, wenn ein Cookie gelöscht wird.
+E. Cookies können Viren und Schadprogramme enthalten und ausführen.
+
+--------------------
+
+**FRAGE 31**
+**Welche der folgenden Dienste werden typischerweise von Public Cloud-Anbietern angeboten? (Wählen Sie drei.)**
+
+A. __Plattform-as-a-Service (PaaS)__
+B. __Infrastruktur als Dienst (IaaS)__
+C. Internet-as-a-Service (IaaS)
+D. Grafiken als Dienstleistung (GaaS)
+E. __Software als Dienstleistung (SaaS)__
+
+--------------------
+
+**FRAGE 32**
+**Welches der folgenden Zeichen in einer Shell-Eingabeaufforderung zeigt an, dass die Shell mit Root-Rechten ausgeführt wird?**
+
+A. !
+B. __#__
+C. *
+D. &
+E. $
+
+--------------------
+
+**FRAGE 33**
+**Welche der folgenden Befehle werden verwendet, um Informationen über die richtige Verwendung von ls zu erhalten? (Wählen Sie zwei.)**
+
+A. option ls
+B. usage ls
+C. manual ls
+D. __man ls__
+E. __info ls__
+
+--------------------
+
+**FRAGE 34**
+**Was trifft auf eine rekursive Verzeichnisliste zu?**
+
+A. __Sie enthält den Inhalt von Unterverzeichnissen.__
+B. Sie enthält die Berechtigungen des aufgelisteten Verzeichnisses.
+C. Sie enthält Details zu den Interna des Dateisystems, wie z.B. Inodes.
+D. Sie enthält Informationen über die Besitzverhältnisse der Dateien.
+E. Er enthält eine Vorschau des Inhalts jeder Datei im Verzeichnis.
+
+--------------------
+
+**FRAGE 35**
+**Die Ausführung des Befehls rm Downloads führt zu folgendem Fehler:**
+**rm: kann `Downloads/' nicht entfernen: Ist ein Verzeichnis**
+**Welcher der folgenden Befehle kann stattdessen verwendet werden, um Downloads zu entfernen, vorausgesetzt, Downloads ist leer?**
+**(Wählen Sie zwei.)**
+
+A. undir Downloads
+B. **rmdir Downloads**
+C. dir r Downloads
+D. rem Downloads
+E. **rm r Downloads**
+
+--------------------
+
+**FRAGE 36**
+**Welches der folgenden Verzeichnisse enthält Informationen, Dokumentation und Beispielkonfigurationsdateien für installierte Softwarepakete?**
+
+A. __/usr/share/doc/__
+B. /etc/defaults/
+C. /var/info/
+D. /doc/
+E. /usr/examples/
+
+--------------------
+
+**FRAGE 37**
+**Welcher der folgenden Befehle fügt das Verzeichnis /new/dir/ zur Umgebungsvariablen PATH hinzu?**
+
+A. $PATH=/neu/dir: $PATH
+B. PATH=/neu/dir: PATH
+C. export PATH=/neues/verzeichnis: PATH
+D. export $PATH=/neu/verzeichnis: $PATH
+E. __export PATH=/neues/Verzeichnis: $PATH__
+
+--------------------
+
+**FRAGE 38**
+**Ein Benutzer befindet sich derzeit im Verzeichnis /home/user/Downloads/ und führt den Befehl ls ../Documents/**
+**Angenommen, es existiert, welcher Inhalt des Verzeichnisses wird angezeigt?**
+
+A. /home/user/Documents/
+B /home/Benutzer/Dokumente/Downloads/
+C. /home/Benutzer/Downloads/Dokumente/
+D. __/Dokumente/__
+E. /home/Dokumente
+
+--------------------
+
+**FRAGE 39**
+**Ein Verzeichnis enthält die folgenden drei Dateien:**
+**Texte 1.txt**
+**Texte 2.txt**
+**texte 3.csv**
+**Welcher Befehl kopiert die beiden Dateien, die auf .txt enden, in das Verzeichnis [[/tmp/?]]**
+
+A. cp ??.txt /tmp/
+B. __cp *.txt /tmp/__
+C. cp. \.txt /tmp/
+D. cp ?.txt /tmp/
+E. cp $?.txt /tmp/
+
+--------------------
+
+**FRAGE 40**
+**Welches einzelne Zeichen kann bei der Eingabe einer langen Befehlszeile in der Shell verwendet werden, um einen Befehl auf mehrere Zeilen aufzuteilen?**
+**mehrere Zeilen aufzuteilen?**
+
+A. __\__
+
+--------------------
+
+**FRAGE 41**
+**Welcher der folgenden DNS-Eintragstypen enthält eine IP-Adresse? (Wählen Sie zwei.)**
+
+A. NS
+B. AAAA
+C. __MX__
+D. __A__
+E. CNAME
+
+--------------------
+
+**FRAGE 42**
+**Welcher der folgenden Werte könnte eine Prozess-ID unter Linux sein?**
+
+A. /bin/bash
+B. 60b503cd-019e-4300-a7be-922f074ef5ce
+C. /sys/pid/9a14
+D. fff3
+E. __21398__
+
+--------------------
+
+**FRAGE 43**
+**Welches der folgenden Protokolle wird für die automatische IP-Adresskonfiguration verwendet?**
+
+A. NFS
+B. LDAP
+C. SMTP
+D. DNS
+E. __DHCP__
+
+--------------------
+
+**FRAGE 44**
+**Welches der folgenden Geräte stellt eine Festplattenpartition dar?**
+
+A. /dev/ttyS0
+B. /dev/sata0
+C. /dev/part0
+D. __/dev/sda2__
+E. [[/dev/sda/p2]]
+
+--------------------
+
+**FRAGE 45**
+**Welche der folgenden Aussagen zu Linux-Hardwaretreibern ist richtig?**
+
+A. Treiber sind reguläre Linux-Programme, die vom Benutzer, der ein Gerät benutzen möchte, ausgeführt werden müssen.
+B. Treiber werden von Linux nicht verwendet, da das BIOS den gesamten Zugriff auf die Hardware im Namen von Linux abwickelt.
+C. Treiber sind auf den Geräten gespeichert und werden vom Linux-Kernel kopiert, wenn ein neues Gerät angeschlossen wird.
+D. Die Treiber werden aus dem Treiber-Repository des Herstellers heruntergeladen, wenn ein neues Gerät angeschlossen wird.
+E. __Treiber werden entweder in den Linux-Kernel kompiliert oder als Kernelmodule geladen.__
+
+--------------------
+
+**FRAGE 46**
+**Was befindet sich im Verzeichnis **/proc/?
+
+A. Ein Verzeichnis pro installiertem Programm.
+B. Eine Gerätedatei pro Hardwaregerät.
+C. Eine Datei pro bestehendem Benutzerkonto.
+D. __Ein Verzeichnis pro laufendem Prozess.__
+E. Eine Protokolldatei pro laufendem Dienst.
+
+--------------------
+
+**FRAGE 47**
+**Ein neuer Server muss installiert werden, um Dienste für einen Zeitraum von mehreren Jahren zu hosten. Während dieser Zeit soll der**
+**sollte der Server während dieser Zeit wichtige Sicherheitsupdates von seiner Linux-Distribution erhalten. Welche der folgenden Linux**
+**Distributionen erfüllen diese Anforderungen? (Wählen Sie zwei.)**
+
+A. __Ubuntu Linux LTS__
+B. Fedora Linux
+C. Debian GNU/Linux Unstable
+D. Ubuntu Linux nicht-LTS
+E. __Red Hat Enterprise Linux__
+
+--------------------
+
+**FRAGE 48**
+**Welches der folgenden Verzeichnisse muss mit Lese- und Schreibzugriff gemountet werden, wenn es sich auf seinem eigenen dedizierten Dateisystem liegt?**
+
+A. /opt
+B. /lib
+C. /etc
+D. __/var__
+E. /usr
+
+--------------------
+
+**FRAGE 49**
+**Der Eigentümer der Datei doku.odt soll geändert werden. Der neue Eigentümer heißt tux. Welcher Befehl**
+**führt diese Änderung durch?**
+
+A. chmod u=tux doku.odt
+B. newuser doku.odt tux
+C. __chown tux doku.odt__
+D. transfer tux: doku.odt
+E. passwd doku.odt:tux
+
+--------------------
+
+**FRAGE 50**
+**Was geschieht mit einer Datei, die sich außerhalb des Stammverzeichnisses befindet, wenn das Konto des Dateieigentümers gelöscht wird? (Wählen Sie zwei.)**
+
+A. Während einer Dateisystemprüfung wird die Datei nach /lost +found verschoben.
+B. Die Datei wird aus dem Dateisystem entfernt.
+C. __Die UID des früheren Besitzers wird bei der Auflistung der Dateidetails angezeigt.__
+D. Der Benutzer root wird als neuer Eigentümer der Datei festgelegt.
+E. __Die Eigentümerschaft und die Berechtigungen der Datei bleiben unverändert.__
+
+--------------------
+
+**FRAGE 51**
+**Welche Aussagen über das Verzeichnis /etc/skel sind richtig? (Wählen Sie zwei.)**
+
+A. Die persönlichen Benutzereinstellungen von root werden in diesem Verzeichnis gespeichert.
+B. Die Dateien aus dem Verzeichnis werden beim Systemstart in das Heimatverzeichnis des neuen Benutzers kopiert.
+C. __Die Dateien aus dem Verzeichnis werden in das Home-Verzeichnis eines neuen Benutzers kopiert, wenn das Konto erstellt wird.__
+D. __Das Verzeichnis enthält einen Standardsatz von Konfigurationsdateien, die vom Befehl useradd verwendet werden.__
+E. Das Verzeichnis enthält die globalen Einstellungen für das Linux-System.
+
+--------------------
+
+FRAGE 52
+Was trifft auf Links in einem Linux-Dateisystem zu?
+A. Ein symbolischer Link kann nur auf eine Datei und nicht auf ein Verzeichnis verweisen.
+B. Ein harter Link kann nur auf ein Verzeichnis und niemals auf eine Datei verweisen.
+C. Wenn das Ziel des symbolischen Links verschoben wird, wird der Link automatisch aktualisiert.
+D. __Ein symbolischer Link kann auf eine Datei in einem anderen Dateisystem verweisen.__
+E. Nur der Benutzer root kann harte Links erstellen.
+
+--------------------
+
+**FRAGE 53**
+**Welche Dateien sind die Quelle der Informationen in der folgenden Ausgabe? (Wählen Sie zwei.) uid=1000 (bob) gid=1000**
+**(bob) groups=1000 (bob), 10 (wheel), 150 (wireshark), 989 (docker), 1001 (libvirt)**
+
+A. /etc/id
+B. __/etc/passwd__
+C. __/etc/group__
+D. /home/index
+E. /var/db/users
+
+--------------------
+
+**FRAGE 54**
+**Welche der folgenden Aufgaben kann der Befehl passwd erfüllen? (Wählen Sie zwei.)**
+
+A. Den Benutzernamen eines Benutzers ändern.
+B. Das Passwort eines Benutzers ändern.
+C. __Erstellen Sie ein neues Benutzerkonto.__
+D. __Eine neue Benutzergruppe erstellen.__
+E. Sperren Sie ein Benutzerkonto.
+
+--------------------
+
+**FRAGE 55**
+**Was trifft auf den Befehl su zu?**
+
+A. Es ist die Standardshell des Root-Kontos.
+B. Er kann nur von dem Benutzer root verwendet werden.
+C. Sie führt eine Shell oder einen Befehl als ein anderer Benutzer aus.
+D. Er ändert den Namen des Hauptadministratorkontos.
+E. Er sperrt das Root-Konto in bestimmten Zeiträumen.
+Richtige Antwort: C
+
+--------------------
+
+**FRAGE 56**
+**Welcher Parameter von ls gibt eine rekursive Auflistung des Inhalts eines Verzeichnisses aus? (Geben Sie NUR den Namen der Option an, ohne**
+**Werte oder Parameter an.)**
+
+A. __ls -R__
+
+--------------------
+
+**FRAGE 57**
+**Die meisten Befehle unter Linux können Informationen über ihre Verwendung anzeigen. Wie können diese Informationen typischerweise angezeigt werden?**
+
+A. Durch Ausführen des Befehls mit der Option /? oder /??.
+B. Durch Ausführen des Befehls mit der Option ?! oder ?=!.
+C. Durch Ausführen des Befehls mit der Option /doc oder /documentation.
+D. Durch Ausführen des Befehls mit der Option -h oder --help.
+E. __Durch Ausführen des Befehls mit der Option -m oder --manpage.__
+
+--------------------
+
+**FRAGE 58**
+**Welcher der folgenden Befehle zeigt den absoluten Pfad zum aktuellen Arbeitsverzeichnis an?**
+
+A. who
+B. cd ..
+C. __pwd__
+D. ls -l
+E. cd ~/home
+
+--------------------
+
+**FRAGE 59**
+**Welcher der folgenden Befehle gibt den Inhalt der Datei "Texte 2.txt" aus? (Wählen Sie zwei.)**
+
+A. __cat 'Texte 2.txt'__
+B. __cat Texte 2.txt__
+C. cat |Texte 2.txt|
+D. cat 'Texts\ 2.txt'
+E. cat Texts\ 2.txt
+
+--------------------
+
+**FRAGE 60**
+**Welcher Befehl zeigt nur Dateinamen und keine zusätzlichen Informationen an?**
+
+A. __ls -a__
+B. ls -lh
+C. ls -l
+D. ls -alh
+E. ls -nl
+
+
 
