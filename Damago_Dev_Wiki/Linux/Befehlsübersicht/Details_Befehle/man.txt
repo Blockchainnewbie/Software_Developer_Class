@@ -1,0 +1,34 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-12T08:32:22+01:00
+
+====== man ======
+Angelegt Dienstag 12 März 2024
+
+1. **Befehlsname:**
+   - `man` - Dieser Befehl steht für "manual" und wird verwendet, um die Handbuchseiten für andere Befehle anzuzeigen.
+
+2. **Syntax:**
+   - `man [OPTION]... [COMMAND]...` - Hier kannst du den Befehl angeben, dessen Handbuch du lesen möchtest.
+
+{{./pasted_image.png}}
+{{./pasted_image001.png}}
+3. **Funktionalität:**
+   - Der "man"-Befehl dient dazu, detaillierte Informationen und Dokumentation zu verschiedenen Befehlen auf deinem Debian-System anzuzeigen.
+
+4. **Optionen:**
+   - `-k, --apropos`: Sucht nach Befehlen, die zu einem bestimmten Stichwort passen.
+   - `-f, --whatis`: Gibt eine kurze Beschreibung des Befehls aus.
+   - `-h, --help`: Zeigt die Hilfe für den "man"-Befehl selbst an.
+   - `-C, --config-file=CONFIG_FILE`: Legt die Konfigurationsdatei für den "man"-Befehl fest.
+
+5. **Verwendung:**
+   - Beispiel: `man ls` - Zeigt die Handbuchseite für den Befehl "ls" an.
+   - Beispiel: `man -k keyword` - Sucht nach Befehlen, die das angegebene Stichwort enthalten.
+
+6. **Interaktive Navigation:**
+   - Verwende die Pfeiltasten, um durch die Handbuchseiten zu scrollen.
+   - Drücke die Taste "q", um das Handbuch zu verlassen und zur Bash zurückzukehren.
+
+7. **Hinweis:**
+   - Die Handbuchseiten enthalten umfassende Informationen zu den Befehlen, einschließlich ihrer Optionen, Verwendung und Beispiele.

@@ -1,0 +1,36 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-12T08:48:15+01:00
+
+====== info ======
+Angelegt Dienstag 12 März 2024
+
+Die "info" Seiten in der Debian Bash sind eine nützliche Ressource für detaillierte Informationen zu verschiedenen Befehlen und Programmen. Hier ist eine umfassende Erklärung:
+
+1. **Zugriff auf die Info Seiten:**
+   - Um die Info Seiten zu öffnen, verwende den Befehl `info` gefolgt vom Thema, z.B. `info ls` für Informationen zum Befehl "ls".
+
+2. **Navigieren in den Info Seiten:**
+   - Du kannst in den Info Seiten navigieren, indem du die Pfeiltasten benutzt. Nach oben und unten bewegst du dich mit den Pfeiltasten, und mit Enter wählst du einen Abschnitt aus.
+
+3. **Hauptabschnitte der Info Seiten:**
+   - Die Info Seiten sind in Hauptabschnitte unterteilt. Typischerweise findest du in Abschnitt 1 die allgemeinen Befehle und in Abschnitt 8 die Systemadministration.
+
+4. **Unterabschnitte und Knoten:**
+   - Innerhalb der Hauptabschnitte gibt es Unterabschnitte und Knoten. Du wechselst zwischen ihnen, indem du die Pfeiltasten benutzt. Ein Abschnitt kann in mehrere Knoten unterteilt sein.
+
+5. **Suche nach Schlüsselwörtern:**
+   - Verwende `/`, um nach Schlüsselwörtern zu suchen. Gib einfach `/` gefolgt von deinem Suchbegriff ein und drücke Enter. Mit `n` kannst du durch die Suchergebnisse navigieren.
+
+6. **Verlassen der Info Seiten:**
+   - Um die Info Seiten zu verlassen, drücke `q`.
+
+7. **Beispiele für Befehle:**
+   - Um beispielsweise Informationen zum Befehl "cp" zu erhalten, verwende `info cp`.
+   - Für allgemeine Informationen zu Befehlen gibt `info coreutils` ein.
+
+8. **Zusätzliche Tipps:**
+   - Die Info Seiten sind oft detaillierter als die man-Seiten. Wenn du umfangreichere Informationen suchst, sind die Info Seiten eine gute Wahl.
+
+9. **Anpassung der Anzeige:**
+   - Du kannst die Anzeige in den Info Seiten anpassen, indem du die Umgebungsvariable `INFOPATH` setzt. Diese legt fest, in welchen Verzeichnissen nach Info-Dokumenten gesucht wird.
