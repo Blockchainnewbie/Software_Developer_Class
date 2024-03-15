@@ -8,11 +8,11 @@ Angelegt Montag 11 März 2024
 **FRAGE 1**
 **Was sind die Unterschiede zwischen Festplattenlaufwerken und Solid State Disks? (Wählen Sie zwei.)**
 
-A. __Festplatten haben einen Motor und bewegliche Teile, Solid State Disks nicht.__
+A. **Festplatten haben einen Motor und bewegliche Teile, Solid State Disks nicht.**
 B. Festplatten können infolge physischer Schäden ausfallen, Solid State Disks hingegen nicht.
 C. Solid-State-Disks können ein Vielfaches der Datenmenge von Festplattenlaufwerken speichern.
 D. /dev/sda ist ein Festplattengerät, während /dev/ssda eine Solid State Disk ist.
-E. __Solid-State-Disks bieten einen schnelleren Zugriff auf gespeicherte Daten als Festplatten.__
+E. **Solid-State-Disks bieten einen schnelleren Zugriff auf gespeicherte Daten als Festplatten.**
 
 --------------------
 
@@ -20,7 +20,7 @@ E. __Solid-State-Disks bieten einen schnelleren Zugriff auf gespeicherte Daten a
 **Reverse DNS ordnet Hostnamen IP-Adressen zu. Wie wird der Name der IP-Adresse 198.51.100.165 auf einem DNS-Server gespeichert?**
 
 A. Im A-Eintrag für 165.100.51.198.ipv4.arpa.
-B. __Im PTR-Eintrag für 165.100.51.198.in-addr.arpa.__
+B. **Im PTR-Eintrag für 165.100.51.198.in-addr.arpa.**
 C. Im RNAME-Eintrag für 198-51-100-165.rev.arpa.
 D. Im ARPA-Eintrag für 165.100.51.198.rev.
 E. Im REV-Eintrag für arpa.in-addr.198.51.100.165.
@@ -33,7 +33,7 @@ E. Im REV-Eintrag für arpa.in-addr.198.51.100.165.
 A. Der RAM-Bus
 B. Der NUMA-Bus
 C. Der CPU-Bus
-D. __Der SATA-Bus__
+D. **Der SATA-Bus**
 E. Der Auto-Bus
 
 --------------------
@@ -46,7 +46,7 @@ E. Der Auto-Bus
 A. Ubuntu Linux LTS
 B. Raspbian
 C. Debian GNU/Linux
-D. __CentOS__
+D. **CentOS**
 E. openSUSE
 
 --------------------
@@ -55,7 +55,7 @@ E. openSUSE
 **Welche Informationen können von oben angezeigt werden?**
 
 A. Vorhandene Dateien, geordnet nach ihrer Größe.
-B. __Laufende Prozesse, geordnet nach CPU- oder RAM-Verbrauch.__
+B. **Laufende Prozesse, geordnet nach CPU- oder RAM-Verbrauch.**
 C. Benutzerkonten, geordnet nach der Anzahl der Anmeldungen.
 D. Benutzergruppen, geordnet nach der Anzahl der Mitglieder.
 E. Benutzerkonten, geordnet nach der Anzahl der Dateien.
@@ -68,7 +68,7 @@ E. Benutzerkonten, geordnet nach der Anzahl der Dateien.
 A. dnsname
 B. dns
 C. query
-D. __host__
+D. **host**
 E. iplookup
 
 --------------------
@@ -86,9 +86,9 @@ E. iplookup
 
 A. Er verfolgt die Ausführung eines Befehls und zeigt jeden Schritt, den das Programm ausführt.
 B. Er sendet Nachrichten an die Befehlszeilen aller aktuellen Benutzersitzungen.
-C. __Er zeigt den Inhalt des Ringpuffers des Linux-Kernels an.__
+C. **Er zeigt den Inhalt des Ringpuffers des Linux-Kernels an.**
 D. Er gibt sofort alle neuen Nachrichten aus, die in das Systemjournal geschrieben wurden.
-E. __Möglicherweise werden ältere Informationen nicht angezeigt, weil sie von neueren Informationen überschrieben wurden.__
+E. **Möglicherweise werden ältere Informationen nicht angezeigt, weil sie von neueren Informationen überschrieben wurden.**
 
 --------------------
 
@@ -101,7 +101,7 @@ A. 1 ls
 B. Passwort für Benutzer zuletzt geändert am Sat Mar 31 16:38:57 EST 2018
 C. Letzte Anmeldung: Fri Mar 23 10:56:39 2018 von server.example.com
 D. EXT4-fs (dm-7): eingehängtes Dateisystem mit geordnetem Datenmodus. Opts: (null)
-E. __root tty2 Wed May 17 21:11 - 21:11 (00:00)__
+E. **root tty2 Wed May 17 21:11 - 21:11 (00:00)**
 
 --------------------
 
@@ -112,7 +112,7 @@ A. 1
 B. -1
 C. 255
 D. 65536
-E. __0__
+E. **0**
 
 --------------------
 
@@ -122,14 +122,14 @@ A. drw-r-xr--
 B. d--wxr-x--
 C. wxr-x--x
 D. rwxrw---x
-E. __-rw-r-xr--__
+E. **-rw-r-xr--**
 
 --------------------
 
 **FRAGE 12**
 **Was trifft auf den Eigentümer einer Datei zu?**
 
-A. __Jede Datei ist im Besitz von genau einem Benutzer und einer Gruppe.__
+A. **Jede Datei ist im Besitz von genau einem Benutzer und einer Gruppe.**
 B. Der Eigentümer einer Datei hat immer volle Rechte beim Zugriff auf die Datei.
 C. Der Benutzer, der Eigentümer einer Datei ist, muss Mitglied der Gruppe sein, der die Datei gehört.
 D. Wenn ein Benutzer gelöscht wird, verschwinden alle Dateien, deren Eigentümer der Benutzer ist.
@@ -140,7 +140,7 @@ E. Der Eigentümer einer Datei kann nicht mehr geändert werden, sobald sie eine
 **FRAGE 13**
 **Welche der folgenden Berechtigungen sind für das Verzeichnis /tmp/ festgelegt?**
 
-A. __rwxrwxrwt__
+A. **rwxrwxrwt**
 B -------rwX
 B. rwSrw-rw-
 C. rwxrwS---
@@ -152,7 +152,7 @@ D. r-xr-X--t
 **Welcher Befehl fügt den neuen Benutzer tux hinzu und erstellt das Home-Verzeichnis des Benutzers mit Standardkonfigurationsdateien?**
 
 A. defaultuser tux
-B. __useradd m tux__
+B. **useradd m tux**
 C. usercreate tux
 D. useradd o standard tux
 E. passwd a tux
@@ -164,9 +164,9 @@ E. passwd a tux
 
 A. Das Speicherplatzlimit des Benutzers
 B. Die numerische Benutzer-ID
-C. __Den Benutzernamen__
-D. __Das verschlüsselte Passwort__
-E. __Die Standard-Shell des Benutzers__
+C. **Den Benutzernamen**
+D. **Das verschlüsselte Passwort**
+E. **Die Standard-Shell des Benutzers**
 
 --------------------
 
@@ -174,9 +174,9 @@ E. __Die Standard-Shell des Benutzers__
 **Welche der folgenden tar-Optionen behandelt die Komprimierung? (Wählen Sie zwei.)**
 
 A. -bz
-B. __-z__
+B. **-z**
 C. -g
-D. __-j__
+D. **-j**
 E. -z2
 
 --------------------
@@ -185,7 +185,7 @@ E. -z2
 **Welches Schlüsselwort wird in einem Shell-Skript verwendet, um eine Schleife zu beginnen? (Geben Sie nur ein Schlüsselwort an, ohne weitere**
 **Informationen.)**
 
-A. __for__
+A. **for**
 
 --------------------
 
@@ -193,7 +193,7 @@ A. __for__
 **Welcher der folgenden Befehle erstellt eine Archivdatei work.tar aus dem Inhalt des Verzeichnisses **./work/?
 
 A. tar --new work.tar ./work/
-B. __tar cf work.tar ./work/__
+B. **tar cf work.tar ./work/**
 C. tar create work.tgz Inhalt ./work/
 D. tar work.tar < ./work/
 E. tar work > work.tar
@@ -204,7 +204,7 @@ E. tar work > work.tar
 A. l
 B. x
 C. e
-D. __q__
+D. **q**
 E. !
 
 --------------------
@@ -217,8 +217,8 @@ E. !
 A. test.sh ausführen
 B. ${test.sh}
 C. cmd ./test.sh
-D. __./test.sh__
-E. __bash test.sh__
+D. **./test.sh**
+E. **bash test.sh**
 
 --------------------
 
@@ -228,7 +228,7 @@ E. __bash test.sh__
 A. export-logs < sort
 B. export-logs > sortieren
 C. export-logs & sort
-D. __export-logs | sort__
+D. **export-logs | sort**
 E. export-logs <> sortieren
 
 --------------------
@@ -246,17 +246,17 @@ A. *.txt
 B. a b
 C. c.cav
 D. a.txt
-E. __a.txt b.txt__
+E. **a.txt b.txt**
 
 --------------------
 
 **FRAGE 23**
-**Welcher der folgenden Befehle sucht nach der Datei foo.txt im Verzeichnis [[/home?]]**
+**Welcher der folgenden Befehle sucht nach der Datei foo.txt im Verzeichnis /home?**
 
 A. search /home Datei foo.txt
 B. search /home foo.txt
 C. suche /home Datei foo.txt
-D. __suche /home Name foo.txt__
+D. **suche /home Name foo.txt**
 E. suche /home foo.txt
 
 --------------------
@@ -271,7 +271,7 @@ E. suche /home foo.txt
 **Was sollte getan werden, um das Skript erfolgreich auszuführen?**
 
 A. Die Dateierweiterung sollte von .sh in .bin geändert werden.
-B. __Das Ausführungsbit sollte in den Dateiberechtigungen gesetzt werden.__
+B. **Das Ausführungsbit sollte in den Dateiberechtigungen gesetzt werden.**
 C. Der Benutzer, der das Skript ausführt, sollte zur exec-Gruppe hinzugefügt werden.
 D. Das SetUID-Bit sollte in den Dateiberechtigungen gesetzt werden.
 E. Das Skript sollte mit #!./test. sh anstelle von ./test.sh ausgeführt werden.
@@ -282,7 +282,7 @@ E. Das Skript sollte mit #!./test. sh anstelle von ./test.sh ausgeführt werden.
 **Was ist eine Linux-Distribution?**
 
 A. Das Linux-Dateisystem, wie es vom Root-Konto aus gesehen wird, nachdem alle Dateisysteme gemountet wurden.
-B. __Eine Bündelung des Linux-Kernels, der Systemdienstprogramme und anderer Software.__
+B. **Eine Bündelung des Linux-Kernels, der Systemdienstprogramme und anderer Software.**
 C. Der Satz von Regeln, der die Verteilung des Linux-Kernel-Quellcodes regelt.
 D. Ein Betriebssystem, das auf Linux basiert, aber nicht mit dem regulären Linux-Kernel kompatibel ist.
 E. Eine Reihe von Änderungen an Linux, die es Linux ermöglichen, auf einer anderen Prozessorarchitektur zu laufen.
@@ -293,7 +293,7 @@ E. Eine Reihe von Änderungen an Linux, die es Linux ermöglichen, auf einer and
 **Welches Paketverwaltungstool wird in Red Hat-basierten Linux-Systemen verwendet?**
 
 A. portage
-B. __rpm__
+B. **rpm**
 C. apt-get
 D. dpkg
 E. packagectl
@@ -306,7 +306,7 @@ E. packagectl
 A. Python
 B. NGINX
 C. Samba
-D. __Inkscape__
+D. **Inkscape**
 E. MySQL
 
 --------------------
@@ -316,7 +316,7 @@ E. MySQL
 
 A. Auf dem Master-Gerät, das an den IDE-Bus des Raspberry Pi angeschlossen ist.
 B. Auf einer schreibgeschützten Partition auf der Firmware des Raspberry Pi, neben dem BIOS.
-C. __Auf einer herausnehmbaren SD-Karte, die in den Raspberry Pi gesteckt wird.__
+C. **Auf einer herausnehmbaren SD-Karte, die in den Raspberry Pi gesteckt wird.**
 D. Auf einem Linux-Erweiterungsmodul, das mit den GPIO-Pins des Raspberry Pi verbunden ist.
 E. Auf einem wiederbeschreibbaren Flash-Speicher, der in den Raspberry Pi eingebaut ist.
 
@@ -329,14 +329,14 @@ A. Einzelheiten der technischen Dokumentation, die jeder Mitwirkende zur Verfüg
 B. Die Programmiersprachen, die zur Erweiterung des lizenzierten Programms verwendet werden dürfen.
 C. Eine vollständige Liste der Bibliotheken, die zum Kompilieren der lizenzierten Software erforderlich sind.
 D. Beschränkungen für die Zwecke, für die die lizenzierte Software verwendet werden darf.
-E. __Bedingungen für das Ändern und Verteilen der lizenzierten Software.__
+E. **Bedingungen für das Ändern und Verteilen der lizenzierten Software.**
 
 --------------------
 
 **FRAGE 30**
 **Warum werden Webbrowser-Cookies als gefährlich angesehen?**
 
-A. __Cookies unterstützen die Identifizierung und Verfolgung von Benutzern.__
+A. **Cookies unterstützen die Identifizierung und Verfolgung von Benutzern.**
 B. Cookies sind immer öffentlich und für jeden im Internet zugänglich.
 C. Cookies verbrauchen beträchtliche Mengen an Speicherplatz und können den Festplattenplatz erschöpfen.
 D. Cookies speichern wichtige Daten, die verloren gehen, wenn ein Cookie gelöscht wird.
@@ -347,11 +347,11 @@ E. Cookies können Viren und Schadprogramme enthalten und ausführen.
 **FRAGE 31**
 **Welche der folgenden Dienste werden typischerweise von Public Cloud-Anbietern angeboten? (Wählen Sie drei.)**
 
-A. __Plattform-as-a-Service (PaaS)__
-B. __Infrastruktur als Dienst (IaaS)__
+A. **Plattform-as-a-Service (PaaS)**
+B. **Infrastruktur als Dienst (IaaS)**
 C. Internet-as-a-Service (IaaS)
 D. Grafiken als Dienstleistung (GaaS)
-E. __Software als Dienstleistung (SaaS)__
+E. **Software als Dienstleistung (SaaS)**
 
 --------------------
 
@@ -359,7 +359,7 @@ E. __Software als Dienstleistung (SaaS)__
 **Welches der folgenden Zeichen in einer Shell-Eingabeaufforderung zeigt an, dass die Shell mit Root-Rechten ausgeführt wird?**
 
 A. !
-B. __#__
+B. **#**
 C. *
 D. &
 E. $
@@ -372,15 +372,15 @@ E. $
 A. option ls
 B. usage ls
 C. manual ls
-D. __man ls__
-E. __info ls__
+D. **man ls**
+E. **info ls**
 
 --------------------
 
 **FRAGE 34**
 **Was trifft auf eine rekursive Verzeichnisliste zu?**
 
-A. __Sie enthält den Inhalt von Unterverzeichnissen.__
+A. **Sie enthält den Inhalt von Unterverzeichnissen.**
 B. Sie enthält die Berechtigungen des aufgelisteten Verzeichnisses.
 C. Sie enthält Details zu den Interna des Dateisystems, wie z.B. Inodes.
 D. Sie enthält Informationen über die Besitzverhältnisse der Dateien.
@@ -405,7 +405,7 @@ E. **rm r Downloads**
 **FRAGE 36**
 **Welches der folgenden Verzeichnisse enthält Informationen, Dokumentation und Beispielkonfigurationsdateien für installierte Softwarepakete?**
 
-A. __/usr/share/doc/__
+A. **/usr/share/doc/**
 B. /etc/defaults/
 C. /var/info/
 D. /doc/
@@ -420,7 +420,7 @@ A. $PATH=/neu/dir: $PATH
 B. PATH=/neu/dir: PATH
 C. export PATH=/neues/verzeichnis: PATH
 D. export $PATH=/neu/verzeichnis: $PATH
-E. __export PATH=/neues/Verzeichnis: $PATH__
+E. **export PATH=/neues/Verzeichnis: $PATH**
 
 --------------------
 
@@ -431,7 +431,7 @@ E. __export PATH=/neues/Verzeichnis: $PATH__
 A. /home/user/Documents/
 B /home/Benutzer/Dokumente/Downloads/
 C. /home/Benutzer/Downloads/Dokumente/
-D. __/Dokumente/__
+D. **/Dokumente/**
 E. /home/Dokumente
 
 --------------------
@@ -441,10 +441,10 @@ E. /home/Dokumente
 **Texte 1.txt**
 **Texte 2.txt**
 **texte 3.csv**
-**Welcher Befehl kopiert die beiden Dateien, die auf .txt enden, in das Verzeichnis [[/tmp/?]]**
+**Welcher Befehl kopiert die beiden Dateien, die auf .txt enden, in das Verzeichnis /tmp/?**
 
 A. cp ??.txt /tmp/
-B. __cp *.txt /tmp/__
+B. **cp *.txt /tmp/**
 C. cp. \.txt /tmp/
 D. cp ?.txt /tmp/
 E. cp $?.txt /tmp/
@@ -455,7 +455,7 @@ E. cp $?.txt /tmp/
 **Welches einzelne Zeichen kann bei der Eingabe einer langen Befehlszeile in der Shell verwendet werden, um einen Befehl auf mehrere Zeilen aufzuteilen?**
 **mehrere Zeilen aufzuteilen?**
 
-A. __\__
+A. **\**
 
 --------------------
 
@@ -464,8 +464,8 @@ A. __\__
 
 A. NS
 B. AAAA
-C. __MX__
-D. __A__
+C. **MX**
+D. **A**
 E. CNAME
 
 --------------------
@@ -477,7 +477,7 @@ A. /bin/bash
 B. 60b503cd-019e-4300-a7be-922f074ef5ce
 C. /sys/pid/9a14
 D. fff3
-E. __21398__
+E. **21398**
 
 --------------------
 
@@ -488,7 +488,7 @@ A. NFS
 B. LDAP
 C. SMTP
 D. DNS
-E. __DHCP__
+E. **DHCP**
 
 --------------------
 
@@ -498,8 +498,8 @@ E. __DHCP__
 A. /dev/ttyS0
 B. /dev/sata0
 C. /dev/part0
-D. __/dev/sda2__
-E. [[/dev/sda/p2]]
+D. **/dev/sda2**
+E. /dev/sda/p2
 
 --------------------
 
@@ -510,7 +510,7 @@ A. Treiber sind reguläre Linux-Programme, die vom Benutzer, der ein Gerät benu
 B. Treiber werden von Linux nicht verwendet, da das BIOS den gesamten Zugriff auf die Hardware im Namen von Linux abwickelt.
 C. Treiber sind auf den Geräten gespeichert und werden vom Linux-Kernel kopiert, wenn ein neues Gerät angeschlossen wird.
 D. Die Treiber werden aus dem Treiber-Repository des Herstellers heruntergeladen, wenn ein neues Gerät angeschlossen wird.
-E. __Treiber werden entweder in den Linux-Kernel kompiliert oder als Kernelmodule geladen.__
+E. **Treiber werden entweder in den Linux-Kernel kompiliert oder als Kernelmodule geladen.**
 
 --------------------
 
@@ -520,7 +520,7 @@ E. __Treiber werden entweder in den Linux-Kernel kompiliert oder als Kernelmodul
 A. Ein Verzeichnis pro installiertem Programm.
 B. Eine Gerätedatei pro Hardwaregerät.
 C. Eine Datei pro bestehendem Benutzerkonto.
-D. __Ein Verzeichnis pro laufendem Prozess.__
+D. **Ein Verzeichnis pro laufendem Prozess.**
 E. Eine Protokolldatei pro laufendem Dienst.
 
 --------------------
@@ -530,11 +530,11 @@ E. Eine Protokolldatei pro laufendem Dienst.
 **sollte der Server während dieser Zeit wichtige Sicherheitsupdates von seiner Linux-Distribution erhalten. Welche der folgenden Linux**
 **Distributionen erfüllen diese Anforderungen? (Wählen Sie zwei.)**
 
-A. __Ubuntu Linux LTS__
+A. **Ubuntu Linux LTS**
 B. Fedora Linux
 C. Debian GNU/Linux Unstable
 D. Ubuntu Linux nicht-LTS
-E. __Red Hat Enterprise Linux__
+E. **Red Hat Enterprise Linux**
 
 --------------------
 
@@ -544,7 +544,7 @@ E. __Red Hat Enterprise Linux__
 A. /opt
 B. /lib
 C. /etc
-D. __/var__
+D. **/var**
 E. /usr
 
 --------------------
@@ -555,7 +555,7 @@ E. /usr
 
 A. chmod u=tux doku.odt
 B. newuser doku.odt tux
-C. __chown tux doku.odt__
+C. **chown tux doku.odt**
 D. transfer tux: doku.odt
 E. passwd doku.odt:tux
 
