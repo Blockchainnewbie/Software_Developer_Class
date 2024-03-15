@@ -1,0 +1,98 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-15T13:46:03+01:00
+
+====== Lektion 1.3-1 ======
+Angelegt Freitag 15 März 2024
+
+**Geführte Übungen**
+
+1. **Wie lauten — in Kurzfrom — die “vier Freiheiten”, wie sie von Richard Stallman und der Free**
+**Software Foundation definiert wurden?**
+
+Freiheit 0 > die Software ausführen
+Freiheit 1 > die Software untersuchen und anpassen (Source Code)
+Freiheit 2 > die Software redistribuieren
+Freiheit 3 > die Sofware verbessern und die Verbesserungen freigeben
+--------------------
+
+2. **Wofür steht die Abkürzung FLOSS?**
+Free/Libre Open Source Software
+--------------------
+
+3. **Sie haben Software entwickelt und möchten sicherstellen, dass die Software selbst, aber auch**
+**alle künftigen darauf aufbauenden Ergebnisse ebenso frei bleiben. Welche Lizenz wählen Sie?**
+CC BY
+GPL v3 > X
+2-Clause BSD License
+LGPL
+--------------------
+
+4. **Welche der folgenden Lizenzen würde man als permissive bezeichnen, welche als Copyleft?**
+Simplified BSD License > permissive
+GPL v3 > Copyleft
+CC BY > permissive
+CC BY-SA > Copyleft
+
+--------------------
+
+5. **Sie haben eine Webapplikation geschrieben und unter einer freien Lizenz veröffentlicht. Wie**
+**können Sie mit Ihrem Produkt Geld verdienen? Nennen Sie drei Möglichkeiten.**
+
+◦ Dual licensing, also das Anbieten einer kostenpflichtigen “Business Edition”
+◦ Anieten von Hosting, Service und Support
+◦ Entwickeln von Erweiterungen für den Kundens
+
+--------------------
+--------------------
+
+**Offene Übungen**
+
+1. **Unter welcher Lizenz (einschließlich Version) stehen die folgenden Anwendungen?**
+**Apache HTTP Server** > Apache License 2.0
+**MySQL Community Server** > GPL 2.0
+**Wikipedia articles (English)** > Creative Commons Attribution Share-Alike license (CC-BY-SA)
+**MozillaGIMP** > Mozilla Public License 2.0
+**Firefox** > LGPL 3
+
+--------------------
+
+
+2. **Sie möchten Ihre Software unter der GNU GPL v3 veröffentlichen. Welche Schritte sollten Sie**
+**beachten?**
+
+◦ Sichern Sie sich bei Bedarf zum Beispiel gegenüber dem Arbeitgeber mit einem Copyright-
+Verzicht ab, dass Sie die Lizenz festlegen können.
+◦ Versehen Sie jede Datei der Software mit einem Copyright-Vermerk.
+◦ Fügen Sie eine Datein namens COPYING mit dem vollständigen Lizenztext zu Ihrer Software
+hinzu.
+◦ Ergänzen Sie einen Hinweis auf die Lizenz in jeder Datei.
+
+--------------------
+
+3. **Sie haben proprietäre Software geschrieben und würden sie gerne mit freier Software unter**
+**der GPL v3 kombinieren. Dürfen Sie das bzw. was müssen Sie beachten?**
+
+Die FAQ der FSF geben hier Auskunft: Sofern Ihre proprietäre Software und die freie Software
+voneinander getrennt bleiben, ist die Kombination möglich. Sie müssen allerdings
+sicherstellen, dass diese Trennung technisch gewährleistet ist und für die Benutzer erkennbar
+ist. Wenn Sie die freie Software so integrieren, dass sie Teil ihres Produkts wird, müssen Sie das
+Produkt nach dem Prinzip des Copyleft ebenfalls unter der GPL veröffentlichen.
+
+--------------------
+
+4. **Warum hat die Free Software Foundation als Ergänzung zur GNU GPL die GNU Affero General**
+**Public License 3 (GNU AGPL) veröffentlicht?**
+
+Die GNU AGPL schließt eine Lizenz-Lücke, die insbesondere bei freier Software entsteht, die
+auf einem Server gehostet wird: Nimmt ein Entwickler Änderungen an der Software vor, ist er
+gemäß der GPL nicht verpflichtet, diese Änderungen zugänglich zu machen, da er zwar den
+Zugriff auf das Programm erlaubt, aber das Programm nicht im GPL-Sinne weitergibt. Die GNU
+AGPL hingegen schreibt vor, dass die Software mit sämtlichen Änderungen zum Download
+angeboten werden muss.
+
+--------------------
+
+5. **Nennen Sie drei Beispiele für freie Software, die auch in einer “Business Edition” angeboten**
+**wird, z.B. als kostenpflichtige Version.**
+MySQL, Zammad, Nextcloud

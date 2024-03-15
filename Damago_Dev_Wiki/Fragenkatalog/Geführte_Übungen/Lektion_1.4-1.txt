@@ -1,0 +1,83 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-15T13:55:11+01:00
+
+====== Lektion 1.4-1 ======
+Angelegt Freitag 15 März 2024
+
+**Geführte Übungen**
+
+1. **Verwenden Sie in Ihrem Browser ein “privates Fenster”, um:**
+
+völlig anonym im Internet zu surfen
+**keine Spuren auf dem Computer zu hinterlassen, den Sie verwenden**
+TLS zu aktivieren, um das Verfolgen von Cookies zu vermeiden
+DNT zu verwenden
+Kryptographie bei der Datenübertragung zunutzen
+
+2. **Was ist OpenStack?**
+
+**Ein Projekt für den Aufbau von privatem IaaS** X
+Ein Projekt für den Aufbau von privatem PaaS
+Ein Projekt für den Aufbau von privatem SaaS
+Ein Hypervisor
+Ein Open-Source-Passwortmanager
+
+3. **Welche der folgenden Optionen sind gültige Festplattenverschlüsselungssoftware?**
+RevealJS, EncFS und dm-crypt
+dm-crypt und KeePass
+EncFS und Bitwarden
+**EncFS und dm-crypt**
+TLS und dm-crypt
+
+4. **Wählen Sie wahr oder falsch für die dm-crypt Geräteverschlüsselung:**
+
+**Dateien werden verschlüsselt, bevor sie auf wahr die Festplatte geschrieben werden >** wahr
+**Das gesamte Dateisystem ist ein verschlüsselter Blob >** wahr
+**Es werden nur Dateien und Verzeichnisseverschlüsselt, nicht Symlinks >** falsch
+**Kein Root-Zugriff erforderlich >** falsch
+**Ist eine Block-Device-Verschlüsselung >** wahr
+
+5. **Beamer ist:**
+
+Ein Verschlüsselungsmechanismus 
+Ein Hypervisor 
+Eine Virtualisierungssoftware 
+Eine OpenStack-Komponente
+**Ein LaTeX-Präsentations-Tool**
+
+**Offene Übungen**
+
+1. Die meisten Distributionen werden standardmäßig mit Firefox installiert (ist das bei Ihnen
+nicht der Fall, müssen Sie Firefox zuerst installieren). Wir werden eine Firefox-Erweiterung
+namens Lightbeam installieren, indem Sie entweder Strg + Shift + A drücken und “Lightbeam” in
+das Suchfeld eingeben, das auf dem geöffneten Tab angezeigt wird, oder indem Sie die
+Erweiterungsseite mit Firefox aufrufen und auf die Schaltfläche “Install” klicken:
+https://addons.mozilla.org/en-US/firefox/addon/lightbeam. Anschließend starten Sie die
+Erweiterung, indem Sie auf das Symbol klicken, und besuchen Sie einige Webseiten auf
+anderen Tabs, um zu sehen, was passiert.
+Erinnern Sie sich an die erwähnten Cookies, die Ihre Daten mit verschiedenen Diensten teilen
+können, wenn Sie eine Website besuchen? Das ist genau das, was Ihnen diese Erweiterung
+anzeigt. Lightbeam ist ein Mozilla-Experiment, das versucht, diese und die Websites Dritter
+offenzulegen, mit denen Sie beim Besuch einer einzelnen URL interagieren. Das ist
+normalerweise für den Benutzer nicht sichtbar und kann zeigen, dass eine einzelne Website
+manchmal mit einem Dutzend oder mehr Diensten interagiert.
+
+2. **Was ist das Wichtigste bei der Verwendung eines Passwortmanagers?**
+Beim Einsatz eines Passwortmanagers ist es am wichtigsten, sich das Master-Passwort zu
+merken und ein einmaliges Zufallspasswort für jeden einzelnen Dienst zu verwenden.
+
+3. **Verwenden Sie Ihren Webbrowser, um https://haveibeenpwned.com/ aufzurufen. Finden Sie**
+**den Zweck der Website heraus und überprüfen Sie, ob Ihre E-Mail-Adresse in einigen**
+**Datenlecks enthalten war.**
+
+Die Website unterhält eine Datenbank mit Login-Informationen, deren Passwörter von einem
+Passwortleck betroffen waren. Sie bietet die Suche nach einer E-Mail-Adresse und zeigt an, ob
+diese E-Mail-Adresse in einer öffentlichen Datenbank mit gestohlenen Anmeldeinformationen
+enthalten war. Es besteht die Möglichkeit, dass auch Ihre E-Mail-Adresse von dem einen oder
+anderen Leck betroffen ist. Wenn dies der Fall ist, stellen Sie sicher, dass Sie Ihre Passwörter
+kürzlich aktualisiert haben. Wenn Sie noch keinen Passwortmanager verwenden, werfen Sie
+einen Blick auf die in dieser Lektion empfohlenen.
+
+
+

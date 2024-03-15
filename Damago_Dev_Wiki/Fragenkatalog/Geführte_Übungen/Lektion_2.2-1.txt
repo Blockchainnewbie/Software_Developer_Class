@@ -1,0 +1,33 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-15T14:41:46+01:00
+
+====== Lektion 2.2-1 ======
+Angelegt Freitag 15 März 2024
+
+{{./pasted_image.png}}
+{{./pasted_image001.png}}
+
+--------------------
+
+2. **Öffnen Sie die Info-Seite von ls und finden Sie das MENU.**
+**◦ Welche Optionen haben Sie?**
+
+▪ Which files are listed (Welche Dateien werden angezeigt)
+▪ What information is listed (Welche Informationen werden angezeigt)
+▪ Sorting the output (Ausgabe sortieren)
+▪ Details about version sort (Details zur Sortierung nach Version)
+▪ General output formatting (Allgemeines Ausgabeformat)
+▪ Formatting file timestamps (Format von Zeitstempeln)
+▪ Formatting the file names (Format von Dateinamen)
+◦ Finden Sie die Option, mit der Sie die Ausgabe nach dem Zeitpunkt der letzten
+Dateiänderung sortieren.
+-t oder --sort=time
+
+--------------------
+
+{{./pasted_image002.png}}
+{{./pasted_image003.png}}
+
+{{./pasted_image004.png}}
+{{./pasted_image005.png}}

@@ -18,9 +18,7 @@ neue Technologien zu verwenden.
 
 --------------------
 
-2. **Welche sind die gängigsten Umgebungen/Plattformen, in denen Linux eingesetzt wird? Nennen**
-**Sie drei verschiedene Umgebungen/Plattformen und nennen Sie eine Distribution, die sich für**
-**alle eignet.**
+2. **Welche sind die gängigsten Umgebungen/Plattformen, in denen Linux eingesetzt wird? Nennen Sie drei verschiedene Umgebungen/Plattformen und nennen Sie eine Distribution, die sich für alle eignet.**
 
 Gängigen Umgebungen/Plattformen sind Smartphone, Desktop und Server. Smartphones
 nutzen Distributionen wie Android. Auf Desktop und Server kommen alle Distributionen zum
@@ -52,3 +50,38 @@ Wiederherstellungslösungen, da es Unternehmen ermöglicht, Vorfälle schneller 
 geringeren Auswirkungen zu beheben. Darüber hinaus reduziert es die Betriebskosten, da es
 ermöglicht, nur für die Ressourcen zu zahlen, die ein Unternehmen in einem
 subskriptionsbasierten Modell verwendet.
+
+--------------------
+--------------------
+
+**Offene Übungen**
+
+1. **Welche Distributionen sind in Bezug auf Kosten und Leistung am besten für ein Unternehmen**
+**geeignet, das darauf abzielt, die Lizenzkosten zu senken und gleichzeitig die Leistung auf dem**
+**höchsten Niveau zu halten? Erklären Sie, warum.**
+
+Eine der am besten geeigneten Distributionen für Unternehmen ist CentOS. Es umfasst alle Red
+Hat-Produkte der kommerziellen Variante des Betriebssystems, steht aber frei zur Verfügung.
+Ebenso garantieren Ubuntu LTS-Releases den Support für einen längeren Zeitraum. Die
+stabilen Versionen von Debian GNU/Linux werden auch häufig in Unternehmensumgebungen
+verwendet.
+
+--------------------
+
+2. **Was sind die Hauptvorteile des Raspberry Pi und welche Funktionen kann er in Unternehmen**
+**erfüllen?**
+
+Raspberry Pi ist klein, arbeitet aber wie ein normaler Computer. Darüber hinaus ist er
+kostengünstig und bewältigt Web-Traffic und viele andere Aufgaben. Er kann als Server,
+Firewall und als Mainboard für Roboter und viele andere kleine Geräte dienen.
+
+--------------------
+
+3. **Welche Distributionen bieten Amazon Cloud Services und Google Cloud an? Nennen Sie**
+**mindestens drei gemeinsame und zwei verschiedene.**
+
+Amazon und Google Cloud Services gemeinsame Dsitributionen sind Ubuntu, CentOS und Red
+Hat Enterprise Linux. Jeder Cloud-Provider bietet auch spezifische Distributionen an, die der
+andere nicht anbietet. Amazon hat Amazon Linux und Kali Linux, während Google etwa
+FreeBSD und Windows Server anbietet.
+

@@ -1,0 +1,69 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-15T14:03:37+01:00
+
+====== Lektion 2.1-1 ======
+Angelegt Freitag 15 März 2024
+
+**Geführte Übungen**
+
+1. **Teilen Sie die folgenden Zeilen in die Bestandteile Befehl, Option(en)/Parameter und**
+**Argument(e) auf:**
+
+◦ ls -l /etc
+Befehl: ls
+Option: -l
+Argument: /etc
+
+◦ ls -l -a
+Befehl: ls
+Option: -l -a
+Argument:
+
+◦ cd /home/user
+Befehl: cd
+Option:
+Argument: /home/user
+
+2. **Bestimmen Sie den Befehlstyp:**
+cd > Shell builtin
+cat > External command
+exit > Shell builtin
+
+3. **Lösen Sie die folgenden Befehle mit Anführungszeichen auf:**
+
+touch "$USER" > tom
+touch 'touch' > Creates a file named touch
+
+**Offene Übungen**
+
+1. **Legen Sie mit einem Befehl und unter Verwendung der Klammer-Erweiterung (Brace**
+**Expansion) in der Bash (siehe Manpage der Bash) 5 von 1 bis 5 nummerierte Dateien mit dem**
+**Präfix game an (game1, game2,...).**
+
+**Bereiche können verwendet werden, um die Zahlen von 1 bis 5 innerhalb eines Befehls**
+**auszudrücken:**
+$ touch game{1..5}
+$ ls
+game1
+ game2
+ game3
+ game4
+ game5
+
+2. **Löschen Sie alle 5 Dateien, die Sie gerade mit nur einem Befehl erstellt haben, unter**
+**Verwendung eines anderen Sonderzeichens (siehe Pathname Expansion in den Man Pages der**
+**Bash).**
+Da alle Dateien mit game beginnen und mit einem einzigen Zeichen enden (in diesem Fall einer
+Zahl von 1 bis 5), kann ? als Sonderzeichen für das letzte Zeichen im Dateinamen verwendet
+werden:
+$ rm game?
+
+3. **Gibt es andere Möglichkeiten, zwei Befehle miteinander interagieren zu lassen? Welche sind**
+**das?**
+
+Ja, ein Befehl könnte z.B. Daten in eine Datei schreiben, die dann von einem anderen Befehl
+verarbeitet wird. Linux kann auch die Ausgabe eines Befehls sammeln und als Eingabe für
+einen anderen Befehl verwenden; das heißt Piping und wird in einer späteren Lektion
+behandelt.
+

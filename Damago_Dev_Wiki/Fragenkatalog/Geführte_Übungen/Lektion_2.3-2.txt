@@ -1,0 +1,40 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-15T14:47:45+01:00
+
+====== Lektion 2.3-2 ======
+Angelegt Freitag 15 März 2024
+
+{{./pasted_image.png}}
+
+{{./pasted_image001.png}}
+{{./pasted_image002.png}}
+
+--------------------
+
+**Offene Übungen**
+
+1. **Führen Sie den Befehl ls -lh in einem Verzeichnis aus, das Unterverzeichnisse enthält.**
+**Beachten Sie die angezeigte Größe dieser Verzeichnisse. Scheint Ihnen die Dateigröße korrekt?**
+**Entspricht sie dem Inhalt aller Dateien in diesem Verzeichnis?**
+
+Nein, das tut sie nicht. Jedes Verzeichnis hat eine angezeigte Größe von 4096 Bytes, da
+Verzeichnisse hier eine Abstraktion sind: Sie existieren nicht als Baumstruktur auf der
+Festplatte. Ist ein Verzeichnis aufgelistet, so ist es ein Link zu einer Liste von Dateien. Die
+Dateigröße solcher Links beträgt 4096 Bytes.
+
+2. **Hier ein neuer Befehl zum Ausprobieren: du -h. Führen Sie diesen Befehl aus und beschreiben**
+**Sie dessen Ausgabe.**
+
+Der Befehl du erzeugt eine Liste aller Dateien und Verzeichnisse und gibt deren jeweilige
+Größe an. du -s zeigt beispielsweise die Dateigröße aller Dateien, Verzeichnisse und
+Unterverzeichnisse für einen bestimmten Ort an.
+
+3. **Auf vielen Linux-Systemen können Sie ll eingeben und erhalten die gleiche Ausgabe wie bei**
+**ls -l. Beachten Sie jedoch, dass ll kein Befehl ist. man ll wird beispielsweise darauf**
+**hinweisen, dass keine entsprechende Manpage existiert. Es ist ein Beispiel für einen Alias.**
+**Inwiefern können Aliase nützlich sein?**
+
+ll ist ein Alias von ls -l. In Bash dienen Aliase dazu, häufig verwendete Befehle zu
+vereinfachen. ll ist unter Linux häufig vordefiniert.
+

@@ -1,0 +1,81 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-15T14:09:06+01:00
+
+====== Lektion 2.1-2 ======
+Angelegt Freitag 15 März 2024
+
+**Geführte Übungen**
+
+1. **Erzeugen Sie die lokale Variable number.**
+$ number=5
+
+--------------------
+
+2. **Erzeugen Sie die Umgebungsvariable ORDER mit Hilfe der beiden oben genannten Methoden.**
+$ export ORDER=desc
+
+--------------------
+
+3. **Lassen Sie sowohl Namen als auch Inhalt der Variablen anzeigen.**
+$ echo number
+number
+$ echo ORDER
+ORDER
+$ echo $number
+5
+$ echo $ORDER
+desc
+
+--------------------
+
+4. **Welche Reichweiten (Scope) haben die zuvor erzeugten Variablen?**
+◦ Der Scope der lokalen Variablen number ist nur die aktuelle Shell.
+◦ Der Scope der Umgebungsvariablen ORDER sind die aktuelle Shell und alle von dieser
+erzeugten Subshells.
+
+--------------------
+--------------------
+
+**Offene Übungen**
+
+1. **Erzeugen Sie eine lokale Variable nr_files und weisen Sie die Anzahl der Zeilen in der Datei**
+**/etc/passwd zu. Hinweis: Schauen Sie sich den Befehl wc und die Befehlsersetzung an und**
+**vergessen Sie nicht die Anführungszeichen.**
+$ nr_files=`wc -l /etc/passwd`
+
+--------------------
+
+2. **Erzeugen Sie eine Umgebungsvariable ME. Weisen Sie USER als Wert zu.**
+$ export ME=$USER
+
+--------------------
+
+3. **Fügen Sie den Wert der Variablen HOME an ME mit dem Trennzeichen : an und zeigen Sie den**
+**Inhalt der Variablen ME an.**
+
+$ ME=$ME:$HOME
+$ echo $ME
+user:/home/user
+
+--------------------
+
+4. **Erstellen Sie unter Verwendung des obigen Datumsbeispiels eine Variable namens today und**
+**weisen Sie das Datum für eine Zeitzone zu.**
+**Im Folgenden werden die Zeitzonen GMT und EST als Beispiele verwendet, aber jede**
+**Zeitzonenauswahl ist gültig.**
+$ today=$(TZ=GMT date)
+$ echo $today
+Thu 31 Jan 15:07:35 GMT 2019
+or
+$ today=$(TZ=EST date)
+$ echo $today
+Thu 31 Jan 10:07:35 EST 2019
+
+--------------------
+
+5. **Erzeugen Sie eine weitere Variable namens today1 und weisen Sie ihr das Systemdatum zu.**
+**Nehmen wir an, Sie befinden sich in GMT:**
+
+$ today1=$(date)
+$ echo $today1

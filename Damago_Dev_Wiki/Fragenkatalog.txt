@@ -566,9 +566,9 @@ E. passwd doku.odt:tux
 
 A. Während einer Dateisystemprüfung wird die Datei nach /lost +found verschoben.
 B. Die Datei wird aus dem Dateisystem entfernt.
-C. __Die UID des früheren Besitzers wird bei der Auflistung der Dateidetails angezeigt.__
+C. **Die UID des früheren Besitzers wird bei der Auflistung der Dateidetails angezeigt.**
 D. Der Benutzer root wird als neuer Eigentümer der Datei festgelegt.
-E. __Die Eigentümerschaft und die Berechtigungen der Datei bleiben unverändert.__
+E. **Die Eigentümerschaft und die Berechtigungen der Datei bleiben unverändert.**
 
 --------------------
 
@@ -577,8 +577,8 @@ E. __Die Eigentümerschaft und die Berechtigungen der Datei bleiben unverändert
 
 A. Die persönlichen Benutzereinstellungen von root werden in diesem Verzeichnis gespeichert.
 B. Die Dateien aus dem Verzeichnis werden beim Systemstart in das Heimatverzeichnis des neuen Benutzers kopiert.
-C. __Die Dateien aus dem Verzeichnis werden in das Home-Verzeichnis eines neuen Benutzers kopiert, wenn das Konto erstellt wird.__
-D. __Das Verzeichnis enthält einen Standardsatz von Konfigurationsdateien, die vom Befehl useradd verwendet werden.__
+C. **Die Dateien aus dem Verzeichnis werden in das Home-Verzeichnis eines neuen Benutzers kopiert, wenn das Konto erstellt wird.**
+D. **Das Verzeichnis enthält einen Standardsatz von Konfigurationsdateien, die vom Befehl useradd verwendet werden.**
 E. Das Verzeichnis enthält die globalen Einstellungen für das Linux-System.
 
 --------------------
@@ -588,7 +588,7 @@ Was trifft auf Links in einem Linux-Dateisystem zu?
 A. Ein symbolischer Link kann nur auf eine Datei und nicht auf ein Verzeichnis verweisen.
 B. Ein harter Link kann nur auf ein Verzeichnis und niemals auf eine Datei verweisen.
 C. Wenn das Ziel des symbolischen Links verschoben wird, wird der Link automatisch aktualisiert.
-D. __Ein symbolischer Link kann auf eine Datei in einem anderen Dateisystem verweisen.__
+D. **Ein symbolischer Link kann auf eine Datei in einem anderen Dateisystem verweisen.**
 E. Nur der Benutzer root kann harte Links erstellen.
 
 --------------------
@@ -598,8 +598,8 @@ E. Nur der Benutzer root kann harte Links erstellen.
 **(bob) groups=1000 (bob), 10 (wheel), 150 (wireshark), 989 (docker), 1001 (libvirt)**
 
 A. /etc/id
-B. __/etc/passwd__
-C. __/etc/group__
+B. **/etc/passwd**
+C. **/etc/group**
 D. /home/index
 E. /var/db/users
 
@@ -610,8 +610,8 @@ E. /var/db/users
 
 A. Den Benutzernamen eines Benutzers ändern.
 B. Das Passwort eines Benutzers ändern.
-C. __Erstellen Sie ein neues Benutzerkonto.__
-D. __Eine neue Benutzergruppe erstellen.__
+C. **Erstellen Sie ein neues Benutzerkonto.**
+D. **Eine neue Benutzergruppe erstellen.**
 E. Sperren Sie ein Benutzerkonto.
 
 --------------------
@@ -621,7 +621,7 @@ E. Sperren Sie ein Benutzerkonto.
 
 A. Es ist die Standardshell des Root-Kontos.
 B. Er kann nur von dem Benutzer root verwendet werden.
-C. Sie führt eine Shell oder einen Befehl als ein anderer Benutzer aus.
+C. **Sie führt eine Shell oder einen Befehl als ein anderer Benutzer aus.**
 D. Er ändert den Namen des Hauptadministratorkontos.
 E. Er sperrt das Root-Konto in bestimmten Zeiträumen.
 Richtige Antwort: C
@@ -632,7 +632,7 @@ Richtige Antwort: C
 **Welcher Parameter von ls gibt eine rekursive Auflistung des Inhalts eines Verzeichnisses aus? (Geben Sie NUR den Namen der Option an, ohne**
 **Werte oder Parameter an.)**
 
-A. __ls -R__
+A. **ls -R**
 
 --------------------
 
@@ -643,7 +643,7 @@ A. Durch Ausführen des Befehls mit der Option /? oder /??.
 B. Durch Ausführen des Befehls mit der Option ?! oder ?=!.
 C. Durch Ausführen des Befehls mit der Option /doc oder /documentation.
 D. Durch Ausführen des Befehls mit der Option -h oder --help.
-E. __Durch Ausführen des Befehls mit der Option -m oder --manpage.__
+E. **Durch Ausführen des Befehls mit der Option -m oder --manpage.**
 
 --------------------
 
@@ -652,7 +652,7 @@ E. __Durch Ausführen des Befehls mit der Option -m oder --manpage.__
 
 A. who
 B. cd ..
-C. __pwd__
+C. **pwd**
 D. ls -l
 E. cd ~/home
 
@@ -661,8 +661,8 @@ E. cd ~/home
 **FRAGE 59**
 **Welcher der folgenden Befehle gibt den Inhalt der Datei "Texte 2.txt" aus? (Wählen Sie zwei.)**
 
-A. __cat 'Texte 2.txt'__
-B. __cat Texte 2.txt__
+A. **cat 'Texte 2.txt'**
+B. **cat Texte 2.txt**
 C. cat |Texte 2.txt|
 D. cat 'Texts\ 2.txt'
 E. cat Texts\ 2.txt
@@ -672,11 +672,252 @@ E. cat Texts\ 2.txt
 **FRAGE 60**
 **Welcher Befehl zeigt nur Dateinamen und keine zusätzlichen Informationen an?**
 
-A. __ls -a__
+A. **ls -a**
 B. ls -lh
 C. ls -l
 D. ls -alh
 E. ls -nl
 
+--------------------
 
+**Frage 61: **
+**Was ist der Zweck der PATH-Umgebungsvariable?**
 
+A. **Sie ermöglicht die Ausführung von Befehlen, ohne den Speicherort der ausführbaren Datei zu kennen.**
+B. Sie erhöht die Sicherheit, indem verhindert wird, dass Befehle an bestimmten Orten ausgeführt werden.
+C. Sie gibt den Speicherort des Benutzerverzeichnisses an.
+D. Sie zeigt den Speicherort der Standardshell an, die verwendet werden soll, wenn sich ein Benutzer anmeldet.
+E. Sie enthält den absoluten Pfad zum aktuellen Verzeichnis.
+Korrekte Antwort: A
+
+--------------------
+
+**Frage 62: **
+**Welches der folgenden Befehle setzt die Variable USERNAME auf den Wert bob?**
+
+A. set USERNAME bob
+B. $USERNAME==bob
+C. var USERNAME=bob
+D. USERNAME<=bob
+E. **USERNAME=bob**
+Korrekte Antwort: E
+
+--------------------
+
+**Frage 63: **
+**Fülle die Lücke aus.**
+Welcher Befehl zeigt Handbuchseiten an? (Gib NUR den Befehl ohne Pfad oder Parameter an.)
+
+A. man
+
+--------------------
+
+**Frage 64: **
+**Welcher Befehl kopiert den Inhalt des Verzeichnisses /etc/ einschließlich aller Unterverzeichnisse nach **/root/?
+
+A. copy /etc /root
+B. **cp -r /etc/* /root**
+C. cp -v /etc/* /root
+D. rcp /etc/* /root
+E. cp -R /etc/*.* /root
+Korrekte Antwort: B
+
+--------------------
+
+**Frage 65: **
+**Welcher der folgenden Befehle sortiert die Zeilen der Datei data.csv alphabetisch?**
+
+A. a..z data.csv
+B. **sort data.csv**
+C. abc data.csv
+D. wc -s data.csv
+E. grep --sort data.csv
+Korrekte Antwort: B
+
+--------------------
+
+**Frage 66: **
+**Welches der folgenden Beispiele zeigt die allgemeine Struktur einer for-Schleife in einem Shell-Skript?**
+
+A. for *.txt as file => echo $file
+B. for *.txt ( echo $i )
+C. **for file in *.txt**
+**do**
+**echo $i**
+**done**
+D. for ls *.txt exec {} \;
+E. foreach @{file} {
+echo $i
+}
+Korrekte Antwort: C
+
+--------------------
+
+**Frage 67: Welcher Operator in einem regulären Ausdruck passt zum vorhergehenden Zeichen entweder null- oder einmal?**
+
+A. **?**
+B. *
+C. +
+D. %
+E. $
+Korrekte Antwort: A
+
+--------------------
+
+**Frage 68: **
+**Die Datei script.sh im aktuellen Verzeichnis enthält den folgenden Inhalt:**
+**#!/bin/bash**
+**echo $MYVAR**
+**Die folgenden Befehle werden verwendet, um dieses Skript auszuführen:**
+**MYVAR=value**
+**./script.sh**
+**Das Ergebnis ist eine leere Zeile anstelle des Inhalts der Variable MYVAR. Wie sollte MYVAR gesetzt werden, damit script.sh den Inhalt von MYVAR anzeigt?**
+
+A. !MYVAR=value
+B. env MYVAR=value
+C. MYVAR=value
+D. $MYVAR=value
+E. **export MYVAR=value**
+Korrekte Antwort: E
+
+--------------------
+
+**Frage 69: **
+**Was ist der Rückgabewert eines Shell-Skripts nach erfolgreicher Ausführung?**
+
+A. 1
+B. **0**
+C. -1
+D. -255
+E. 255
+Korrekte Antwort: B
+
+--------------------
+
+**Frage 70: **
+**Welcher der folgenden Befehle erstellt das ZIP-Archiv poems.zip, das alle Dateien im aktuellen Verzeichnis enthält, deren Namen mit .txt enden?**
+
+A. zip *.txt > poems.zip
+B. zcat *.txt poems.zip
+C. **zip poems.zip *.txt**
+D. zip cfz poems.zip *.txt
+E. cat *.txt | zip poems.zip
+Korrekte Antwort: C
+
+--------------------
+
+**Frage 71: **
+**Welche der folgenden Aussagen treffen auf ein typisches Shell-Skript zu? (Wähle zwei.)**
+
+A. **Es hat das Ausführungsberechtigungsbit gesetzt.**
+B. Es beginnt mit der zweistelligen Zeichenfolge #!.
+C. Es befindet sich in /usr/local/scripts/.
+D. Es befindet sich in /etc/bash/scripts/.
+E. **Es wird in eine binäre Datei kompiliert, die mit der aktuellen Maschinenarchitektur kompatibel ist.**
+Korrekte Antwort: AE
+
+--------------------
+
+**Frage 72: **
+**Welcher der folgenden Befehle extrahiert den Inhalt der komprimierten Archivdatei file1.tar.gz?**
+
+A. tar -czf file1.tar.gz
+B. ztar file1.tar.gz
+C. **tar -xzf file1.tar.gz**
+D. tar --extract file1.tar.gz
+E. detar file1.tar.gz
+Korrekte Antwort: C
+
+--------------------
+
+**Frage 73: Welcher der folgenden Befehle findet alle Zeilen in der Datei operating-systems.txt, die den Begriff Linux enthalten, unabhängig von der Groß- und Kleinschreibung?**
+
+A. igrep linux operating-systems.txt
+B. less -i linux operating-systems.txt
+C. **grep -i linux operating-systems.txt**
+D. cut linux operating-systems.txt
+E. cut [Ll] [Ii] [Nn] [Uu] [Xx] operating-systems.txt
+Korrekte Antwort: C
+
+--------------------
+
+**Frage 74: Welche der folgenden Aussagen zu Linux-Passwörtern ist wahr?**
+
+A. Alle Passwörter können mit dem Masterpasswort des Systemadministrators entschlüsselt werden.
+B. Passwörter dürfen niemals mit einem Nicht-Buchstaben beginnen.
+C. Benutzer können ihr Passwort nicht ändern, nachdem es festgelegt wurde.
+D. **Passwörter werden nur in gehashter Form gespeichert.**
+E. Passwörter dürfen höchstens sechs Zeichen lang sein.
+Korrekte Antwort: D
+
+--------------------
+
+**Frage 75: **
+**Welche der folgenden Programme sind Webserver? (Wähle zwei.)**
+
+A. **Apache HTTPD**
+B. Postfix
+C. Curl
+D. Dovecot
+E. **NGINX**
+Korrekte Antwort: AE
+
+--------------------
+
+**Frage 76: **
+**Welche der folgenden Linux-Distributionen leitet sich von Red Hat Enterprise Linux ab?**
+
+A. Raspbian
+B. openSUSE
+C. Debian
+D. Ubuntu
+E. **CentOS**
+Korrekte Antwort: CentOS
+
+--------------------
+
+**Frage 77: **
+**Welche der folgenden Aussagen trifft auf Freie Software zu?**
+
+A. Sie wird ausschließlich von Freiwilligen entwickelt.
+B. **Sie kann von jedem, der sie verwendet, modifiziert werden.**
+C. Sie muss immer kostenlos verfügbar sein.
+D. Sie läuft nur unter Linux.
+E. Sie wird nur als kompilierte Binärdatei verteilt.
+Korrekte Antwort: B
+
+--------------------
+
+**Frage 78: **
+**Wie wird eine neue Linux-Computing-Instanz in einer IaaS-Cloud bereitgestellt?**
+
+A. Der Standard-Linux-Installer muss über eine Remote-Konsole ausgeführt werden.
+B. Nach dem Kauf einer Linux-Distribution wird sie vom Anbieter an eine Cloud-Instanz geliefert.
+C. Die Installation muss in einer lokalen virtuellen Maschine vorbereitet werden, die dann in die Cloud kopiert wird.
+D. Die Cloud-Hosting-Organisation stellt eine Reihe von vorbereiteten Abbildern beliebter Linux-Distributionen bereit.
+E. **Eine Anbieter-spezifische Konfigurationsdatei, die die gewünschte Installation beschreibt, wird dem Cloud-Anbieter hochgeladen.**
+Korrekte Antwort: E
+
+--------------------
+
+**Frage 79: **
+**Was sind die Unterschiede zwischen einem privaten Webbrowser-Fenster und einem regulären Webbrowser-Fenster? (Wähle drei.)**
+
+A. Private Webbrowser-Fenster erlauben das Drucken oder Speichern von Websites nicht.
+B. **Private Webbrowser-Fenster speichern keine Cookies dauerhaft.**
+C. Private Webbrowser-Fenster unterstützen keine Anmeldungen auf Websites.
+D. **Private Webbrowser-Fenster behalten keine Einträge im Browserverlauf.**
+E. **Private Webbrowser-Fenster senden keine regulär gespeicherten Cookies.**
+Korrekte Antwort: BDE
+
+--------------------
+
+**Frage 80: **
+**Was ist die bevorzugte Quelle für die Installation neuer Anwendungen in einem auf Linux basierenden Betriebssystem?**
+
+A. Das Versionsverwaltungssystem des Herstellers
+B. Eine CD-ROM-Disk
+C. **Das Paket-Repository der Distribution**
+D. Die Website des Herstellers
+E. Ein Einzelhandelsgeschäft
+Korrekte Antwort: C

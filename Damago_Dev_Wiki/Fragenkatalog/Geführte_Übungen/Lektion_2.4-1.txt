@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-15T14:50:17+01:00
+
+====== Lektion 2.4-1 ======
+Angelegt Freitag 15 März 2024
+
+{{./pasted_image.png}}
+{{./pasted_image001.png}}
+{{./pasted_image002.png}}
+
+--------------------
+--------------------
+
+{{./pasted_image003.png}}
+{{./pasted_image004.png}}

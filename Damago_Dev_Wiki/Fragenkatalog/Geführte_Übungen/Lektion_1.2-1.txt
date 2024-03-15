@@ -1,0 +1,87 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-15T13:39:43+01:00
+
+====== Lektion 1.2-1 ======
+Angelegt Freitag 15 März 2024
+
+1. **Identifizieren Sie für jeden der folgenden Befehle, ob er zum Debian-Paketverwaltungssystem**
+**oder zum Red Hat-Paketverwaltungssystem gehört:**
+
+dpkg > Debian-Paketverwaltungssystem
+rpm > Red Hat-Paketverwaltungssystem
+apt-get >Debian-Paketverwaltungssystem
+yum - Red Hat-Paketverwaltungssystem
+dnf - Red Hat-Paketverwaltungssystem
+
+--------------------
+
+2. **Welcher Befehl könnte verwendet werden, um Blender auf Ubuntu zu installieren? Wie kann**
+**das Programm nach der Installation ausgeführt werden?**
+
+Der Befehl apt-get install blender. Der Paketname sollte in Kleinbuchstaben angegeben
+werden. Das Programm kann direkt vom Terminal aus mit dem Befehl blender oder durch
+Auswahl aus dem Anwendungsmenü ausgeführt werden.
+
+--------------------
+
+3. **Welche Anwendung aus der LibreOffice Suite dient der elektronischen Tabellenkalkulation?**
+Calc
+
+--------------------
+
+4. **Welcher Open-Source-Webbrowser bildet die Grundlage für die Entwicklung von Google**
+**Chrome?**
+Chromium
+
+--------------------
+
+5. **SVG ist ein offener Standard für Vektorgrafiken. Welche ist die beliebteste Anwendung zum**
+**Bearbeiten von SVG-Dateien in Linux-Systemen?**
+Inkscape
+
+--------------------
+
+6. **Schreiben Sie für jedes der folgenden Dateiformate den Namen einer Anwendung, die die**
+**entsprechende Datei öffnen und bearbeiten kann:**
+png > Gimp
+doc > LibreOffice Writer
+xls > LibreOffice Calc
+ppt > LibreOffice Impress
+wav > Audacity
+
+--------------------
+
+7. **Welches Softwarepaket ermöglicht den Dateiaustausch zwischen Linux- und Windows-**
+**Rechnern über das lokale Netzwerk?**
+Samba
+
+--------------------
+--------------------
+
+**Offenen Übungen**
+1. **Sie wissen, dass Konfigurationsdateien auch dann erhalten bleiben, wenn das zugehörige Paket**
+**aus dem System entfernt wird. Wie können Sie das Paket namens cups und seine**
+**Konfigurationsdateien automatisch aus einem DEB-basierten System entfernen?**
+apt-get purge cups
+
+2. **Angenommen Sie haben viele TIFF-Bilddateien und möchten diese in JPEG konvertieren.**
+**Welches Softwarepaket könnte verwendet werden, um diese Dateien direkt auf der**
+**Kommandozeile zu konvertieren?**
+ImageMagick
+
+3. **Welches Softwarepaket müssen Sie installieren, um Microsoft-Word-Dokumente öffnen zu**
+**können, die Ihnen von einem Windows-Benutzer zugesandt wurden?**
+LibreOffice oder OpenOffice
+
+4. **Jedes Jahr veranstaltet linuxquestions.org eine Umfrage über die beliebtesten Linux-**
+**Anwendungen.**
+ Finden Sie unter  https://www.linuxquestions.org/questions/2018-
+linuxquestions-org-members-choice-awards-128/ heraus, welche Desktop-Anwendungen bei
+erfahrenen Linux-Anwendern am beliebtesten sind.
+
+Browser: Firefox. 
+E-Mail-Client: Thunderbird. 
+Mediaplayer: VLC. 
+Rastergrafik-Editor: GIMP.
+
