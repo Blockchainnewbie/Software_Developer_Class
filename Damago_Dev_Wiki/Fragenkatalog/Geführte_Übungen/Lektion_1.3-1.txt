@@ -46,7 +46,7 @@ CC BY-SA > Copyleft
 --------------------
 --------------------
 
-**Offene Übungen**
+===== **Offene Übungen** =====
 
 1. **Unter welcher Lizenz (einschließlich Version) stehen die folgenden Anwendungen?**
 **Apache HTTP Server** > Apache License 2.0

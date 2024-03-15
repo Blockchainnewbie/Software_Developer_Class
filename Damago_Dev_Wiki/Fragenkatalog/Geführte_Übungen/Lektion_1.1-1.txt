@@ -54,7 +54,7 @@ subskriptionsbasierten Modell verwendet.
 --------------------
 --------------------
 
-**Offene Übungen**
+===== **Offene Übungen** =====
 
 1. **Welche Distributionen sind in Bezug auf Kosten und Leistung am besten für ein Unternehmen**
 **geeignet, das darauf abzielt, die Lizenzkosten zu senken und gleichzeitig die Leistung auf dem**

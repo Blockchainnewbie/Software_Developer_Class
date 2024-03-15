@@ -59,7 +59,8 @@ Samba
 --------------------
 --------------------
 
-**Offenen Übungen**
+===== **Offenen Übungen** =====
+
 1. **Sie wissen, dass Konfigurationsdateien auch dann erhalten bleiben, wenn das zugehörige Paket**
 **aus dem System entfernt wird. Wie können Sie das Paket namens cups und seine**
 **Konfigurationsdateien automatisch aus einem DEB-basierten System entfernen?**

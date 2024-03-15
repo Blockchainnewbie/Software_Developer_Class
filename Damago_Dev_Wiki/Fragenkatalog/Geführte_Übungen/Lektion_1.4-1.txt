@@ -15,6 +15,8 @@ TLS zu aktivieren, um das Verfolgen von Cookies zu vermeiden
 DNT zu verwenden
 Kryptographie bei der Datenübertragung zunutzen
 
+--------------------
+
 2. **Was ist OpenStack?**
 
 **Ein Projekt für den Aufbau von privatem IaaS** X
@@ -23,12 +25,16 @@ Ein Projekt für den Aufbau von privatem SaaS
 Ein Hypervisor
 Ein Open-Source-Passwortmanager
 
+--------------------
+
 3. **Welche der folgenden Optionen sind gültige Festplattenverschlüsselungssoftware?**
 RevealJS, EncFS und dm-crypt
 dm-crypt und KeePass
 EncFS und Bitwarden
 **EncFS und dm-crypt**
 TLS und dm-crypt
+
+--------------------
 
 4. **Wählen Sie wahr oder falsch für die dm-crypt Geräteverschlüsselung:**
 
@@ -38,15 +44,19 @@ TLS und dm-crypt
 **Kein Root-Zugriff erforderlich >** falsch
 **Ist eine Block-Device-Verschlüsselung >** wahr
 
+--------------------
+
 5. **Beamer ist:**
 
 Ein Verschlüsselungsmechanismus 
 Ein Hypervisor 
 Eine Virtualisierungssoftware 
 Eine OpenStack-Komponente
-**Ein LaTeX-Präsentations-Tool**
+**Eine Latex-Präsentation**
 
-**Offene Übungen**
+--------------------
+
+===== **Offene Übungen** =====
 
 1. Die meisten Distributionen werden standardmäßig mit Firefox installiert (ist das bei Ihnen
 nicht der Fall, müssen Sie Firefox zuerst installieren). Wir werden eine Firefox-Erweiterung

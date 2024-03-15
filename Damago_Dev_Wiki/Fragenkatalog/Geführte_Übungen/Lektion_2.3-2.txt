@@ -12,7 +12,7 @@ Angelegt Freitag 15 März 2024
 
 --------------------
 
-**Offene Übungen**
+===== **Offene Übungen** =====
 
 1. **Führen Sie den Befehl ls -lh in einem Verzeichnis aus, das Unterverzeichnisse enthält.**
 **Beachten Sie die angezeigte Größe dieser Verzeichnisse. Scheint Ihnen die Dateigröße korrekt?**

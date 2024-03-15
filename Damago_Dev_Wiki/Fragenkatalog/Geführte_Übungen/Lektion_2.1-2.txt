@@ -37,7 +37,7 @@ erzeugten Subshells.
 --------------------
 --------------------
 
-**Offene Übungen**
+===== **Offene Übungen** =====
 
 1. **Erzeugen Sie eine lokale Variable nr_files und weisen Sie die Anzahl der Zeilen in der Datei**
 **/etc/passwd zu. Hinweis: Schauen Sie sich den Befehl wc und die Befehlsersetzung an und**

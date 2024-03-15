@@ -25,17 +25,23 @@ Befehl: cd
 Option:
 Argument: /home/user
 
+--------------------
+
 2. **Bestimmen Sie den Befehlstyp:**
 cd > Shell builtin
 cat > External command
 exit > Shell builtin
+
+--------------------
 
 3. **Lösen Sie die folgenden Befehle mit Anführungszeichen auf:**
 
 touch "$USER" > tom
 touch 'touch' > Creates a file named touch
 
-**Offene Übungen**
+--------------------
+
+===== **Offene Übungen** =====
 
 1. **Legen Sie mit einem Befehl und unter Verwendung der Klammer-Erweiterung (Brace**
 **Expansion) in der Bash (siehe Manpage der Bash) 5 von 1 bis 5 nummerierte Dateien mit dem**
@@ -51,6 +57,8 @@ game1
  game4
  game5
 
+--------------------
+
 2. **Löschen Sie alle 5 Dateien, die Sie gerade mit nur einem Befehl erstellt haben, unter**
 **Verwendung eines anderen Sonderzeichens (siehe Pathname Expansion in den Man Pages der**
 **Bash).**
@@ -58,6 +66,8 @@ Da alle Dateien mit game beginnen und mit einem einzigen Zeichen enden (in diese
 Zahl von 1 bis 5), kann ? als Sonderzeichen für das letzte Zeichen im Dateinamen verwendet
 werden:
 $ rm game?
+
+--------------------
 
 3. **Gibt es andere Möglichkeiten, zwei Befehle miteinander interagieren zu lassen? Welche sind**
 **das?**
