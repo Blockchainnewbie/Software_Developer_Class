@@ -1,0 +1,39 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-15T08:43:04+01:00
+
+====== Globbing ======
+Angelegt Freitag 15 März 2024
+
+Globbing ist eine Funktion in der Linux Bash, die dazu dient, Dateien und Verzeichnisse basierend auf einem Muster zu suchen und auszuwählen. Es ermöglicht dir, Dateien mit ähnlichen Namen oder bestimmten Mustern schnell zu finden und mit ihnen zu arbeiten.
+
+Hier sind einige der häufig verwendeten Globbing-Zeichen und ihre Bedeutung:
+
+- `*`: Steht für null oder mehr Zeichen. Zum Beispiel, `*.txt` würde alle Dateien mit der Erweiterung ".txt" auswählen.
+- `?`: Steht für genau ein beliebiges Zeichen. Zum Beispiel, `image?.jpg` würde "image1.jpg", "image2.jpg" usw. auswählen.
+- `[ ]`: Erlaubt es, eine Gruppe von Zeichen anzugeben. Zum Beispiel, `[abc]` würde entweder "a", "b" oder "c" auswählen.
+- `{ }`: Ermöglicht es, alternative Muster anzugeben. Zum Beispiel, `{file1,file2}.txt` würde entweder "file1.txt" oder "file2.txt" auswählen.
+
+Nun, lass uns ein paar Beispiele durchgehen:
+
+1. Um alle Dateien mit der Erweiterung ".txt" in einem Verzeichnis auszuwählen, kannst du folgendes verwenden:
+   ```bash
+   ls *.txt
+   ```
+
+2. Um alle Dateien zu finden, die mit "image" beginnen und mit ".jpg" enden, könntest du dies verwenden:
+   ```bash
+   ls image*.jpg
+   ```
+
+3. Um alle Dateien auszuwählen, die entweder mit "file1" oder "file2" beginnen und die Erweiterung ".txt" haben, könntest du dies verwenden:
+   ```bash
+   ls {file1,file2}.txt
+   ```
+
+4. Um alle Dateien auszuwählen, die entweder mit einem Vokal oder einem Konsonanten beginnen, könntest du dies verwenden:
+   ```bash
+   ls [aeiou]*.*
+   ```
+
+Das sind nur einige Beispiele, wie du Globbing in der Linux Bash verwenden kannst, um Dateien und Verzeichnisse basierend auf bestimmten Mustern auszuwählen.

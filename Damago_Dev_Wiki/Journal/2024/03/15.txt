@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-15T08:02:39+01:00
+
+====== Freitag 15 Mär 2024 ======
+
+**Kapitel 3.1**
+- Dateien und Verzeichnisse
+- Archive und Komprimierungen
+- der Befehl tar mit seinen Optionen
+- packen und entpacken mit gzip, bzip2, xz
+- zip und unzip

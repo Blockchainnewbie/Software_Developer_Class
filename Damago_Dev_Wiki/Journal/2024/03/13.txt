@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-13T08:39:09+01:00
+
+====== Mittwoch 13 Mär 2024 ======
+Angelegt Mittwoch 13 März 2024
+
+**Kapitel 2.3-1**
+* Wiederholung vom Vortag
+* versteckte Dateien und Verzeichnisse
+* Heimatverzeichnisse
+* Absolut und Realtive Pfade
+* Dateien und Verzeichnisse
+* Befehl ls mit Optionen
+* Navigieren im Dateisystem mit cd
+* tree und mkdir Befehl besprochen
+

@@ -3,14 +3,3 @@ Wiki-Format: zim 0.6
 Creation-Date: 2024-03-12T08:30:58+01:00
 
 ====== Journal ======
-Angelegt Dienstag 12 März 2024
-
-**Kapitel 2.2**
-Manpag.es
-Infopages
-Man
-Info
-/usr/share/doc
-locate
-
-Wiederholung des Vortages

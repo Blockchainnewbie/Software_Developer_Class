@@ -1,0 +1,48 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-15T08:47:25+01:00
+
+====== Dateien und Verzeichnisse ======
+Angelegt Freitag 15 März 2024
+
+Wenn es um den Umgang mit Dateien und Verzeichnissen in der Linux-Bash geht, gibt es einige wichtige Konzepte zu verstehen. Lass uns das Schritt für Schritt durchgehen:
+
+1. **Dateien und Verzeichnisse anzeigen:**
+   - Um den Inhalt eines Verzeichnisses anzuzeigen, benutzt du den Befehl `ls`. Zum Beispiel: `ls` zeigt den Inhalt des aktuellen Verzeichnisses an.
+   - Um den Inhalt inklusive versteckter Dateien anzuzeigen, verwende `ls -a`.
+
+2. **Verzeichniswechsel:**
+   - Um in ein Verzeichnis zu wechseln, benutzt du den Befehl `cd`. Zum Beispiel: `cd /pfad/zum/verzeichnis`.
+   - `cd ..` bringt dich ein Verzeichnis zurück.
+   - `cd` ohne Argument bringt dich ins Home-Verzeichnis.
+
+3. **Verzeichnisstruktur anzeigen:**
+   - Um die Verzeichnisstruktur anzuzeigen, benutzt du `tree`.
+
+4. **Dateien erstellen und löschen:**
+   - Zum Erstellen von Dateien kannst du `touch dateiname` verwenden.
+   - Zum Löschen von Dateien benutzt du `rm dateiname`.
+
+5. **Verzeichnisse erstellen und löschen:**
+   - Zum Erstellen von Verzeichnissen verwendest du `mkdir verzeichnisname`.
+   - Zum Löschen von Verzeichnissen benutzt du `rmdir verzeichnisname`. Beachte, dass `rmdir` nur leere Verzeichnisse löscht.
+
+6. **Dateien kopieren, verschieben und umbenennen:**
+   - Zum Kopieren von Dateien und Verzeichnissen verwende `cp quelle ziel`.
+   - Um Dateien und Verzeichnisse zu verschieben, verwende `mv quelle ziel`.
+   - Zum Umbenennen von Dateien und Verzeichnissen kannst du `mv alte-datei neue-datei` verwenden.
+
+7. **Datei- und Verzeichnisberechtigungen:**
+   - Die Berechtigungen von Dateien und Verzeichnissen können mit `ls -l` angezeigt werden.
+   - Du kannst die Berechtigungen mit `chmod` ändern und die Besitzer mit `chown`.
+
+8. **Suchen von Dateien:**
+   - `find` wird verwendet, um Dateien anhand verschiedener Kriterien zu finden.
+
+9. **Weitere Befehle:**
+   - `pwd` zeigt den aktuellen Arbeitsverzeichnis-Pfad an.
+   - `cat dateiname` zeigt den Inhalt einer Datei an.
+   - `grep muster dateiname` sucht nach einem Muster in einer Datei.
+   - `more` oder `less` ermöglichen das Anzeigen von Dateiinhalten Seite für Seite.
+
+Das sind die grundlegenden Befehle und Konzepte für den Umgang mit Dateien und Verzeichnissen in der Linux-Bash.

@@ -1,0 +1,31 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-15T08:56:57+01:00
+
+====== Dateisystem ======
+Angelegt Freitag 15 März 2024
+
+Hier ist eine Tabelle mit einigen der wichtigsten Verzeichnisse im Dateisystem von Debian Linux:
+
+| Verzeichnis | Beschreibung                                                                                       |
+|-------------|----------------------------------------------------------------------------------------------------|
+| /bin        | Enthält ausführbare Dateien (Binärdateien)                                                         |
+| /boot       | Speichert Dateien, die für den Startvorgang benötigt werden                                        |
+| /dev        | Stellt Gerätedateien bereit                                                                        |
+| /etc        | Enthält Konfigurationsdateien für das System und Anwendungen                                       |
+| /home       | Benutzerverzeichnisse                                                                              |
+| /lib        | Bibliotheksdateien, die von Programmen verwendet werden                                            |
+| /media      | Mount-Punkt für Wechselmedien                                                                      |
+| /mnt        | Temporärer Mount-Punkt                                                                             |
+| /opt        | Hier werden zusätzliche Softwarepakete installiert                                                 |
+| /proc       | Virtuelles Dateisystem, das Informationen über laufende Prozesse und Systemressourcen bereitstellt |
+| /root       | Heimatverzeichnis des Root-Benutzers                                                               |
+| /run        | Temporäre Dateien, die von Systemd und anderen Programmen verwendet werden                         |
+| /sbin       | Enthält Systembinärdateien                                                                         |
+| /srv        | Datenverzeichnisse für spezifische Dienste                                                         |
+| /sys        | Schnittstelle zum Kernel                                                                           |
+| /tmp        | Temporäre Dateien, die von Anwendungen erstellt werden können                                      |
+| /usr        | Enthält die meisten Benutzerprogramme und deren Dateien                                            |
+| /var        | Enthält variable Daten wie Protokolle, Spool-Dateien und temporäre Dateien                         |
+
+Das sind einige der grundlegenden Verzeichnisse im Dateisystem von Debian Linux. Es gibt jedoch noch viele weitere, je nachdem, welche Softwarepakete installiert sind und wie das System konfiguriert ist. 

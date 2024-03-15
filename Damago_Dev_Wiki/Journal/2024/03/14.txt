@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-14T08:08:54+01:00
+
+====== Donnerstag 14 Mär 2024 ======
+
+Kaüpitel 2.4-3
+- Wiederholung vom Vortag
+- Navigieren im Dateisystem mit cd
+- tree und mkdir Befehl besprochen
+- Globbing
+
