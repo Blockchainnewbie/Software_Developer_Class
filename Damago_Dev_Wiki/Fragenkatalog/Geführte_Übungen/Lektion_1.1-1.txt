@@ -1,0 +1,54 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-15T13:29:46+01:00
+
+====== Lektion 1.1-1 ======
+Angelegt Freitag 15 März 2024
+
+1. **Inwiefern unterscheidet sich Debian GNU/Linux von Ubuntu? Nennen Sie zwei Aspekte.**
+
+Ubuntu basiert auf einer Momentaufnahme (einem sogenannten Snapshot) von Debian, daher
+gibt es viele Ähnlichkeiten. Allerdings gibt es auch erhebliche Unterschiede: Der erste ist die Eignung für Anfänger. Ubuntu wird besonders Anfängern wegen seiner Benutzerfreundlichkeit empfohlen, Debian hingegen eher fortgeschritteneren Benutzern. 
+Der größte Unterschied liegt in der Komplexität der Benutzerkonfiguration, die Ubuntu während
+des Installationsprozesses nicht hat.
+Ein weiterer Unterschied liegt in der Stabilität. Debian gilt im Vergleich zu Ubuntu als stabiler.
+Dies liegt daran, dass Debian weniger Updates erhält und diese intensiv getestet werden. Auf
+der anderen Seite ermöglicht Ubuntu dem Benutzer, die neuesten Versionen von Software und
+neue Technologien zu verwenden.
+
+--------------------
+
+2. **Welche sind die gängigsten Umgebungen/Plattformen, in denen Linux eingesetzt wird? Nennen**
+**Sie drei verschiedene Umgebungen/Plattformen und nennen Sie eine Distribution, die sich für**
+**alle eignet.**
+
+Gängigen Umgebungen/Plattformen sind Smartphone, Desktop und Server. Smartphones
+nutzen Distributionen wie Android. Auf Desktop und Server kommen alle Distributionen zum
+Einsatz, die sich am besten für Typ und Funktion der jeweiligen Maschine eignen, von Debian
+und Ubuntu bis CentOS und Red Hat Enterprise Linux.
+
+--------------------
+
+3. **Sie planen die Installation einer Linux-Distribution in einer neuen Umgebung. Nennen Sie vier**
+**Dinge, die Sie bei der Auswahl der Distribution berücksichtigen sollten.**
+
+Bei der Auswahl einer Distribution sollten vor allem Kosten, Leistung, Skalierbarkeit, Stabilität
+und der Hardwarebedarf des Systems berücksichtigt werden.
+
+--------------------
+
+4. **Nennen Sie — abgesehen von Smartphones — drei Geräte, auf denen das Android-Betriebssystem   läuft. **
+  Andere Geräte, auf denen Android läuft, sind Smart TVs, Tablet-Computer, Android Auto und
+   Smartwatches.
+
+--------------------
+
+5. **Erklären Sie drei wesentliche Vorteile von Cloud Computing.**
+
+Die Hauptvorteile von Cloud Computing sind Flexibilität, einfache Wiederherstellung und
+niedrige Nutzungskosten. Cloud-basierte Services sind je nach Geschäftsanforderungen einfach
+zu implementieren und zu skalieren. Es hat einen großen Vorteil bei Backup- und 
+Wiederherstellungslösungen, da es Unternehmen ermöglicht, Vorfälle schneller und mit
+geringeren Auswirkungen zu beheben. Darüber hinaus reduziert es die Betriebskosten, da es
+ermöglicht, nur für die Ressourcen zu zahlen, die ein Unternehmen in einem
+subskriptionsbasierten Modell verwendet.
