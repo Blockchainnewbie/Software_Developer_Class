@@ -1,0 +1,37 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-18T13:30:40+01:00
+
+====== Reguläre Ausdrücke ======
+Angelegt Montag 18 März 2024
+
+Reguläre Ausdrücke sind Muster, die verwendet werden, um Textmuster in einer Zeichenkette zu identifizieren. `grep` ist ein Befehl in der Bash, der häufig zum Durchsuchen von Text verwendet wird, basierend auf diesen regulären Ausdrücken. Hier sind einige grundlegende reguläre Ausdrücke, die in Verbindung mit `grep` in der Bash verwendet werden können:
+
+1. **Anker**:
+   - `^`: Steht für den Anfang der Zeile.
+   - `$`: Steht für das Ende der Zeile.
+
+2. **Quantifizierer**:
+   - `*`: Sucht nach null oder mehr Vorkommen des vorhergehenden Zeichens oder Ausdrucks.
+   - `+`: Sucht nach einem oder mehr Vorkommen des vorhergehenden Zeichens oder Ausdrucks.
+   - `?`: Sucht nach null oder einem Vorkommen des vorhergehenden Zeichens oder Ausdrucks.
+   - `{n}`: Sucht nach genau n Vorkommen des vorhergehenden Zeichens oder Ausdrucks.
+   - `{n,}`: Sucht nach mindestens n Vorkommen des vorhergehenden Zeichens oder Ausdrucks.
+   - `{n,m}`: Sucht nach mindestens n und höchstens m Vorkommen des vorhergehenden Zeichens oder Ausdrucks.
+
+3. **Zeichenklassen**:
+   - `[abc]`: Sucht nach einem der Zeichen a, b oder c.
+   - `[^abc]`: Sucht nach einem Zeichen, das nicht a, b oder c ist.
+   - `[a-z]`: Sucht nach einem Zeichen im Bereich von a bis z.
+   - `:digit:`: Sucht nach einer Ziffer (0-9).
+   - `:alpha:`: Sucht nach einem Buchstaben (a-z oder A-Z).
+   - `:alnum:`: Sucht nach einem alphanumerischen Zeichen (Buchstabe oder Ziffer).
+
+4. **Gruppierung und Alternativen**:
+   - `()`: Gruppiert Ausdrücke.
+   - `|`: Steht für logisches ODER, z. B. `a|b` sucht nach "a" oder "b".
+
+5. **Escape-Zeichen**:
+   - `\`: Verwendet, um Sonderzeichen zu maskieren, damit sie als normale Zeichen behandelt werden.
+
+Diese regulären Ausdrücke werden verwendet, um Muster zu definieren, nach denen `grep` in einer Datei suchen soll. Sie können kombiniert werden, um komplexe Suchmuster zu erstellen. Wenn Sie mehrere reguläre Ausdrücke gleichzeitig verwenden möchten, können Sie den `-E`-Schalter in `grep` verwenden, um erweiterte reguläre Ausdrücke zu aktivieren.

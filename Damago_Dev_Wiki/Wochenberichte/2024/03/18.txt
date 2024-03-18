@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-18T08:16:02+01:00
+
+====== Montag 18 Mär 2024 ======
+
+- Wiederholungen des bisherigen Stoffs
+- Kapitel 3.2
+- Command Line Pipes
+- I/O redirection
+- Basic Regular Expressions
+- grep
+- echo
+

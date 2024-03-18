@@ -1,0 +1,69 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-18T13:36:05+01:00
+
+====== Beispiele ======
+Angelegt Montag 18 März 2024
+
+Hier sind weitere Beispiele für die Verwendung von `grep` mit jedem der Suchmuster:
+
+1. **Anker**:
+   - `^Anfang`: Diese Zeile beginnt mit "Anfang".
+   - `Ende$`: Diese Zeile endet mit "Ende".
+
+  ```bash
+  grep '^Anfang' datei.txt
+  grep 'Ende$' datei.txt
+  ```
+
+2. **Quantifizierer**:
+   - `abc*`: Sucht nach "ab" gefolgt von null oder mehr "c".
+   - `xyz+`: Sucht nach "xyz" gefolgt von einem oder mehr "z".
+   - `123?`: Sucht nach "12" gefolgt von null oder einem "3".
+   - `a{3}`: Sucht nach genau drei "a".
+   - `b{2,}`: Sucht nach mindestens zwei "b".
+   - `c{1,3}`: Sucht nach ein bis drei "c".
+
+ ```bash
+  grep 'abc*' datei.txt
+  grep 'xyz+' datei.txt
+  grep '123?' datei.txt
+  grep 'a{3}' datei.txt
+  grep 'b{2,}' datei.txt
+  grep 'c{1,3}' datei.txt
+  ```
+
+3. **Zeichenklassen**:
+   - `[aeiou]`: Sucht nach einem Vokal.
+   - `[^0-9]`: Sucht nach einem Zeichen, das keine Ziffer ist.
+   - `[a-zA-Z]`: Sucht nach einem Groß- oder Kleinbuchstaben.
+   - `:digit:`: Sucht nach einer Ziffer.
+   - `:alpha:`: Sucht nach einem Buchstaben.
+   - `:alnum:`: Sucht nach einem alphanumerischen Zeichen.
+
+grep '[aeiou]' datei.txt
+grep '[^0-9]' datei.txt
+grep '[a-zA-Z]' datei.txt
+grep '[[:digit:]]' datei.txt
+grep '[[:alpha:]]' datei.txt
+grep '[[:alnum:]]' datei.txt
+
+
+4. **Gruppierung und Alternativen**:
+   - `(abc|xyz)`: Sucht nach "abc" oder "xyz".
+   - `(123)+`: Sucht nach "123" ein oder mehrmals.
+
+```bash
+  grep '(abc|xyz)' datei.txt
+  grep '(123)+' datei.txt
+  ```
+
+5. **Escape-Zeichen**:
+   - `\.`: Sucht nach einem Punkt.
+   - `\*`: Sucht nach einem Stern.
+
+```bash
+  grep '\.' datei.txt
+  grep '\*' datei.txt
+  ```
+
