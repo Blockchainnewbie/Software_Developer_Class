@@ -1,0 +1,94 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-25T09:47:51+01:00
+
+====== Explained ======
+Angelegt Montag 25 März 2024
+
+1. `/sbin` (System Binaries):
+   - Enthält wichtige System-Binärdateien, die für die Systemverwaltung benötigt werden.
+   - Beispiel: `ifconfig`, `fdisk`, `shutdown`.
+
+2. `/bin` (Binaries):
+   - Enthält grundlegende Befehlszeilenprogramme, die für den Betrieb des Systems benötigt werden.
+   - Beispiel: `ls`, `cp`, `mv`.
+
+3. `/usr/sbin` (User System Binaries):
+   - Ähnlich wie `/sbin`, enthält jedoch System-Binärdateien, die für normale Benutzer relevant sind.
+   - Beispiel: `useradd`, `userdel`, `cron`.
+
+4. `/usr/bin` (User Binaries):
+   - Enthält nicht-essentielle Benutzeranwendungen und Befehle.
+   - Beispiel: `gcc`, `python`, `vim`.
+
+5. `/usr/local/sbin` (Local System Binaries):
+   - Benutzerdefinierte System-Binärdateien für lokale Anwendungen.
+   - Beispiel: `custom_script.sh`.
+
+6. `/usr/local/bin` (Local Binaries):
+   - Benutzerdefinierte lokale Anwendungen und Befehle.
+   - Beispiel: `myapp`, `mytool`.
+
+7. `/etc` (Etcetera):
+   - Enthält Konfigurationsdateien für das System und verschiedene Programme.
+   - Beispiel: `hosts`, `passwd`, `apache2`.
+
+8. `/etc/apt/sources*` (APT Package Sources):
+   - Spezifische Konfigurationsdateien für das APT-Paketverwaltungssystem, die Paketquellen definieren.
+   - Beispiel: `sources.list`, `sources.list.d`.
+
+9. `.bash_history`:
+   - Eine versteckte Datei im Benutzerverzeichnis, die eine Liste der zuletzt ausgeführten Befehle in der Bash-Shell enthält.
+
+10. `.bash_logout`:
+   - Eine versteckte Datei, die beim Abmelden aus einer Bash-Shell ausgeführt wird.
+
+11. `.bashrc`:
+   - Eine versteckte Datei, die beim Starten einer Bash-Shell ausgeführt wird. Enthält benutzerspezifische Bash-Konfigurationen.
+
+12. `.profile`:
+   - Eine versteckte Datei, die beim Anmelden des Benutzers ausgeführt wird und Umgebungsvariablen und andere benutzerspezifische Einstellungen festlegt.
+
+13. `/boot` (Boot Files):
+   - Enthält Dateien, die für den Bootvorgang des Betriebssystems benötigt werden, einschließlich des Bootloaders und des Kernel-Images.
+
+14. `/boot/grub`:
+   - Spezifische Konfigurationsdateien für den GRUB (Grand Unified Bootloader).
+
+15. `/proc` (Process Information):
+   - Virtuelles Dateisystem, das Informationen über laufende Prozesse und das System bereitstellt.
+
+16. `/proc/cpuinfo`:
+   - Eine Datei, die Informationen über die CPU des Systems enthält.
+
+17. `/proc/cmdline`:
+   - Eine Datei, die die Befehlszeilenargumente angibt, die beim Starten des Kernels übergeben wurden.
+
+18. `/proc/modules`:
+   - Eine Datei, die eine Liste der geladenen Kernelmodule enthält.
+
+19. `/proc/sys`:
+   - Enthält verschiedene Systemeinstellungen, die zur Laufzeit über das proc-Dateisystem konfiguriert werden können.
+
+20. `/dev` (Device Files):
+   - Enthält Gerätedateien, die Schnittstellen zum Zugriff auf Hardwaregeräte im System bereitstellen.
+
+21. `/dev/zero`:
+   - Eine spezielle Gerätedatei, die eine endlose Sequenz von Nullbytes zurückgibt, wenn sie gelesen wird.
+
+22. `/dev/null`:
+   - Eine spezielle Gerätedatei, die alle Daten, die in sie geschrieben werden, verwirft.
+
+23. `/dev/urandom`:
+   - Eine spezielle Gerätedatei, die Zufallsdaten liefert.
+
+24. `/sys` (Sysfs):
+   - Ein virtuelles Dateisystem, das Informationen über Geräte, Treiber und andere Kernelkomponenten bereitstellt.
+
+25. `/sys/class/net/eth0/address`:
+   - Eine Datei, die die MAC-Adresse der Netzwerkschnittstelle eth0 enthält.
+
+26. `/proc/meminfo`:
+   - Eine Datei, die Informationen über den Systemspeicher enthält, einschließlich Auslastung und verfügbarer Kapazität.
+
+Das sind die wichtigsten Systemverzeichnisse mit Erklärungen und Beispielen für den Inhalt.

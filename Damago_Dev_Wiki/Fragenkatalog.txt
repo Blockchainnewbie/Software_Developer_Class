@@ -52,7 +52,7 @@ E. openSUSE
 --------------------
 
 **FRAGE 5**
-**Welche Informationen können von oben angezeigt werden?**
+**Welche Informationen können von top angezeigt werden?**
 
 A. Vorhandene Dateien, geordnet nach ihrer Größe.
 B. **Laufende Prozesse, geordnet nach CPU- oder RAM-Verbrauch.**

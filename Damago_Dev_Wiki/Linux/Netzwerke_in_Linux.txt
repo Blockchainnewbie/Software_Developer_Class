@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-26T08:09:24+01:00
+
+====== Netzwerke in Linux ======
+Angelegt Dienstag 26 März 2024
+

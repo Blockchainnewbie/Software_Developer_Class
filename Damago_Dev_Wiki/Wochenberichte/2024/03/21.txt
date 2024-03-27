@@ -1,0 +1,6 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-21T10:36:42+01:00
+
+====== Donnerstag 21 Mär 2024 ======
+- Klausur zur Linux Essentials Vorbereitung

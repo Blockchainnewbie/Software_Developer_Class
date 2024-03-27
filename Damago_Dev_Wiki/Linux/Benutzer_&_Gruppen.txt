@@ -1,0 +1,56 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-27T08:32:02+01:00
+
+====== Benutzer & Gruppen ======
+Angelegt Mittwoch 27 März 2024
+
+Kapitel 5.1 
+
+=== Benutzer und Gruppenverwaltung ===
+
+Zusammenfassung:
+
+Dieses Dokument behandelt die Grundlagen der Benutzerverwaltung und Zugriffskontrollen in Linux-Systemen. Es erklärt die verschiedenen Benutzertypen wie Superuser (root), Standard-Benutzerkonten, Systemkonten und Dienstekonten. Jeder Benutzer hat eine eindeutige User-ID (UID) und Gruppen-ID (GID).
+
+Das Dokument beschreibt außerdem, wie man Informationen über Benutzer und Gruppen abrufen kann, z.B. mit den Befehlen `id`, `last`, `who` und `w`. Es erklärt auch, wie man mit `su` zum root-Benutzer wechseln und mit `sudo` temporär Root-Rechte erhalten kann.
+
+Schließlich werden die wichtigsten Konfigurationsdateien für Benutzer und Gruppen erläutert, wie `/etc/passwd`, `/etc/group`, `/etc/shadow` und `/etc/gshadow`.
+
+Vereinfachte Erklärungen:
+
+1. **Benutzertypen**:
+   - **Superuser (root)**: Hat vollständige Kontrolle über das System (UID 0)
+   - **Standard-Benutzerkonten**: Reguläre Benutzer mit eingeschränkten Rechten (UID ab 1000) 
+   - **Systemkonten**: Für Systemprogramme und -dienste (UID < 1000)
+   - **Dienstekonten**: Für installierte Dienste (UID > 1000, aber keine Standard-Benutzerkonten)
+
+2. **Benutzerinformationen anzeigen**:
+   - `id`: Zeigt UID, GID und Gruppen für den aktuellen Benutzer an
+   - `last`: Listet zuletzt angemeldete Benutzer auf
+   - `who`: Zeigt aktuell angemeldete Benutzer
+   - `w`: Ähnlich wie `who`, aber mit mehr Systeminfo
+
+3. **Root-Rechte**:
+   - `su`: Wechselt zum Superuser (root), erfordert root-Passwort
+   - `sudo`: Führt einen Befehl mit Root-Rechten aus, erfordert Benutzer-Passwort
+
+4. **Konfig-Dateien**:
+   - `/etc/passwd`: Grundlegende Benutzerinformationen
+   - `/etc/group`: Informationen über Benutzergruppen
+   - `/etc/shadow`: Gespeicherte (gehashte) Benutzer-Passwörter
+   - `/etc/gshadow`: Erweiterte Gruppeninformationen
+
+== Übungsaufgaben 1: ==
+
+1. Zeigen Sie die Benutzer-ID (UID), Gruppen-ID (GID) und zusätzlichen Gruppen für Ihren aktuellen Benutzer an.
+
+2. Listen Sie die letzten 5 Benutzer auf, die sich am System angemeldet haben.
+
+3. Finden Sie heraus, welche Benutzer aktuell angemeldet sind und was sie gerade machen.
+
+4. Wechseln Sie vorübergehend zum Superuser (root) und führen Sie den Befehl `ls /root` aus, um Ihre Root-Rechte zu überprüfen.
+
+5. Suchen Sie in der Datei `/etc/passwd` nach Ihrem Benutzernamen und identifizieren Sie Ihre Standard-Shell.
+
+Diese Übungen helfen Ihnen, die Grundlagen der Benutzerverwaltung und Zugriffskontrollen unter Linux praktisch anzuwenden.

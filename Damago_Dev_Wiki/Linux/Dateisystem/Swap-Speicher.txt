@@ -1,0 +1,51 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-25T09:51:27+01:00
+
+====== Swap-Speicher ======
+Angelegt Montag 25 März 2024
+
+Der Linux Swap-Speicher ist ein Teil des Systemspeichers, der als Erweiterung des physischen RAM (Random Access Memory) dient. Wenn dein Computer RAM ausgelastet ist und keine weiteren Daten aufnehmen kann, verwendet Linux den Swap-Speicher, um Daten temporär auf die Festplatte auszulagern. Dies ermöglicht es dem System, mehr Daten zu verarbeiten, als physisch im RAM vorhanden ist. Der Swap-Speicher kann auf einer separaten Partition auf der Festplatte oder in einer Swap-Datei innerhalb des Dateisystems liegen.
+
+Der Befehl `free` ist ein Befehl in Linux, der Informationen über den Speicher deines Systems liefert. Wenn du `free` ohne Argumente ausführst, gibt er den Speicher in Kilobyte zurück, der im System verwendet wird, einschließlich des physischen RAMs, des Swap-Speichers und des Caches. Die Ausgabe sieht in etwa so aus:
+
+```
+			  total        used        free      shared  buff/cache   available
+Mem:        16337736     3156328     5437084      317768     7749324    12205936
+Swap:        2097148           0     2097148
+```
+
+==== Optionen des Befehls `free`: ====
+
+1. `-b`, `--bytes`: Zeigt die Speichergrößen in Bytes an.
+
+2. `-k`, `--kilo`: Zeigt die Speichergrößen in Kilobyte (KB) an. Dies ist die Standardeinstellung.
+
+3. `-m`, `--mega`: Zeigt die Speichergrößen in Megabyte (MB) an.
+
+4. `-g`, `--giga`: Zeigt die Speichergrößen in Gigabyte (GB) an.
+
+5. `-h`, `--human`: Aktiviert die "human-readable" Ausgabe, die die Speichergrößen in einem für Menschen leicht lesbaren Format wie KB, MB oder GB anzeigt.
+
+6. `-t`, `--total`: Zeigt eine zusätzliche Zeile mit der Gesamtsumme aller Speichergrößen an.
+
+Zum Beispiel, wenn du den Befehl `free -h` ausführst, zeigt dies die Speichergrößen in einem für Menschen leicht lesbaren Format (KB, MB, GB) an. Die Ausgabe könnte dann so aussehen:
+
+```
+			  total        used        free      shared  buff/cache   available
+Mem:           15Gi       3.0Gi       5.2Gi       307Mi       7.3Gi        11Gi
+Swap:         2.0Gi          0B       2.0Gi
+```
+
+Hier siehst du die Speichergrößen in Gigabyte (GB) und Megabyte (MB), was die Lesbarkeit erleichtert. Die Option `-t` (oder `--total`) könnte verwendet werden, um eine zusätzliche Zeile mit der Gesamtsumme aller Speichergrößen anzuzeigen.
+
+Hier sind die relevanten Informationen:
+
+- `total`: Gesamtspeicher im System, sowohl RAM als auch Swap, in Kilobyte.
+- `used`: Gesamter Speicher, der aktuell verwendet wird.
+- `free`: Gesamter verfügbarer Speicher.
+- `shared`: Speicher, der von mehreren Prozessen gemeinsam genutzt wird.
+- `buff/cache`: Speicher, der für Buffers (Puffer) und Caches verwendet wird.
+- `available`: Geschätzter verfügbarer Speicher für neue Prozesse.
+
+In der Ausgabe oben zeigt beispielsweise `Swap` den Swap-Speicher an. In diesem Fall beträgt die Gesamtmenge an Swap-Speicher 2.097.148 Kilobyte, und momentan wird kein Swap-Speicher verwendet (used ist 0).

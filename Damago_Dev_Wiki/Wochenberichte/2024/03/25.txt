@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-25T09:51:58+01:00
+
+====== Montag 25 Mär 2024 ======
+- Kapitel 4.3-1
+- Systemverzeichnisse und deren Inhalt
+- Speichertypen
+- Swap Speicher
+- 

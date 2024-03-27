@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-19T08:07:44+01:00
+
+====== Dienstag 19 Mär 2024 ======
+- Kapitel 3.3-1
+- Einführung ins Scripting
+- Vi und Nano
+- 
+* Wie man einfache Skripte erstellt und ausführt
+* Wie man einen Shebang verwendet, um einen Interpreter anzugeben
+* Wie man Variablen in Skripten setzt und verwendet
+* Wie man Argumente in Skripten behandelt
+* Wie man if-Anweisungen konstruiert

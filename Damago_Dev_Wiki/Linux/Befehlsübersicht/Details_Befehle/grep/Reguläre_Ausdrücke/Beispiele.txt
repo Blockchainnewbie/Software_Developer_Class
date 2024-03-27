@@ -44,9 +44,9 @@ Hier sind weitere Beispiele für die Verwendung von `grep` mit jedem der Suchmus
 grep '[aeiou]' datei.txt
 grep '[^0-9]' datei.txt
 grep '[a-zA-Z]' datei.txt
-grep '[[:digit:]]' datei.txt
-grep '[[:alpha:]]' datei.txt
-grep '[[:alnum:]]' datei.txt
+grep ':digit:' datei.txt
+grep ':alpha:' datei.txt
+grep ':alnum:' datei.txt
 
 
 4. **Gruppierung und Alternativen**:

@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-26T08:08:21+01:00
+
+====== Dienstag 26 Mär 2024 ======
+Hauptwissensgebiete
+* Internet, Netzwerk, Router
+* Abfragen der DNS-Client-Konfiguration
+* Abfragen der Netzwerk-Konfiguration
+Auszugsweise Liste der verwendeten Dateien, Begriffe und Hilfsprogramme
+* route, ip route show
+* ifconfig, ip addr show
+* netstat, ss
+* /etc/resolv.conf, /etc/hosts
+* IPv4, IPv6
+* ping
+* host

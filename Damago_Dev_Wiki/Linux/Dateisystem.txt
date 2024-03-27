@@ -29,3 +29,82 @@ Hier ist eine Tabelle mit einigen der wichtigsten Verzeichnisse im Dateisystem v
 | /var        | Enthält variable Daten wie Protokolle, Spool-Dateien und temporäre Dateien                         |
 
 Das sind einige der grundlegenden Verzeichnisse im Dateisystem von Debian Linux. Es gibt jedoch noch viele weitere, je nachdem, welche Softwarepakete installiert sind und wie das System konfiguriert ist. 
+
+Hier sind die wichtigsten Linux Systemverzeichnisse außer /dev und /sys:
+
+/ - Die Root-Verzeichnis, der Ausgangspunkt des gesamten Dateisystems.
+
+/bin - Enthält binäre Programmdateien für Befehle wie ls, cp, rm etc.
+
+/boot - Kernelimages, Bootloader-Konfiguration. Beispiel: /boot/vmlinuz-5.4.0-62-generic
+
+/etc - Systemkonfigurationsdateien. Beispiele: /etc/passwd, /etc/fstab
+
+/home - Persönliche Verzeichnisse der Benutzer. Beispiel: /home/user1
+
+/lib - Bibliotheken für essentielle Systemprogramme.
+
+/media - Mountpunkt für removable Medien wie USB-Sticks.
+
+/mnt - Temporärer Mountpunkt für Dateisysteme.
+
+/opt - Verzeichnis für optionale bzw. zusätzliche Software-Pakete.
+
+/proc - Virtuelle Prozess- und Kernelinformationen. Beispiel: /proc/cpuinfo
+
+/root - Persönliches Verzeichnis für den Root-Benutzer.
+
+/run - Temporäre Laufzeit-Daten, z.B. /run/media für eingehängte Medien.
+
+/sbin - Binäre Systemprogramme für Root/Administratoren. Beispiel: /sbin/fsck
+
+/tmp - Temporäre Dateien, werden beim Neustart gelöscht.
+
+/usr - Benutzer-Programmdateien, -Bibliotheken, -Dokumentation. Unterverzeichnisse wie /usr/bin, /usr/lib
+
+/var - Variable Daten wie Logdateien, Spool-Verzeichnisse etc. Beispiele: /var/log, [[/var/spool]]
+
+--------------------
+
+/sbin - Enthält binäre Systemprogramme, die meist administrativen Zwecken dienen und Root-Rechte erfordern. Beispiele: fsck, reboot, shutdown
+
+/bin - Enthält häufig verwendete Befehle und Binärdateien für alle Benutzer. Beispiele: ls, cp, rm, cat
+
+/usr/sbin - Enthält System-Binärdateien hauptsächlich für Root. Beispiele: useradd, cron, sshd
+
+/usr/bin - Enthält die meisten Programmdateien für Benutzer. Beispiele: grep, awk, bc, gcc
+
+/usr/local/sbin - Für selbst kompilierte Programmdateien mit Root-Rechten. Beispiel: selbstkompilierter Apache
+
+/usr/local/bin - Für selbst kompilierte Programme ohne Root-Rechte.
+
+/etc - Enthält die meisten System-Konfigurationsdateien.
+
+/etc/apt/sources.list* - Konfigurationsdateien für Paketquellen bei apt
+
+.bash_history - Protokolliert zuletzt verwendete Befehle
+
+.bash_logout - Skript wird beim Ausloggen ausgeführt
+
+.bashrc - Bash-Konfiguration für interaktive Sitzungen
+
+.profile - Konfiguration für Login-Shells
+
+/boot - Bootloader, Kernel-Images. Beispiel: /boot/grub/grub.cfg
+
+grub - Konfiguration für den GRUB Bootloader
+
+/proc - Virtuelle Prozess- und Kernelinformationen
+/proc/cpuinfo - Details zu CPUs
+/proc/cmdline - Kernel-Kommandozeilenparameter
+/proc/modules - Geladene Kernel-Module
+/proc/sys - Kernel-Konfiguration
+
+/dev - Enthält Gerätedateien. Beispiele:
+/dev/zero - Unendliche Nullen
+/dev/null - Allegro für gelöschte Daten
+/dev/urandom - Kryptografische Zufallszahlen
+
+/sys - Enthält Informationen zu Geräten im System
+
+

@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-27T08:17:04+01:00
+
+====== Mittwoch 27 Mär 2024 ======
+Kapitel 5.1
+
+Hauptwissensgebiete
+* Root- und Standardbenutzer
+* Systembenutzer
+Auszugsweise Liste der verwendeten Dateien, Begriffe und Hilfsprogramme
+* /etc/passwd, /etc/shadow, /etc/group
+* id, last, who, w
+* sudo, su
