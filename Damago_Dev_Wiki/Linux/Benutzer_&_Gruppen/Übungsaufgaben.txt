@@ -1,0 +1,36 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-27T08:42:03+01:00
+
+====== Übungsaufgaben ======
+Angelegt Mittwoch 27 März 2024
+
+* Erstellen Sie mit `sudo` einen neuen Benutzer namens "dev" und überprüfen Sie die Änderungen in `/etc/passwd`.
+
+* Führen Sie mit `sudo` den Befehl `adduser dev admin` aus, um den Benutzer "dev" der Gruppe "admin" hinzuzufügen. Überprüfen Sie die Änderungen mit `id dev`.
+ 
+* Zeigen Sie die Benutzer-ID (UID), Gruppen-ID (GID) und zusätzlichen Gruppen für Ihren aktuellen Benutzer an.
+ 
+* Listen Sie die letzten 5 Benutzer auf, die sich am System angemeldet haben.
+ 
+* Finden Sie heraus, welche Benutzer aktuell angemeldet sind und was sie gerade machen.
+ 
+* Wechseln Sie vorübergehend zum Superuser (root) und führen Sie den Befehl `ls /root` aus, um Ihre Root-Rechte zu überprüfen.
+ 
+* Suchen Sie in der Datei `/etc/passwd` nach Ihrem Benutzernamen und identifizieren Sie Ihre Standard-Shell.
+ 
+* Erstellen Sie mit `groupadd` eine neue Gruppe namens "dev-team".
+ 
+* Erstellen Sie mit `useradd` einen neuen Benutzer "devuser" mit der primären Gruppe "dev-team".
+ 
+* Fügen Sie mit `usermod` den Benutzer "john" der sekundären Gruppe "dev-team" hinzu.
+ 
+* Erzeugen Sie eine Datei und setzen Sie die Berechtigungen so, dass nur Mitglieder der Gruppe "dev-team" Lese-/Schreibrechte haben.
+ 
+* Erstellen Sie als root ein neues Verzeichnis /opt/test
+ 
+* Wechseln Sie zum normalen Benutzer und überprüfen Sie mit `ls -ld /opt/test` die Berechtigungen
+ 
+* Versuchen Sie `touch /opt/test/foo.txt` - es wird ein Fehler auftreten  
+ 
+* Führen Sie den Befehl mit `sudo` aus und überprüfen Sie den Eigentümer von foo.txt

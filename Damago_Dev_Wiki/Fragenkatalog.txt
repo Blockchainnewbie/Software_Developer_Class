@@ -40,7 +40,7 @@ E. Der Auto-Bus
 
 **FRAGE 4**
 **Die Mitglieder eines Teams haben bereits Erfahrung mit Red Hat Enterprise Linux. Für ein kleines Hobbyprojekt möchte das**
-**möchte das Team einen Linux-Server einrichten, ohne für ein Abonnement zu bezahlen. Welche der folgenden Linux-Distributionen**
+**das Team einen Linux-Server einrichten, ohne für ein Abonnement zu bezahlen. Welche der folgenden Linux-Distributionen**
 **ermöglicht es den Teammitgliedern, so viel von ihrem Red Hat Enterprise Linux-Wissen wie möglich einzusetzen?**
 
 A. Ubuntu Linux LTS
@@ -255,9 +255,9 @@ E. **a.txt b.txt**
 
 A. search /home Datei foo.txt
 B. search /home foo.txt
-C. suche /home Datei foo.txt
-D. **suche /home Name foo.txt**
-E. suche /home foo.txt
+C. search /home Datei foo.txt
+D. **search /home Name foo.txt**
+E. search /home foo.txt
 
 --------------------
 

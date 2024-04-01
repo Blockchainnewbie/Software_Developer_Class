@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-31T12:18:35+02:00
+
+====== Offen ======
+Angelegt Sonntag 31 März 2024
+
+Ifconfig
+route
+Variablen
+Script Syntax
+for schleifen
+man pages [[/hidden]]
+less more
+tar und cp
+mv Optionen
+LS []
+pfade
+netqork intwrface
+symbol links

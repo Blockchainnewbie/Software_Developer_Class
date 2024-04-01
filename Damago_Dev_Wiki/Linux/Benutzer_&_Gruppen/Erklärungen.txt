@@ -2,23 +2,19 @@ Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.6
 Creation-Date: 2024-03-27T08:33:11+01:00
 
-====== Erklärungen ======
+====== //Benutzertypen// ======
 Angelegt Mittwoch 27 März 2024
-
-Liebe Studenten, als zukünftige Anwendungsentwickler ist es wichtig, dass Sie die Grundlagen der Benutzerverwaltung und Zugriffskontrollen in Linux-Systemen verstehen. Dies hilft Ihnen dabei, sichere Anwendungen zu entwickeln und zu deployen.
-
-Beginnen wir mit den verschiedenen Benutzertypen in Linux:
 
 1. **Superuser (root)**: Stellen Sie sich den Superuser wie einen Systemadministrator vor, der über unbegrenzte Rechte und die vollständige Kontrolle über das System verfügt. Die UID 0 ist hierbei dem root-Benutzer zugewiesen.
 
-Beispiel:
-```
-$ su -
-Password: 
-# whoami
-root
-#
-```
+**Beispiel:**
+**```**
+**$ su -**
+**Password: **
+**# whoami**
+**root**
+**#**
+**```**
 Mit `su -` können Sie zum root-Benutzer wechseln. Das `#` am Prompt zeigt an, dass Sie Root-Rechte haben.
 
 2. **Standard-Benutzerkonten**: Dies sind die "normalen" Benutzerkonten, die Sie beispielsweise für die Entwicklung verwenden. Sie haben eingeschränkte Rechte und ihre UIDs beginnen in der Regel bei 1000.
@@ -29,12 +25,12 @@ Mit `su -` können Sie zum root-Benutzer wechseln. Das `#` am Prompt zeigt an, d
 
 Um Informationen über Benutzer abzurufen, können Sie folgende Befehle verwenden:
 
-```
-$ id
-uid=1000(john) gid=1000(john) groups=1000(john),4(adm),24(cdrom),...
-$ last
-john     pts/0        192.168.1.100  Tue May 23 13:34   still logged in
-```
+**```**
+**$ id**
+**uid=1000(john) gid=1000(john) groups=1000(john),4(adm),24(cdrom),...**
+**$ last**
+**john     pts/0        192.168.1.100  Tue May 23 13:34   still logged in**
+**```**
 
 Der Befehl `id` zeigt die UID, GID und zusätzliche Gruppen des aktuellen Benutzers an. Mit `last` können Sie die zuletzt angemeldeten Benutzer sehen.
 
@@ -43,11 +39,11 @@ Zur Rechteerweiterung gibt es zwei wichtige Befehle:
 1. `su`: Wechselt zum Superuser, erfordert das Root-Passwort.
 2. `sudo`: Führt einen einzelnen Befehl mit Root-Rechten aus, erfordert Ihr Benutzer-Passwort.
 
-Beispiel:
-```
-$ sudo apt update
-[sudo] password for john:
-```
+**Beispiel:**
+**```**
+**$ sudo apt update**
+**[sudo] password for john:**
+**```**
 
 Nach der Eingabe Ihres Passworts können Sie den Befehl mit Root-Rechten ausführen.
 
@@ -56,13 +52,6 @@ Schließlich einige wichtige Konfigurationsdateien:
 - `/etc/passwd`: Enthält grundlegende Benutzerinformationen wie Benutzernamen, UID, GID, Home-Verzeichnis und Shell.
 - `/etc/group`: Definiert die Benutzergruppen auf dem System.
 - `/etc/shadow`: Speichert die gehashten Benutzer-Passwörter sicher.
-
-== Übungenausfgaben_2: ==
-
-Übungsaufgabe 1: Erstellen Sie mit `sudo` einen neuen Benutzer namens "dev" und überprüfen Sie die Änderungen in `/etc/passwd`.
-
-Übungsaufgabe 2: Führen Sie mit `sudo` den Befehl `adduser dev admin` aus, um den Benutzer "dev" der Gruppe "admin" hinzuzufügen. Überprüfen Sie die Änderungen mit `id dev`.
-
 
 ==== Berechtigungen ====
 Ein zentrales Konzept bei der Linux-Sicherheit sind die Dateizugriffsberechtigungen. Jede Datei und jedes Verzeichnis in einem Linux-System gehört einem bestimmten Benutzer (Eigentümer) und einer Gruppe. Die Berechtigungen legen fest, wer Lese-, Schreib- und Ausführungsrechte für diese Ressourcen hat.
@@ -79,19 +68,19 @@ Für jede Ebene lassen sich mit Buchstaben die Berechtigungen setzen:
 - w (write) = Schreibrecht
 - x (execute) = Ausführrecht
 
-Beispiel:
-```
-$ ls -l testfile.txt
--rw-r--r-- 1 john dev 628 Jun 21 15:44 testfile.txt
-```
+**Beispiel:**
+**```**
+**$ ls -l testfile.txt**
+**-rw-r--r-- 1 john dev 628 Jun 21 15:44 testfile.txt**
+**```**
 
 Die Ausgabe zeigt, dass der Eigentümer john volle Lese- und Schreibrechte hat, die Gruppe dev nur Leserechte und alle anderen Benutzer ebenfalls. Der Eigentümer kann dies mit `chmod` ändern:
 
-```
-$ sudo chmod 640 testfile.txt  # rw- für Eigentümer, r-- für Gruppe
-```
+**```**
+**$ sudo chmod 640 testfile.txt  # rw- für Eigentümer, r-- für Gruppe**
+**```**
 
-Benutzer und Gruppen verwalten
+=== Benutzer und Gruppen verwalten ===
 Neben den im Kurs behandelten Befehlen `useradd`, `usermod`, `userdel` zur Benutzerverwaltung gibt es noch einige andere:
 
 - `groupadd`, `groupmod`, `groupdel` - Verwalten von Gruppen
@@ -99,13 +88,7 @@ Neben den im Kurs behandelten Befehlen `useradd`, `usermod`, `userdel` zur Benut
 - `chage` - Ändern von Kontoinformationen wie Passwortgültigkeitsdauer
 - `passwd` - Ändern des eigenen oder eines anderen Passworts (mit sudo)
 
-Übungsaufgabe: 
-1. Erstellen Sie mit `groupadd` eine neue Gruppe namens "dev-team".
-2. Erstellen Sie mit `useradd` einen neuen Benutzer "devuser" mit der primären Gruppe "dev-team".
-3. Fügen Sie mit `usermod` den Benutzer "john" der sekundären Gruppe "dev-team" hinzu.
-4. Erzeugen Sie eine Datei und setzen Sie die Berechtigungen so, dass nur Mitglieder der Gruppe "dev-team" Lese-/Schreibrechte haben.
-
-Erweiterte Dateiberechtigungen
+== Erweiterte Dateiberechtigungen ==
 In neueren Linux-Versionen gibt es noch die erweiterten Zugriffsberechtigungen:
 
 - Set User ID (SUID) - Programm läuft mit Rechten des Dateieigentümers
@@ -116,46 +99,38 @@ Diese erweiterten Funktionen erfordern besondere Sorgfalt und werden oft nur fü
 
 Sicherheit hat in Linux-Systemen höchste Priorität. Mit einem fundierten Verständnis der Benutzerverwaltung und Berechtigungen können Sie als Entwickler die Sicherheit Ihrer Anwendungen gewährleisten. Lassen Sie uns im Kurs noch viele praktische Übungen durchführen!
 
-Gerne gehe ich noch etwas detaillierter auf weitere Aspekte der Benutzerverwaltung und Zugriffskontrollen in Linux-Systemen ein:
-
-Prozess-Berechtigungen
+== Prozess-Berechtigungen ==
 Nicht nur Dateien und Verzeichnisse haben Berechtigungen, sondern auch laufende Prozesse. Jeder Prozess wird einer bestimmten UID und GID zugeordnet, die seine Rechte festlegen. Der `ps` Befehl zeigt dies an:
 
 ```
-$ ps -u john
-PID TTY          TIME CMD
-3542 pts/0    00:00:00 bash
-4367 pts/0    00:00:00 ps
-```
+**$ ps -u john**
+**PID TTY          TIME CMD**
+**3542 pts/0    00:00:00 bash**
+**4367 pts/0    00:00:00 ps**
+**```**
 
 Hier läuft die Bash-Shell des Benutzers john unter dessen UID. Mit `ps aux` sehen Sie alle Prozesse und ihre zugehörigen Benutzer.
 
-Privilegien anheben  
+== Privilegien anheben ==
 Gelegentlich müssen Benutzer vorübergehend mehr Rechte erhalten, um bestimmte Aktionen auszuführen. Hier kommen die Befehle `su` (switch user) und `sudo` (superuser do) ins Spiel:
 
-```
-$ sudo apt update             # Einzelner Befehl als root ausführen
-$ su -
-Password:  
-# apt update                  # Root-Shell, bis man mit "exit" zurückkehrt
-```
+**```**
+**$ sudo apt update             # Einzelner Befehl als root ausführen**
+**$ su -**
+**Password:  **
+**# apt update                  # Root-Shell, bis man mit "exit" zurückkehrt**
+**```**
 
 In der Praxis wird `sudo` bevorzugt, da es auditierbar ist und keine permanente Root-Umgebung öffnet.
 
-Übungsaufgabe:
-1. Erstellen Sie als root ein neues Verzeichnis /opt/test
-2. Wechseln Sie zum normalen Benutzer und überprüfen Sie mit `ls -ld /opt/test` die Berechtigungen
-3. Versuchen Sie `touch /opt/test/foo.txt` - es wird ein Fehler auftreten  
-4. Führen Sie den Befehl mit `sudo` aus und überprüfen Sie den Eigentümer von foo.txt
-
-Capability-Konzept
+=== Capability-Konzept ===
 Neuere Linux-Versionen führten eine feinere Steuerung der Root-Privilegien mit sogenannten Capabilities ein. So kann man einzelnen Programmen nur die nötigsten Rechte zuweisen - etwa das Recht, die Uhrzeit zu ändern, ohne komplette Root-Rechte zu vergeben.
 
-```
-$ sudo setcap cap_sys_time=ep /opt/cronsjob
-$ getcap /opt/cronsjob
-/opt/cronsjob = cap_sys_time+ep
-```
+**```**
+**$ sudo setcap cap_sys_time=ep /opt/cronsjob**
+**$ getcap /opt/cronsjob**
+**/opt/cronsjob = cap_sys_time+ep**
+**```**
 
 Solche filesystem-capabilities machen Systeme sicherer und sollten in größeren Umgebungen eingesetzt werden.
 
