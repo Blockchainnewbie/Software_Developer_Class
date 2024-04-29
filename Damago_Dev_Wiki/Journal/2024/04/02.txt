@@ -1,0 +1,6 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-04-02T07:52:04+02:00
+
+====== Dienstag 02 Apr 2024 ======
+-Selbstlernphase für das Linux Essentials Zertifikat

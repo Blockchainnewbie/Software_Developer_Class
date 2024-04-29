@@ -12,3 +12,4 @@ Auszugsweise Liste der verwendeten Dateien, Begriffe und Hilfsprogramme
 * /etc/passwd, /etc/shadow, /etc/group
 * id, last, who, w
 * sudo, su
+* beurlaubt
