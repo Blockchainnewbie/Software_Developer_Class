@@ -7,14 +7,48 @@ Creation-Date: 2024-04-29T08:05:00+02:00
 ===== Grundlagen der Programmierung =====
 
 ==== Was gehört zum Programmieren? ====
+
 	Ein- /Ausgabe
-	
-	
-	
+	Variable - Behälter (Speicher) für Werte aller Art
+	Fallunterscheidungen (Wenn dann sonst - If then else)
+	Schleifen (Programminterne Wiederholungen)
+	Funktionen (eingebaute)
+
 	Aufgabenstellung
 	Ablaufdiagramm / Algorithmus
 	Implementierung / Syntax
 	Test / Testumgebung
 	Wartung / Updates
 	
+==== Wie speichert der Computer Daten? ====
+
+	Frage: Wie wird Text im Speicher abgelegt?
+
+		Adresse (Wo?)	Berechtigung
+		Datentyp		Platz
+		
+==== Datentypen ====
+
+	Integer		Ganzzahlen
+	Doubel		Fließkommazahlen
+	dezimal
+	char
+	string
+
+=== Komplexe Datentypen ===
+
+Objekte
+Array
+
+
+==== Webprogrammierung ====
 	
+	HTML = Struktur
+	CSS = Style
+	Javascript = Client
+	PHP = Serverprogramme
+	MySQL/MariaDB = Datenbanken
+	
+
+
+

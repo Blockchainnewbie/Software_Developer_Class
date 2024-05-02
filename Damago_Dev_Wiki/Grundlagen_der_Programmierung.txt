@@ -1,0 +1,29 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-04-29T08:31:38+02:00
+
+====== Grundlagen der Programmierung ======
+Angelegt Montag 29 April 2024
+
+===== Was gehört eigentlich zum Programmieren? =====
+
+1. Programmiersprachen: Um mit Computern zu kommunizieren und ihnen Anweisungen zu geben, benötigen wir Programmiersprachen. Es gibt verschiedene Sprachen wie Python, Java, C++ oder JavaScript, die jeweils ihren eigenen Syntax und Zweck haben.
+
+2. Algorithmen und Datenstrukturen: Algorithmen sind Schritt-für-Schritt-Anleitungen, um ein bestimmtes Problem zu lösen. Datenstrukturen organisieren und verwalten Daten effizient, damit sie in Algorithmen verwendet werden können.
+
+3. Logisches Denken: Beim Programmieren ist es wichtig, Probleme in kleinere, leichter zu lösende Teile zu zerlegen und systematisch anzugehen. Dies erfordert logisches Denken und Problemlösungsfähigkeiten.
+
+
+5. Entwicklungsumgebungen: Integrierte Entwicklungsumgebungen (IDEs) sind Werkzeuge, die das Schreiben, Debuggen und Testen von Code erleichtern. Beispiele für IDEs sind Visual Studio Code, Eclipse und PyCharm.
+
+6. Debugging und Testen: Fehler im Code sind unvermeidlich. Das Debugging ist der Prozess, Fehler zu identifizieren und zu beheben. Testen hilft sicherzustellen, dass der Code wie erwartet funktioniert und Fehler minimiert werden.
+
+7. Versionskontrolle: Versionskontrollsysteme wie Git helfen dabei, Änderungen am Code zu verfolgen, Zusammenarbeit zu ermöglichen und frühere Versionen des Codes wiederherzustellen, falls erforderlich.
+
+8. Dokumentation: Gute Dokumentation ist wichtig, um den Zweck und die Funktionsweise des Codes zu erklären. Dies erleichtert die Zusammenarbeit und Wartung des Codes.
+
+9. Best Practices: Es gibt allgemein anerkannte Richtlinien und bewährte Verfahren, die beim Programmieren befolgt werden sollten, um effizienten, lesbaren und wartbaren Code zu schreiben.
+
+10. Lernbereitschaft: Die Technologie entwickelt sich ständig weiter, und es ist wichtig, offen für neues Wissen und kontinuierliches Lernen zu sein, um mit den neuesten Trends und Technologien Schritt zu halten.
+
+Mit diesen Grundlagen ausgestattet, können wir uns nun auf die spannende Reise des Programmierens begeben!
