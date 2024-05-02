@@ -13,6 +13,7 @@ Angelegt Montag 29 April 2024
 
 3. Logisches Denken: Beim Programmieren ist es wichtig, Probleme in kleinere, leichter zu lösende Teile zu zerlegen und systematisch anzugehen. Dies erfordert logisches Denken und Problemlösungsfähigkeiten.
 
+4. Syntax und Semantik: Die Syntax bezieht sich auf die Regeln und Strukturen einer Programmiersprache, während die Semantik die Bedeutung des Codes beschreibt. Beides ist wichtig, um korrekten und funktionierenden Code zu schreiben.
 
 5. Entwicklungsumgebungen: Integrierte Entwicklungsumgebungen (IDEs) sind Werkzeuge, die das Schreiben, Debuggen und Testen von Code erleichtern. Beispiele für IDEs sind Visual Studio Code, Eclipse und PyCharm.
 
